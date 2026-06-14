@@ -1,0 +1,79 @@
+{
+  "Banner": [
+    {
+      "id": 1,
+      "imgSrc": "/images/banner/banner.gif"
+    }
+  ],
+  "menuItems": [
+    { "id": 1, "title": "شگفت‌انگیز‌ها" },
+    { "id": 2, "title": "سوپرمارکت" },
+    { "id": 3, "title": "طلای دیجیتال" },
+    { "id": 4, "title": "پرفروش‌ترین‌ها" },
+    { "id": 5, "title": "خرید کالای کارکرده" },
+    { "id": 6, "title": "سوالی دارید؟" },
+    { "id": 7, "title": "در دیجی‌کالا بفروشید!" }
+  ],
+  "popularCities": [
+    { "id": 1, "name": "تهران" },
+    { "id": 2, "name": "کرج" },
+    { "id": 3, "name": "مشهد" },
+    { "id": 4, "name": "ساری" },
+    { "id": 5, "name": "رشت" },
+    { "id": 6, "name": "اهواز" },
+    { "id": 7, "name": "تبریز" },
+    { "id": 8, "name": "شیراز" },
+    { "id": 9, "name": "ارومیه" }
+  ],
+  "cities": [
+    {
+      "id": 1,
+      "city": "تیمورلو",
+      "province": "آذربایجان شرقی"
+    },
+    {
+      "id": 2,
+      "city": "گوگان",
+      "province": "آذربایجان شرقی"
+    }
+  ],
+  "headerMobile": [
+    {
+      "id": 1,
+      "title": "سرویس ها",
+      "imgSrc": "./images/header/mobile/service.png"
+    },
+    {
+      "id": 2,
+      "title": "دیجی‌کالا",
+      "imgSrc": "./images/header/mobile/box.png"
+    },
+    {
+      "id": 3,
+      "title": "۴۵ دقیقه‌ای",
+      "imgSrc": "./images/header/mobile/45min.png"
+    },
+
+    {
+      "id": 4,
+      "title": "طلا و نقره",
+      "imgSrc": "./images/header/mobile/gold.png"
+    },
+    {
+      "id": 5,
+      "title": "استایل",
+      "imgSrc": "./images/header/mobile/style.png"
+    },
+    {
+      "id": 6,
+      "title": "سوپرمارکت",
+      "imgSrc": "./images/header/mobile/supermarket.png"
+    },
+
+    {
+      "id": 7,
+      "title": "اعتبار خرید",
+      "imgSrc": "./images/header/mobile/pay.png"
+    }
+  ]
+}

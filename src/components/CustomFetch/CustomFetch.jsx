@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 
-const url = "https://dorsavali.github.io/SaaS-with-daisy-react/db.json";
+const url = "http://localhost:5173/db.json";
 
 const CustomFetch = (section) => {
   const [data, setData] = useState([]);
@@ -15,6 +15,7 @@ const CustomFetch = (section) => {
     }
   };
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     fetchData();
   }, []);
   return data;
