@@ -1,0 +1,23 @@
+.swiper-pagination {
+  bottom: 12px !important;
+}
+.swiper{
+  padding:none !important;
+}
+.swiper-pagination-bullet {
+  background-color: white !important;
+  opacity: 1 !important;
+  width: 8px !important;
+  height: 8px !important;
+}
+
+.swiper-pagination-bullet-active {
+  width: 18px !important;
+  border-radius: 9999px;
+}
+
+@media screen and (max-width: 1024px) {
+  .swiper-pagination {
+    display: none !important;
+  }
+}

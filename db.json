@@ -149,5 +149,42 @@
       "img": "/images/story/image19.png",
       "name": "کلید انتقال فایل"
     }
+  ],
+  "slider": [
+    {
+      "id": 1,
+      "img": "/images/slider/1.webp",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "img": "/images/slider/2.webp",
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "img": "/images/slider/3.webp",
+      "link": "#"
+    },
+    {
+      "id": 4,
+      "img": "/images/slider/4.webp",
+      "link": "#"
+    },
+    {
+      "id": 5,
+      "img": "/images/slider/5.webp",
+      "link": "#"
+    },
+    {
+      "id": 6,
+      "img": "/images/slider/6.webp",
+      "link": "#"
+    },
+    {
+      "id": 7,
+      "img": "/images/slider/7.webp",
+      "link": "#"
+    }
   ]
 }

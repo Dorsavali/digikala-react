@@ -6,8 +6,8 @@ import { useState } from "react";
 const Top = () => {
   const [activeId, setActiveId] = useState(null);
   const dispatch = useDispatch();
-  const { MobileHeader } = useSelector((state) => state.MobileHeader);
-const data = useSelector((state) => state);
+  const { MobileHeader } = useSelector((state) => state.mobileHeader);
+const data = useSelector((state) => state.mobileHeader)
 
   useEffect(() => {
     dispatch(fetchMobileHeader());
