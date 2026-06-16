@@ -52,5 +52,102 @@
       "title": "اعتبار خرید",
       "imgSrc": "/images/header/mobile/pay.png"
     }
+  ],
+  "story": [
+    {
+      "id": 1,
+      "img": "/images/story/image1.png",
+      "name": "مشاور خرید موبایل و کالای الکترونیک"
+    },
+    {
+      "id": 2,
+      "img": "/images/story/image2.png",
+      "name": "گردونه میلیاردی"
+    },
+    {
+      "id": 3,
+      "img": "/images/story/image3.png",
+      "name": "بررسی کامل Galaxy Z fold7"
+    },
+    {
+      "id": 4,
+      "img": "/images/story/image4.png",
+      "name": "فر یورزفرندلی الیور"
+    },
+    {
+      "id": 5,
+      "img": "/images/story/image5.png",
+      "name": "خداحافظی با گره های موهات"
+    },
+    {
+      "id": 6,
+      "img": "/images/story/image6.png",
+      "name": "کولر گازی اسپلیت تی سی ال مدلXA73N"
+    },
+    {
+      "id": 7,
+      "img": "/images/story/image7.png",
+      "name": "کلاسیک خنک"
+    },
+    {
+      "id": 8,
+      "img": "/images/story/image8.png",
+      "name": "برای کوچولوهای کلاس اولی"
+    },
+    {
+      "id": 9,
+      "img": "/images/story/image9.png",
+      "name": "این دیگه چیه؟  اندک پرینتر"
+    },
+    {
+      "id": 10,
+      "img": "/images/story/image10.png",
+      "name": "بی نظیر اما ساده"
+    },
+    {
+      "id": 11,
+      "img": "/images/story/image11.png",
+      "name": "اجاق گاز مدلIG-8503"
+    },
+    {
+      "id": 12,
+      "img": "/images/story/image12.png",
+      "name": "مصر روی میز بازی"
+    },
+    {
+      "id": 13,
+      "img": "/images/story/image13.png",
+      "name": "هود مخفی کن مدل آرتیما"
+    },
+    {
+      "id": 14,
+      "img": "/images/story/image14.png",
+      "name": "جای دستمال کاغذی خودرو مدل روکنسولی"
+    },
+    {
+      "id": 15,
+      "img": "/images/story/image15.png",
+      "name": "استند گردان آرایشی"
+    },
+    {
+      "id": 16,
+      "img": "/images/story/image16.png",
+      "name": "ULanzi A30"
+    },
+    {
+      "id": 17,
+      "img": "/images/story/image17.png",
+      "name": "تپه ندیده!!"
+    },
+    {
+      "id": 18,
+      "img": "/images/story/image18.png",
+      "name": "دیدی ضدآبه؟"
+    },
+    {
+      "id": 19,
+      "img": "/images/story/image19.png",
+      "name": "کلید انتقال فایل"
+    }
   ]
 }
