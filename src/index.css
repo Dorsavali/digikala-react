@@ -1,28 +1,32 @@
 @import "tailwindcss";
 @font-face {
-    font-family: iran;
-    src: url("/fonts/IRANYekanWeb.eot");
-    src: url("/fonts/IRANYekanWeb.ttf");
-    src: url("/fonts/IRANYekanWeb.woff");
-    src: url("/fonts/IRANYekanWeb.woff2");
+  font-family: iran;
+  src: url("/fonts/IRANYekanWeb.eot");
+  src: url("/fonts/IRANYekanWeb.ttf");
+  src: url("/fonts/IRANYekanWeb.woff");
+  src: url("/fonts/IRANYekanWeb.woff2");
 }
 @font-face {
-    font-family: cube;
-    src: url("/fonts/cube-v8.2.woff");
+  font-family: cube;
+ /* src: url("/fonts/cube-v8.2.woff");*/
+  src: url("/fonts/cube.ttf");
+  src: url("/fonts/cube.woff2");
+  src: url("/fonts/cube.eot");
+  src: url("/public/fonts/cube.6cd810dd.6cd810dd.woff");
 }
 @font-face {
-    font-family: iranb;
-    src: url("../fonts/IRANYekanWeb-Bold.eot");
-    src: url("../fonts/IRANYekanWeb-Bold.woff");
-    src: url("../fonts/IRANYekanWeb-Bold.ttf");
-    src: url("../fonts/IRANYekanWeb-Bold.woff2");
+  font-family: iranb;
+  src: url("../fonts/IRANYekanWeb-Bold.eot");
+  src: url("../fonts/IRANYekanWeb-Bold.woff");
+  src: url("../fonts/IRANYekanWeb-Bold.ttf");
+  src: url("../fonts/IRANYekanWeb-Bold.woff2");
 }
 .no-scrollbar::-webkit-scrollbar {
-    display: none;
-  }
-  
-  .no-scrollbar {
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-  }
+  display: none;
+}
+
+.no-scrollbar {
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
