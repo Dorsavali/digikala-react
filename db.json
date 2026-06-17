@@ -186,5 +186,59 @@
       "img": "/images/slider/7.webp",
       "link": "#"
     }
+  ],
+  "access":[
+    {
+      "id": 1,
+      "title":"سوپرمارکت فوری",
+      "img": "/images/access/super.png"
+    },
+    {
+      "id": 2,
+      "title":"طلا و نقره دیجیتال",
+      "img": "/images/access/gold.png"
+    },
+    {
+      "id": 3,
+      "title":"بفرمایید جام!",
+      "img": "/images/access/jam.png"
+    },
+    {
+      "id": 4,
+      "title":"تخفیف داغ!",
+      "img": "/images/access/hot.jpg"
+    },
+    {
+      "id": 5,
+      "title":"موبایل زیر ۱۰۰میلیون",
+      "img": "/images/access/mobile.png"
+    },
+    {
+      "id": 6,
+      "title":"وام بانکی",
+      "img": "/images/access/pay.png"
+    },
+    {
+      "id": 7,
+      "title":"گل تخفیف دیجیتال",
+      "img": "/images/access/off.png"
+    },
+    {
+      "id": 8,
+      "title":"کالکشن لگو ۲۰۲۶",
+      "img": "/images/access/lego.png"
+    },
+    {
+      "id": 9,
+      "title":" اشتراک پلاس",
+      "img": "/images/access/plus.png"
+    },
+
+    {
+      "id": 11,
+      "title":"بیشتر",
+      "img": "/images/access/more.svg"
+    }
+
   ]
 }

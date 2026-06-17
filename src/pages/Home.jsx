@@ -1,3 +1,4 @@
+import Access from "../components/Access/Access";
 import Banner from "../components/Banner/Banner";
 import DesktopHeader from "../components/DesktopHeader/DesktopHeader";
 import MobileHeader from "../components/MobileHeader/MobileHeader";
@@ -11,6 +12,7 @@ const Home = () => {
    <MobileHeader/>
    <Story/>
    <Slider/>
+   <Access/>
     </div>
   );
 };

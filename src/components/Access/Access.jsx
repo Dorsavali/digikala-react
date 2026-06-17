@@ -1,0 +1,97 @@
+import { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchAccess } from "../Redux/Access/ActionAccess";
+
+const Access = () => {
+  const dispatch = useDispatch();
+const accessState = useSelector((state) => state.access);
+const { access, loading, error } = accessState;
+
+
+  useEffect(() => {
+    dispatch(fetchAccess());
+  }, [dispatch]);
+
+  if (loading) {
+    return (
+      <div className="w-full py-4">
+        <p className="text-center">در حال بارگذاری...</p>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="w-full py-4">
+        <p className="text-center text-red-500">{error}</p>
+      </div>
+    );
+  }
+
+  return (
+    <section className="w-full py-4">
+      <div
+        dir="rtl"
+        className="
+          flex
+          items-start
+          justify-start
+          lg:justify-around
+          gap-4
+          lg:gap-0
+          overflow-x-auto
+          lg:overflow-hidden
+          px-4
+          max-w-[1336px]
+          mx-auto
+          scrollbar-hide
+        "
+      >
+        {access.map((item) => (
+          <div
+            key={item.id}
+            className="
+              flex
+              flex-col
+              items-center
+              shrink-0
+              w-[60px]
+              cursor-pointer
+              font-[iranb]
+              
+            "
+          >
+            <div className="w-[52px] h-[52px]">
+              <img
+                src={item.img}
+                alt={item.title}
+                className="
+                  w-full
+                  h-full
+                  rounded-full
+                  object-cover
+                  bg-stone-200
+                "
+              />
+            </div>
+
+            <p
+              className="
+                mt-1
+                text-[11px]
+                leading-5
+                text-center
+                text-[#3f4064]
+                line-clamp-2
+              "
+            >
+              {item.title}
+            </p>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
+
+export default Access;
