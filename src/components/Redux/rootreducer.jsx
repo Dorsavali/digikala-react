@@ -5,6 +5,7 @@ import ReducerMobile from "./MobileHeader/ReducerMobile";
 import ReducerStory from "./Story/ReducerStory";
 import ReducerSlider from "./Slider/ReducerSlider";
 import ReducerAccess from "./Access/ReducerAccess";
+import ReducerAmazing from "./Amazing/ReducerAmazing";
 const rootreducer = combineReducers({
   banner: ReducerBanner,
   menuItems: ReducerDesktop,
@@ -12,6 +13,7 @@ const rootreducer = combineReducers({
   story: ReducerStory,
   slider: ReducerSlider,
   access: ReducerAccess,
+  amazing: ReducerAmazing,
 });
 
 export default rootreducer;

@@ -240,5 +240,110 @@
       "img": "/images/access/more.svg"
     }
 
-  ]
+  ],
+    "amazing": {
+    "shegeftangiz": "images/amazing/shegeft.svg",
+    "mobileshegeft" :"./public/images/amazing/mobile shegeft.svg",
+    "percentage": "images/amazing/percentage.svg",
+    "flesh": "images/amazing/fleshbechap.svg",
+    "fleshhuge": "images/amazing/fleshhuge.svg",
+    "roll": [
+      {
+        "id": 1,
+        "img": "images/amazing/image1.png",
+        "text": "گوشی موبایل جی ال ایکس مدلF8 دو سیم کارت",
+        "price": "1,219,000",
+        "pureprice": "1,380,000",
+        "percentage": "12%"
+      },
+      {
+        "id": 2,
+        "img": "images/amazing/image2.png",
+        "text": "گوشی موبایل تی سی ال مدل nxpaper40دو سیم کارت",
+        "price": "10,799,000",
+        "pureprice": "12,108,700",
+        "percentage": "11%"
+      },
+      {
+        "id": 3,
+        "img": "images/amazing/image3.png",
+        "text": "گوشی موبایل آنر مدل x5b دوسیم کارت",
+        "price": "6,599,000",
+        "pureprice": "7,200,000",
+        "percentage": "8%"
+      },
+      {
+        "id": 4,
+        "img": "images/amazing/image4.png",
+        "text": "گوشی موبایل جی ال ایکس مدل c66 دوسیم کارت",
+        "price": "1,099,000",
+        "pureprice": "1,199,000",
+        "percentage": "8%"
+      },
+      {
+        "id": 5,
+        "img": "images/amazing/image5.png",
+        "text": "هدست بلوتوثی انکر مدل soundcore Q11i",
+        "price": "2,090,000",
+        "pureprice": "2,630,000",
+        "percentage": "21%"
+      },
+      {
+        "id": 6,
+        "img": "images/amazing/image6.png",
+        "text": "هدفون بلوتوثی ریمکس مدل RB-S1",
+        "price": "649,000",
+        "pureprice": "799,000",
+        "percentage": "19%"
+      },
+      {
+        "id": 7,
+        "img": "images/amazing/image7.png",
+        "text": "هدست بی سیم اوی مدل A997BL",
+        "price": "1,299,000",
+        "pureprice": "1,495,000",
+        "percentage": "13%"
+      },
+      {
+        "id": 8,
+        "img": "images/amazing/image8.png",
+        "text": "لپ تاپ ایسوس مدل  vivobook E1504F 15.5",
+        "price": "21,900,00",
+        "pureprice": "26,900,000",
+        "percentage": "19%"
+      },
+      {
+        "id": 9,
+        "img": "images/amazing/image9.png",
+        "text": "لپ تاپ 15.6 اینچی مدل vivobook 15",
+        "price": "50,200,000",
+        "pureprice": "52,799,000",
+        "percentage": "5%"
+      },
+      {
+        "id": 10,
+        "img": "images/amazing/image10.png",
+        "text": "لپ تاپ 15.6 اینچی ایسوس مدل vivobook GO15",
+        "price": "28,499,000",
+        "pureprice": "29,800,000",
+        "percentage": "4%"
+      },
+      {
+        "id": 11,
+        "img": "images/amazing/image11.png",
+        "text": "لپ تاپ 15.6اینچی MSI مدل B13UCX-i5",
+        "price": "53,899,000",
+        "pureprice": "55,899,000",
+        "percentage": "4%"
+      },
+      {
+        "id": 12,
+        "img": "images/amazing/image12.png",
+        "text": "جارو خودرو مدل xm002d",
+        "price": "1,490,000",
+        "pureprice": "4,100,000",
+        "percentage": "64%"
+      }
+    ]
+  }
 }

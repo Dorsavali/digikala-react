@@ -1,4 +1,5 @@
 import Access from "../components/Access/Access";
+import Amazing from "../components/Amazing/Amazing";
 import Banner from "../components/Banner/Banner";
 import DesktopHeader from "../components/DesktopHeader/DesktopHeader";
 import MobileHeader from "../components/MobileHeader/MobileHeader";
@@ -13,6 +14,7 @@ const Home = () => {
    <Story/>
    <Slider/>
    <Access/>
+   <Amazing/>
     </div>
   );
 };
