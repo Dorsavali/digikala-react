@@ -20,14 +20,14 @@ const Amazing = () => {
 
 
 
-const START_TIME = 60 * 200; // 1 ساعت
+const START_TIME = 60 * 200; 
 const [timeLeft, setTimeLeft] = useState(START_TIME);
 
 useEffect(() => {
   const interval = setInterval(() => {
     setTimeLeft((prev) => {
       if (prev <= 1) {
-        return START_TIME; // ریست به مقدار اولیه
+        return START_TIME;
       }
       return prev - 1;
     });
@@ -52,7 +52,7 @@ const seconds = (timeLeft % 60).toString().padStart(2, "0");
 };
 return (
   <section className="w-full lg:px-2 lg:px-4 mt-4">
-    <div className="max-w-[1336px] mx-auto">
+    <div className="max-w-334 mx-auto">
       <div className="lg:hidden py-4" style={amazingBg}>
   <div className="flex flex-row-reverse items-center px-3">
 
@@ -95,7 +95,7 @@ return (
 
   </div>
 </div>
-      <div className=" lg:rounded-2xl rounded-b-2xl p-2"  style={amazingBg}>
+      <div className=" lg:rounded-2xl rounded-b-2xl px-2 py-5"  style={amazingBg}>
         <div className="flex flex-row-reverse">
 
           <div className="hidden lg:flex w-[150px]  flex-col items-center justify-center">
@@ -129,13 +129,12 @@ return (
             </button>
           </div>
 
-          {/* Products Slider */}
           <div className="flex-1 overflow-hidden">
             <Swiper
               modules={[Navigation]}
               navigation
               dir="rtl"
-              spaceBetween={3}
+              spaceBetween={5}
               breakpoints={{
                 0: {
                   slidesPerView: 2.2,
@@ -150,7 +149,7 @@ return (
                   slidesPerView: 5.2,
                 },
                 1280: {
-                  slidesPerView: 6.2,
+                  slidesPerView: 10,
                 },
               }}
               className="custom-amazing-swiper"
@@ -158,7 +157,7 @@ return (
               {amazing?.roll?.map((item, index) => (
                 <SwiperSlide
                   key={item.id}
-                  className={`!w-[145px] !h-[250px]  !bg-white ${
+                  className={`!w-[160px] !h-[250px]  !bg-white ${
                     index === 0 ? "!rounded-r-2xl " : ""
                   }`}
                   

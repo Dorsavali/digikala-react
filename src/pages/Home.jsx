@@ -1,20 +1,26 @@
 import Access from "../components/Access/Access";
 import Amazing from "../components/Amazing/Amazing";
 import Banner from "../components/Banner/Banner";
+import Container from "../components/Container/Container";
 import DesktopHeader from "../components/DesktopHeader/DesktopHeader";
 import MobileHeader from "../components/MobileHeader/MobileHeader";
 import Slider from "../components/Slider/Slider";
 import Story from "../components/Story/Story";
+import SuperMarketBanner from "../components/SupermarketBanner/SupermarketBanner";
+import { banners1, banners2 } from "../components/Container/Banners.js";
 const Home = () => {
   return (
     <div className="flex flex-col lg:gap-4">
-   <Banner/>
-   <DesktopHeader/>
-   <MobileHeader/>
-   <Story/>
-   <Slider/>
-   <Access/>
-   <Amazing/>
+      <Banner />
+      <DesktopHeader />
+      <MobileHeader />
+      <Story />
+      <Slider />
+      <Access />
+      <Amazing />
+      <Container banners={banners1} />
+      <SuperMarketBanner />
+      <Container banners={banners2} />
     </div>
   );
 };
