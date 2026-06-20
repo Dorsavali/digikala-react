@@ -8,6 +8,7 @@ import Slider from "../components/Slider/Slider";
 import Story from "../components/Story/Story";
 import SuperMarketBanner from "../components/SupermarketBanner/SupermarketBanner";
 import { banners1, banners2 } from "../components/Container/Banners.js";
+import ThreeHourDelivery from "../components/ThreeHour/ThreeHour.jsx";
 const Home = () => {
   return (
     <div className="flex flex-col lg:gap-4">
@@ -20,6 +21,7 @@ const Home = () => {
       <Amazing />
       <Container banners={banners1} />
       <SuperMarketBanner />
+      <ThreeHourDelivery />
       <Container banners={banners2} />
     </div>
   );

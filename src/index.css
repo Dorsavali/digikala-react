@@ -8,7 +8,7 @@
 }
 @font-face {
   font-family: cube;
- /* src: url("/fonts/cube-v8.2.woff");*/
+
   src: url("/fonts/cube.ttf");
   src: url("/fonts/cube.woff2");
   src: url("/fonts/cube.eot");
@@ -20,6 +20,10 @@
   src: url("../fonts/IRANYekanWeb-Bold.woff");
   src: url("../fonts/IRANYekanWeb-Bold.ttf");
   src: url("../fonts/IRANYekanWeb-Bold.woff2");
+}
+@font-face {
+  font-family: cube2;
+  src: url("/fonts/cube-v8.2.woff");
 }
 .no-scrollbar::-webkit-scrollbar {
   display: none;

@@ -345,5 +345,92 @@
         "percentage": "64%"
       }
     ]
+  },
+  "threeHour":{
+    "title": "ارسال ۳ ساعته فروشنده",
+    "icon": "/images/threehour/plane.svg",
+    "products": [
+      {
+        "id": 1,
+        "title": "هدفون بلوتوثی انکر مدل SoundCore R50i A3949",
+        "image": "/images/threehour/1.jpg",
+        "price": 2083000,
+        "discount": 0,
+        "oldPrice": null
+      },
+      {
+        "id": 2,
+        "title": "گوشی موبایل شیائومی Redmi Note 14 4G",
+        "image": "/images/threehour/2.jpg",
+        "price": 35500000,
+        "discount": 0,
+        "oldPrice": null
+      },
+      {
+        "id": 3,
+        "title": "قرص منیزیم بیس گلایسینات یوروویتال",
+        "image": "/images/threehour/3.jpg",
+        "price": 598000,
+        "discount": 47,
+        "oldPrice": 1135200
+      },
+      {
+        "id": 4,
+        "title": "پودر پروتئین شکلاتی کاله پرو 1800 گرم",
+        "image": "/images/threehour/4.jpg",
+        "price": 6900000,
+        "discount": 5,
+        "oldPrice": 7300000
+      },
+      {
+        "id": 5,
+        "title": "کپسول مگنیفورت هولیستیکا",
+        "image": "/images/threehour/5.jpg",
+        "price": 414480,
+        "discount": 8,
+        "oldPrice": 451000
+      },
+      {
+        "id": 6,
+        "title": "هدفون بلوتوثی انکر مدل R50i NC",
+        "image": "/images/threehour/6.jpg",
+        "price": 3198000,
+        "discount": 0,
+        "oldPrice": null
+      },
+      {
+        "id": 7,
+        "title": "گوشی سامسونگ Galaxy S25 FE",
+        "image": "/images/threehour/8.jpg",
+        "price": 115159000,
+        "discount": 0,
+        "oldPrice": null
+      },
+      {
+        "id": 8,
+        "title": "قرص ویتامین D3 1000 واحدی",
+        "image": "/images/threehour/9.jpg",
+        "price": 236310,
+        "discount": 2,
+        "oldPrice": 242000
+      },
+      {
+        "id": 9,
+        "title": "گوشی سامسونگ Galaxy A07",
+        "image": "/images/threehour/10.jpg",
+        "price": 22190000,
+        "discount": 0,
+        "oldPrice": null
+      },
+      {
+        "id": 10,
+        "title": "محلول تقویت کننده مژه سریتا",
+        "image": "/images/threehour/11.jpg",
+        "price": 1270000,
+        "discount": 0,
+        "oldPrice": null
+      }
+    ]
   }
 }
+
