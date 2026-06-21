@@ -14,9 +14,7 @@ import "./Category.css";
 const Category = () => {
   const dispatch = useDispatch();
 
-  const { category, loading, error } = useSelector(
-    (state) => state.category
-  );
+  const { category, loading, error } = useSelector((state) => state.category);
 
   useEffect(() => {
     dispatch(fetchCategory());
@@ -39,13 +37,12 @@ const Category = () => {
   return (
     <section className="w-full lg:px-4 px-0 mt-5">
       <div className="max-w-[1336px] mx-auto">
-
         <div className="w-full flex lg:justify-center justify-end mb-6 lg:mb-9 px-4 lg:px-0">
           <h2 className="font-[iranb] text-[16px] hidden lg:block lg:text-[21px] text-[#0c0c0c]">
             خرید بر اساس دسته‌بندی
           </h2>
           <h2 className="font-[iranb] lg:hidden text-[16px] text-[#0c0c0c]">
-             دسته‌بندی‌ها
+            دسته‌بندی‌ها
           </h2>
         </div>
 
@@ -81,7 +78,6 @@ const Category = () => {
               <div className="flex flex-col items-center justify-between gap-5">
                 <div className="h-[125px] px-4">
                   <div className="flex flex-col items-center w-full select-none cursor-pointer">
-
                     <div className="lg:w-[100px] lg:h-[100px] w-[70px] h-[70px] flex justify-center items-center">
                       <img
                         src={item.top.image}
@@ -97,7 +93,6 @@ const Category = () => {
                 </div>
                 <div className="h-[125px] px-4">
                   <div className="flex flex-col items-center w-full select-none cursor-pointer">
-
                     <div className="lg:w-[100px] lg:h-[100px] w-[70px] h-[70px] flex justify-center items-center">
                       <img
                         src={item.bottom.image}
@@ -110,7 +105,6 @@ const Category = () => {
                     </p>
                   </div>
                 </div>
-
               </div>
             </SwiperSlide>
           ))}
