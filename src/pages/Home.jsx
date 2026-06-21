@@ -10,6 +10,7 @@ import SuperMarketBanner from "../components/SupermarketBanner/SupermarketBanner
 import { banners1, banners2 } from "../components/Container/Banners.js";
 import ThreeHourDelivery from "../components/ThreeHour/ThreeHour.jsx";
 import AmazingMarket from "../components/AmazingMarket/AmazingMarket.jsx";
+import Category from "../components/Category/Category.jsx";
 const Home = () => {
   return (
     <div className="flex flex-col lg:gap-4">
@@ -25,6 +26,7 @@ const Home = () => {
       <ThreeHourDelivery />
       <Container banners={banners2} />
       <AmazingMarket/>
+      <Category/>
     </div>
   );
 };

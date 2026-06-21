@@ -20,11 +20,10 @@ const Slider = () => {
 
   return (
     <>
-      {/* ===== موبایل ===== */}
       <div dir="rtl" className="block lg:hidden w-full bg-[rgb(242,243,245)] px-3 py-2">
         <Swiper
           modules={[Pagination, Autoplay]}
-          slidesPerView={1.08}       // اسلاید بعدی کمی دیده می‌شه
+          slidesPerView={1.08}     
           centeredSlides={true}
           spaceBetween={8}
           pagination={{ clickable: true }}
@@ -46,12 +45,10 @@ const Slider = () => {
           ))}
         </Swiper>
       </div>
-
-      {/* ===== دسکتاپ ===== */}
       <div dir="rtl" className="hidden lg:block w-full">
         <Swiper
           modules={[Autoplay]}
-          slidesPerView={1}       // peek کنار در دسکتاپ
+          slidesPerView={1}   
           centeredSlides={true}
           spaceBetween={0}
           autoplay={{ delay: 3000, disableOnInteraction: false }}

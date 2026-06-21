@@ -8,6 +8,7 @@ import ReducerAccess from "./Access/ReducerAccess";
 import ReducerAmazing from "./Amazing/ReducerAmazing";
 import ReducerThreeHour from "./ThreeHour/ReducerThreeHour";
 import ReducerAmazingMarket from "./AmazingMarket/ReducerAmazingMarket";
+import ReducerCategory from "./Category/ReducerCategory";
 const rootreducer = combineReducers({
   banner: ReducerBanner,
   menuItems: ReducerDesktop,
@@ -18,6 +19,7 @@ const rootreducer = combineReducers({
   amazing: ReducerAmazing,
   threeHour: ReducerThreeHour,
   amazingMarket:ReducerAmazingMarket,
+  category: ReducerCategory,
 });
 
 export default rootreducer;

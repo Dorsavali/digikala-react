@@ -519,5 +519,107 @@
         "percentage": "۳۴٪"
       }
     ]
-  }
+  },
+  "category": [
+    {
+      "id": 1,
+      "top": {
+        "title": "موبایل",
+        "image": "/images/category/1.jpg"
+      },
+      "bottom": {
+        "title": "طلا و نقره",
+        "image": "/images/category/2-1.jpg"
+      }
+    },
+    {
+      "id": 2,
+      "top": {
+        "title": "لپ‌تاپ",
+        "image": "/images/category/2.jpg"
+      },
+      "bottom": {
+        "title": "تجهیزات پزشکی و سلامت",
+        "image": "/images/category/2-2.jpg"
+      }
+    },
+    {
+      "id": 3,
+      "top": {
+        "title": "کالای دیجیتال",
+        "image": "/images/category/3.jpg"
+      },
+      "bottom": {
+        "title": "کتاب، لوازم تحریر و هنر",
+        "image": "/images/category/2-3.jpg"
+      }
+    },
+    {
+      "id": 4,
+      "top": {
+        "title": "خانه و آشپزخانه",
+        "image": "/images/category/4.jpg"
+      },
+      "bottom": {
+        "title": "ورزش و سفر",
+        "image": "/images/category/2-4.jpg"
+      }
+    },
+    {
+      "id": 5,
+      "top": {
+        "title": "لوازم خانگی برقی",
+        "image": "/images/category/5.jpg"
+      },
+      "bottom": {
+        "title": "کارت هدیه و گیفت کارت",
+        "image": "/images/category/2-5.jpg"
+      }
+    },
+    {
+      "id": 6,
+      "top": {
+        "title": "آرایشی و بهداشتی",
+        "image": "/images/category/6.jpg"
+      },
+      "bottom": {
+        "title": "سوپرمارکت آنلاین",
+        "image": "/images/category/2-6.jpg"
+      }
+    },
+    {
+      "id": 7,
+      "top": {
+        "title": "خودرو و موتورسیکلت",
+        "image": "/images/category/7.jpg"
+      },
+      "bottom": {
+        "title": "اسباب بازی، کودک و نوزاد",
+        "image": "/images/category/2-7.jpg"
+      }
+    },
+    {
+      "id": 8,
+      "top": {
+        "title": "ابزار آلات و تجهیزات",
+        "image": "/images/category/8.jpg"
+      },
+      "bottom": {
+        "title": "محصولات بومی و محلی",
+        "image": "/images/category/2-8.jpg"
+      }
+    },
+    {
+      "id": 9,
+      "top": {
+        "title": "مد و پوشاک",
+        "image": "/images/category/9.jpg"
+      },
+      "bottom": {
+        "title": "کالای کارکرده",
+        "image": "/images/category/2-9.jpg"
+      }
+    }
+  ]
+
 }
