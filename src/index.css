@@ -5,6 +5,14 @@
   src: url("/fonts/IRANYekanWeb.ttf");
   src: url("/fonts/IRANYekanWeb.woff");
   src: url("/fonts/IRANYekanWeb.woff2");
+  font-display: swap;
+
+  unicode-range:
+    U+0600-06FF,
+    U+0750-077F,
+    U+08A0-08FF,
+    U+FB50-FDFF,
+    U+FE70-FEFF;
 }
 @font-face {
   font-family: cube;
@@ -20,6 +28,7 @@
   src: url("../fonts/IRANYekanWeb-Bold.woff");
   src: url("../fonts/IRANYekanWeb-Bold.ttf");
   src: url("../fonts/IRANYekanWeb-Bold.woff2");
+
 }
 @font-face {
   font-family: cube2;
@@ -40,4 +49,7 @@
 
 * {
   scrollbar-width: none;
+}
+body {
+  font-family: iran, sans-serif;
 }

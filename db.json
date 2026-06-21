@@ -187,250 +187,337 @@
       "link": "#"
     }
   ],
-  "access":[
+  "access": [
     {
       "id": 1,
-      "title":"سوپرمارکت فوری",
+      "title": "سوپرمارکت فوری",
       "img": "/images/access/super.png"
     },
     {
       "id": 2,
-      "title":"طلا و نقره دیجیتال",
+      "title": "طلا و نقره دیجیتال",
       "img": "/images/access/gold.png"
     },
     {
       "id": 3,
-      "title":"بفرمایید جام!",
+      "title": "بفرمایید جام!",
       "img": "/images/access/jam.png"
     },
     {
       "id": 4,
-      "title":"تخفیف داغ!",
+      "title": "تخفیف داغ!",
       "img": "/images/access/hot.jpg"
     },
     {
       "id": 5,
-      "title":"موبایل زیر ۱۰۰میلیون",
+      "title": "موبایل زیر ۱۰۰میلیون",
       "img": "/images/access/mobile.png"
     },
     {
       "id": 6,
-      "title":"وام بانکی",
+      "title": "وام بانکی",
       "img": "/images/access/pay.png"
     },
     {
       "id": 7,
-      "title":"گل تخفیف دیجیتال",
+      "title": "گل تخفیف دیجیتال",
       "img": "/images/access/off.png"
     },
     {
       "id": 8,
-      "title":"کالکشن لگو ۲۰۲۶",
+      "title": "کالکشن لگو ۲۰۲۶",
       "img": "/images/access/lego.png"
     },
     {
       "id": 9,
-      "title":" اشتراک پلاس",
+      "title": " اشتراک پلاس",
       "img": "/images/access/plus.png"
     },
 
     {
       "id": 11,
-      "title":"بیشتر",
+      "title": "بیشتر",
       "img": "/images/access/more.svg"
     }
-
   ],
-    "amazing": {
+  "amazing": {
     "shegeftangiz": "images/amazing/shegeft.svg",
-    "mobileshegeft" :"./public/images/amazing/mobile shegeft.svg",
+    "mobileshegeft": "./public/images/amazing/mobile shegeft.svg",
+    "percentage": "images/amazing/percentage.svg",
+    "flesh": "images/amazing/fleshbechap.svg",
+    "fleshhuge": "images/amazing/fleshhuge.svg",
+    "roll": [
+  {
+    "id": 1,
+    "img": "images/amazing/image1.png",
+    "text": "گوشی موبایل جی ال ایکس مدلF8 دو سیم کارت",
+    "price": "۱,۲۱۹,۰۰۰",
+    "pureprice": "۱,۳۸۰,۰۰۰",
+    "percentage": "۱۲٪"
+  },
+  {
+    "id": 2,
+    "img": "images/amazing/image2.png",
+    "text": "گوشی موبایل تی سی ال مدل nxpaper40دو سیم کارت",
+    "price": "۱۰,۷۹۹,۰۰۰",
+    "pureprice": "۱۲,۱۰۸,۷۰۰",
+    "percentage": "۱۱٪"
+  },
+  {
+    "id": 3,
+    "img": "images/amazing/image3.png",
+    "text": "گوشی موبایل آنر مدل x5b دوسیم کارت",
+    "price": "۶,۵۹۹,۰۰۰",
+    "pureprice": "۷,۲۰۰,۰۰۰",
+    "percentage": "۸٪"
+  },
+  {
+    "id": 4,
+    "img": "images/amazing/image4.png",
+    "text": "گوشی موبایل جی ال ایکس مدل c66 دوسیم کارت",
+    "price": "۱,۰۹۹,۰۰۰",
+    "pureprice": "۱,۱۹۹,۰۰۰",
+    "percentage": "۸٪"
+  },
+  {
+    "id": 5,
+    "img": "images/amazing/image5.png",
+    "text": "هدست بلوتوثی انکر مدل soundcore Q11i",
+    "price": "۲,۰۹۰,۰۰۰",
+    "pureprice": "۲,۶۳۰,۰۰۰",
+    "percentage": "۲۱٪"
+  },
+  {
+    "id": 6,
+    "img": "images/amazing/image6.png",
+    "text": "هدفون بلوتوثی ریمکس مدل RB-S1",
+    "price": "۶۴۹,۰۰۰",
+    "pureprice": "۷۹۹,۰۰۰",
+    "percentage": "۱۹٪"
+  },
+  {
+    "id": 7,
+    "img": "images/amazing/image7.png",
+    "text": "هدست بی سیم اوی مدل A997BL",
+    "price": "۱,۲۹۹,۰۰۰",
+    "pureprice": "۱,۴۹۵,۰۰۰",
+    "percentage": "۱۳٪"
+  },
+  {
+    "id": 8,
+    "img": "images/amazing/image8.png",
+    "text": "لپ تاپ ایسوس مدل vivobook E1504F 15.5",
+    "price": "۲۱,۹۰۰,۰۰۰",
+    "pureprice": "۲۶,۹۰۰,۰۰۰",
+    "percentage": "۱۹٪"
+  },
+  {
+    "id": 9,
+    "img": "images/amazing/image9.png",
+    "text": "لپ تاپ 15.6 اینچی مدل vivobook 15",
+    "price": "۵۰,۲۰۰,۰۰۰",
+    "pureprice": "۵۲,۷۹۹,۰۰۰",
+    "percentage": "۵٪"
+  },
+  {
+    "id": 10,
+    "img": "images/amazing/image10.png",
+    "text": "لپ تاپ 15.6 اینچی ایسوس مدل vivobook GO15",
+    "price": "۲۸,۴۹۹,۰۰۰",
+    "pureprice": "۲۹,۸۰۰,۰۰۰",
+    "percentage": "۴٪"
+  },
+  {
+    "id": 11,
+    "img": "images/amazing/image11.png",
+    "text": "لپ تاپ 15.6اینچی MSI مدل B13UCX-i5",
+    "price": "۵۳,۸۹۹,۰۰۰",
+    "pureprice": "۵۵,۸۹۹,۰۰۰",
+    "percentage": "۴٪"
+  },
+  {
+    "id": 12,
+    "img": "images/amazing/image12.png",
+    "text": "جارو خودرو مدل xm002d",
+    "price": "۱,۴۹۰,۰۰۰",
+    "pureprice": "۴,۱۰۰,۰۰۰",
+    "percentage": "۶۴٪"
+  }
+]
+  },
+  "threeHour": {
+    "title": "ارسال ۳ ساعته فروشنده",
+    "icon": "/images/threehour/plane.svg",
+   "products": [
+  {
+    "id": 1,
+    "title": "هدفون بلوتوثی انکر مدل SoundCore R50i A3949",
+    "image": "/images/threehour/1.jpg",
+    "price": "۲,۰۸۳,۰۰۰",
+    "discount": "",
+    "oldPrice": null
+  },
+  {
+    "id": 2,
+    "title": "گوشی موبایل شیائومی Redmi Note 14 4G",
+    "image": "/images/threehour/2.jpg",
+    "price": "۳۵,۵۰۰,۰۰۰",
+    "discount": "",
+    "oldPrice": null
+  },
+  {
+    "id": 3,
+    "title": "قرص منیزیم بیس گلایسینات یوروویتال",
+    "image": "/images/threehour/3.jpg",
+    "price": "۵۹۸,۰۰۰",
+    "discount": "۴۷٪",
+    "oldPrice": "۱,۱۳۵,۲۰۰"
+  },
+  {
+    "id": 4,
+    "title": "پودر پروتئین شکلاتی کاله پرو ۱۸۰۰ گرم",
+    "image": "/images/threehour/4.jpg",
+    "price": "۶,۹۰۰,۰۰۰",
+    "discount": "۵٪",
+    "oldPrice": "۷,۳۰۰,۰۰۰"
+  },
+  {
+    "id": 5,
+    "title": "کپسول مگنیفورت هولیستیکا",
+    "image": "/images/threehour/5.jpg",
+    "price": "۴۱۴,۴۸۰",
+    "discount": "۸٪",
+    "oldPrice": "۴۵۱,۰۰۰"
+  },
+  {
+    "id": 6,
+    "title": "هدفون بلوتوثی انکر مدل R50i NC",
+    "image": "/images/threehour/6.jpg",
+    "price": "۳,۱۹۸,۰۰۰",
+    "discount": "",
+    "oldPrice": null
+  },
+  {
+    "id": 7,
+    "title": "گوشی سامسونگ Galaxy S25 FE",
+    "image": "/images/threehour/8.jpg",
+    "price": "۱۱۵,۱۵۹,۰۰۰",
+    "discount": "",
+    "oldPrice": null
+  },
+  {
+    "id": 8,
+    "title": "قرص ویتامین D3 1000 واحدی",
+    "image": "/images/threehour/9.jpg",
+    "price": "۲۳۶,۳۱۰",
+    "discount": "۲٪",
+    "oldPrice": "۲۴۲,۰۰۰"
+  },
+  {
+    "id": 9,
+    "title": "گوشی سامسونگ Galaxy A07",
+    "image": "/images/threehour/10.jpg",
+    "price": "۲۲,۱۹۰,۰۰۰",
+    "discount": "",
+    "oldPrice": null
+  },
+  {
+    "id": 10,
+    "title": "محلول تقویت کننده مژه سریتا",
+    "image": "/images/threehour/11.jpg",
+    "price": "۱,۲۷۰,۰۰۰",
+    "discount": "",
+    "oldPrice": null
+  }
+]
+  },
+  "amazingMarket": {
+    "shegeftangiz": "images/amazing/shegeft.svg",
+    "mobileshegeft": "./public/images/amazing/mobile shegeft.svg",
     "percentage": "images/amazing/percentage.svg",
     "flesh": "images/amazing/fleshbechap.svg",
     "fleshhuge": "images/amazing/fleshhuge.svg",
     "roll": [
       {
         "id": 1,
-        "img": "images/amazing/image1.png",
-        "text": "گوشی موبایل جی ال ایکس مدلF8 دو سیم کارت",
-        "price": "1,219,000",
-        "pureprice": "1,380,000",
-        "percentage": "12%"
+        "img": "/images/amazingMarket/1.jpg",
+        "text": "عسل کنار خوانسار - 1000 گرم",
+        "price": "۳,۹۰۰,۰۰۰",
+        "pureprice": "۱,۳۶۵,۰۰۰",
+        "percentage": "۶۲٪"
       },
       {
         "id": 2,
-        "img": "images/amazing/image2.png",
-        "text": "گوشی موبایل تی سی ال مدل nxpaper40دو سیم کارت",
-        "price": "10,799,000",
-        "pureprice": "12,108,700",
-        "percentage": "11%"
+        "img": "/images/amazingMarket/2.jpg",
+        "text": "عسل چهل گیاه ممتاز خوانسار - 1000 گرم",
+        "price": "۱,۸۵۰,۰۰۰",
+        "pureprice": "۷۷۷,۰۰۰",
+        "percentage": "۵۸٪"
       },
       {
         "id": 3,
-        "img": "images/amazing/image3.png",
-        "text": "گوشی موبایل آنر مدل x5b دوسیم کارت",
-        "price": "6,599,000",
-        "pureprice": "7,200,000",
-        "percentage": "8%"
+        "img": "/images/amazingMarket/3.jpg",
+        "text": "سوهان گزی با جوانه گندم حاج محمد قربانی - 1000 گرم",
+        "price": "۱,۳۵۰,۰۰۰",
+        "pureprice": "۵۷۵,۰۰۰",
+        "percentage": "۱۱٪"
       },
       {
         "id": 4,
-        "img": "images/amazing/image4.png",
-        "text": "گوشی موبایل جی ال ایکس مدل c66 دوسیم کارت",
-        "price": "1,099,000",
-        "pureprice": "1,199,000",
-        "percentage": "8%"
+        "img": "/images/amazingMarket/4.jpg",
+        "text": "عسل چهل گیاه ممتاز خوانسار - 3000 گرم",
+        "price": "۳,۹۵۰,۰۰۰",
+        "pureprice": "۱,۶۹۹,۰۰۰",
+        "percentage": "۲۰٪"
       },
       {
         "id": 5,
-        "img": "images/amazing/image5.png",
-        "text": "هدست بلوتوثی انکر مدل soundcore Q11i",
-        "price": "2,090,000",
-        "pureprice": "2,630,000",
-        "percentage": "21%"
+        "img": "/images/amazingMarket/5.jpg",
+        "text": "عسل پارس کندو - 1000 گرمی",
+        "price": "۱,۳۵۰,۰۰۰",
+        "pureprice": "۵۹۹,۰۰۰",
+        "percentage": "۴۹٪"
       },
       {
         "id": 6,
-        "img": "images/amazing/image6.png",
-        "text": "هدفون بلوتوثی ریمکس مدل RB-S1",
-        "price": "649,000",
-        "pureprice": "799,000",
-        "percentage": "19%"
+        "img": "/images/amazingMarket/6.jpg",
+        "text": "عسل چهل گیاه ممتاز خوانسار - 500 گرم",
+        "price": "۷۰۰,۰۰۰",
+        "pureprice": "۳۱۵,۰۰۰",
+        "percentage": "۵۰٪"
       },
       {
         "id": 7,
-        "img": "images/amazing/image7.png",
-        "text": "هدست بی سیم اوی مدل A997BL",
-        "price": "1,299,000",
-        "pureprice": "1,495,000",
-        "percentage": "13%"
+        "img": "/images/amazingMarket/7.jpg",
+        "text": "مسواک کودک اسپارکل مدل s15 با برس نرم بسته 2 عددی",
+        "price": "۵۰۰,۰۰۰",
+        "pureprice": "۲۲۹,۹۰۰",
+        "percentage": "۳۰٪"
       },
       {
         "id": 8,
-        "img": "images/amazing/image8.png",
-        "text": "لپ تاپ ایسوس مدل  vivobook E1504F 15.5",
-        "price": "21,900,00",
-        "pureprice": "26,900,000",
-        "percentage": "19%"
+        "img": "/images/amazingMarket/8.jpg",
+        "text": "مغز تخمه آفتاب گردان خام دانه درشت - 250 گرم",
+        "price": "۴۹۰,۰۰۰",
+        "pureprice": "۲۳۵,۲۰۰",
+        "percentage": "۵۲٪"
       },
       {
         "id": 9,
-        "img": "images/amazing/image9.png",
-        "text": "لپ تاپ 15.6 اینچی مدل vivobook 15",
-        "price": "50,200,000",
-        "pureprice": "52,799,000",
-        "percentage": "5%"
+        "img": "/images/amazingMarket/9.jpg",
+        "text": "مسواک کودک اسپارکل مدل s15 با برس نرم",
+        "price": "۲۵۰,۰۰۰",
+        "pureprice": "۱۱۹,۹۰۰",
+        "percentage": "۳۰٪"
       },
       {
         "id": 10,
-        "img": "images/amazing/image10.png",
-        "text": "لپ تاپ 15.6 اینچی ایسوس مدل vivobook GO15",
-        "price": "28,499,000",
-        "pureprice": "29,800,000",
-        "percentage": "4%"
-      },
-      {
-        "id": 11,
-        "img": "images/amazing/image11.png",
-        "text": "لپ تاپ 15.6اینچی MSI مدل B13UCX-i5",
-        "price": "53,899,000",
-        "pureprice": "55,899,000",
-        "percentage": "4%"
-      },
-      {
-        "id": 12,
-        "img": "images/amazing/image12.png",
-        "text": "جارو خودرو مدل xm002d",
-        "price": "1,490,000",
-        "pureprice": "4,100,000",
-        "percentage": "64%"
-      }
-    ]
-  },
-  "threeHour":{
-    "title": "ارسال ۳ ساعته فروشنده",
-    "icon": "/images/threehour/plane.svg",
-    "products": [
-      {
-        "id": 1,
-        "title": "هدفون بلوتوثی انکر مدل SoundCore R50i A3949",
-        "image": "/images/threehour/1.jpg",
-        "price": 2083000,
-        "discount": 0,
-        "oldPrice": null
-      },
-      {
-        "id": 2,
-        "title": "گوشی موبایل شیائومی Redmi Note 14 4G",
-        "image": "/images/threehour/2.jpg",
-        "price": 35500000,
-        "discount": 0,
-        "oldPrice": null
-      },
-      {
-        "id": 3,
-        "title": "قرص منیزیم بیس گلایسینات یوروویتال",
-        "image": "/images/threehour/3.jpg",
-        "price": 598000,
-        "discount": 47,
-        "oldPrice": 1135200
-      },
-      {
-        "id": 4,
-        "title": "پودر پروتئین شکلاتی کاله پرو 1800 گرم",
-        "image": "/images/threehour/4.jpg",
-        "price": 6900000,
-        "discount": 5,
-        "oldPrice": 7300000
-      },
-      {
-        "id": 5,
-        "title": "کپسول مگنیفورت هولیستیکا",
-        "image": "/images/threehour/5.jpg",
-        "price": 414480,
-        "discount": 8,
-        "oldPrice": 451000
-      },
-      {
-        "id": 6,
-        "title": "هدفون بلوتوثی انکر مدل R50i NC",
-        "image": "/images/threehour/6.jpg",
-        "price": 3198000,
-        "discount": 0,
-        "oldPrice": null
-      },
-      {
-        "id": 7,
-        "title": "گوشی سامسونگ Galaxy S25 FE",
-        "image": "/images/threehour/8.jpg",
-        "price": 115159000,
-        "discount": 0,
-        "oldPrice": null
-      },
-      {
-        "id": 8,
-        "title": "قرص ویتامین D3 1000 واحدی",
-        "image": "/images/threehour/9.jpg",
-        "price": 236310,
-        "discount": 2,
-        "oldPrice": 242000
-      },
-      {
-        "id": 9,
-        "title": "گوشی سامسونگ Galaxy A07",
-        "image": "/images/threehour/10.jpg",
-        "price": 22190000,
-        "discount": 0,
-        "oldPrice": null
-      },
-      {
-        "id": 10,
-        "title": "محلول تقویت کننده مژه سریتا",
-        "image": "/images/threehour/11.jpg",
-        "price": 1270000,
-        "discount": 0,
-        "oldPrice": null
+        "img": "/images/amazingMarket/10.jpg",
+        "text": "دانه چیا ممتاز رضا بیجاری کرمان - 450 گرم",
+        "price": "۵۰۰,۰۰۰",
+        "pureprice": "۲۴۵,۰۰۰",
+        "percentage": "۳۴٪"
       }
     ]
   }
 }
-

@@ -1,0 +1,15 @@
+.custom-amazing-swiper .swiper-button-next,
+.custom-amazing-swiper .swiper-button-prev {
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 9999px;
+  background: white;
+  border: 1px solid #e0e0e2;
+}
+
+.custom-amazing-swiper .swiper-button-next::after,
+.custom-amazing-swiper .swiper-button-prev::after {
+  font-size: 14px !important;
+  color: #424750;
+  font-weight: 700;
+}

@@ -7,6 +7,7 @@ import ReducerSlider from "./Slider/ReducerSlider";
 import ReducerAccess from "./Access/ReducerAccess";
 import ReducerAmazing from "./Amazing/ReducerAmazing";
 import ReducerThreeHour from "./ThreeHour/ReducerThreeHour";
+import ReducerAmazingMarket from "./AmazingMarket/ReducerAmazingMarket";
 const rootreducer = combineReducers({
   banner: ReducerBanner,
   menuItems: ReducerDesktop,
@@ -16,6 +17,7 @@ const rootreducer = combineReducers({
   access: ReducerAccess,
   amazing: ReducerAmazing,
   threeHour: ReducerThreeHour,
+  amazingMarket:ReducerAmazingMarket,
 });
 
 export default rootreducer;

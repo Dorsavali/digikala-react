@@ -21,10 +21,10 @@ const ThreeHourDelivery = () => {
         </div>
 
         <div className="bg-[#F6E6D5] mt-4 rounded-lg p-3">
-          <p className="font-medium text-[12px] font-[iran] flex gap-2 items-center">
+          <div className="font-medium text-[12px] font-[iran] flex gap-2 items-center">
             <p className="font-[cube2] text-xl text-[#934c0e]"> </p>
             برای بررسی امکان ارسال، آدرس را انتخاب کنید.
-          </p>
+          </div>
 
           <button className="w-full mt-2 text-[#934C0E] font-medium text-[12px] font-[iran] flex justify-end">
             انتخاب آدرس
@@ -53,20 +53,20 @@ const ThreeHourDelivery = () => {
               </h3>
 
               <div className="mt-auto">
-                {item.discount > 0 && (
+                {item.discount && (
                   <div className="flex items-center gap-1">
                     <span className="bg-red-500 text-white text-xs px-1 rounded-full font-[iran]">
-                      {item.discount.toLocaleString("fa-IR")}%
+                      {item.discount}
                     </span>
 
                     <span className="line-through text-gray-400 text-xs font-[iran]">
-                      {item.oldPrice?.toLocaleString("fa-IR")}
+                      {item.oldPrice}
                     </span>
                   </div>
                 )}
                 <div className="flex items-center gap-1 mt-1">
                   <span className="font-bold text-sm font-[iran]">
-                    {item.price?.toLocaleString("fa-IR")}
+                    {item.price}
                   </span>
 
                   <img
