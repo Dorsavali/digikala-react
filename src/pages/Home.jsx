@@ -12,7 +12,7 @@ import ThreeHourDelivery from "../components/ThreeHour/ThreeHour.jsx";
 import AmazingMarket from "../components/AmazingMarket/AmazingMarket.jsx";
 import Category from "../components/Category/Category.jsx";
 import BigBanner from "../components/BigBanner/BigBanner.jsx";
-import { bannerGroup1 } from "../components/BigBanner/BigBanner.js";
+import { bannerGroup1, bannerGroup2 } from "../components/BigBanner/BigBanner.js";
 import Brands from "../components/Brands/Brands.jsx";
 const Home = () => {
   return (
@@ -32,6 +32,7 @@ const Home = () => {
       <Category />
       <BigBanner data={bannerGroup1} />
       <Brands/>
+      <BigBanner data={bannerGroup2} className="hidden md:block"  />
     </div>
   );
 };

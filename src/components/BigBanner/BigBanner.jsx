@@ -1,8 +1,8 @@
 import React from "react";
 
-const BigBanner = ({ data }) => {
+const BigBanner = ({ data , className = "" }) => {
   return (
-    <div className="w-full flex justify-center my-5">
+    <div className="w-full flex justify-center my-5" className={className}>
       <div className="max-w-[1336px] mx-auto flex flex-col md:flex-row gap-4 px-5 lg:px-0">
         {data.map((item, index) => (
           <a
