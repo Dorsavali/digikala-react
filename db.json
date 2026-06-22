@@ -247,189 +247,189 @@
     "flesh": "images/amazing/fleshbechap.svg",
     "fleshhuge": "images/amazing/fleshhuge.svg",
     "roll": [
-  {
-    "id": 1,
-    "img": "images/amazing/image1.png",
-    "text": "گوشی موبایل جی ال ایکس مدلF8 دو سیم کارت",
-    "price": "۱,۲۱۹,۰۰۰",
-    "pureprice": "۱,۳۸۰,۰۰۰",
-    "percentage": "۱۲٪"
-  },
-  {
-    "id": 2,
-    "img": "images/amazing/image2.png",
-    "text": "گوشی موبایل تی سی ال مدل nxpaper40دو سیم کارت",
-    "price": "۱۰,۷۹۹,۰۰۰",
-    "pureprice": "۱۲,۱۰۸,۷۰۰",
-    "percentage": "۱۱٪"
-  },
-  {
-    "id": 3,
-    "img": "images/amazing/image3.png",
-    "text": "گوشی موبایل آنر مدل x5b دوسیم کارت",
-    "price": "۶,۵۹۹,۰۰۰",
-    "pureprice": "۷,۲۰۰,۰۰۰",
-    "percentage": "۸٪"
-  },
-  {
-    "id": 4,
-    "img": "images/amazing/image4.png",
-    "text": "گوشی موبایل جی ال ایکس مدل c66 دوسیم کارت",
-    "price": "۱,۰۹۹,۰۰۰",
-    "pureprice": "۱,۱۹۹,۰۰۰",
-    "percentage": "۸٪"
-  },
-  {
-    "id": 5,
-    "img": "images/amazing/image5.png",
-    "text": "هدست بلوتوثی انکر مدل soundcore Q11i",
-    "price": "۲,۰۹۰,۰۰۰",
-    "pureprice": "۲,۶۳۰,۰۰۰",
-    "percentage": "۲۱٪"
-  },
-  {
-    "id": 6,
-    "img": "images/amazing/image6.png",
-    "text": "هدفون بلوتوثی ریمکس مدل RB-S1",
-    "price": "۶۴۹,۰۰۰",
-    "pureprice": "۷۹۹,۰۰۰",
-    "percentage": "۱۹٪"
-  },
-  {
-    "id": 7,
-    "img": "images/amazing/image7.png",
-    "text": "هدست بی سیم اوی مدل A997BL",
-    "price": "۱,۲۹۹,۰۰۰",
-    "pureprice": "۱,۴۹۵,۰۰۰",
-    "percentage": "۱۳٪"
-  },
-  {
-    "id": 8,
-    "img": "images/amazing/image8.png",
-    "text": "لپ تاپ ایسوس مدل vivobook E1504F 15.5",
-    "price": "۲۱,۹۰۰,۰۰۰",
-    "pureprice": "۲۶,۹۰۰,۰۰۰",
-    "percentage": "۱۹٪"
-  },
-  {
-    "id": 9,
-    "img": "images/amazing/image9.png",
-    "text": "لپ تاپ 15.6 اینچی مدل vivobook 15",
-    "price": "۵۰,۲۰۰,۰۰۰",
-    "pureprice": "۵۲,۷۹۹,۰۰۰",
-    "percentage": "۵٪"
-  },
-  {
-    "id": 10,
-    "img": "images/amazing/image10.png",
-    "text": "لپ تاپ 15.6 اینچی ایسوس مدل vivobook GO15",
-    "price": "۲۸,۴۹۹,۰۰۰",
-    "pureprice": "۲۹,۸۰۰,۰۰۰",
-    "percentage": "۴٪"
-  },
-  {
-    "id": 11,
-    "img": "images/amazing/image11.png",
-    "text": "لپ تاپ 15.6اینچی MSI مدل B13UCX-i5",
-    "price": "۵۳,۸۹۹,۰۰۰",
-    "pureprice": "۵۵,۸۹۹,۰۰۰",
-    "percentage": "۴٪"
-  },
-  {
-    "id": 12,
-    "img": "images/amazing/image12.png",
-    "text": "جارو خودرو مدل xm002d",
-    "price": "۱,۴۹۰,۰۰۰",
-    "pureprice": "۴,۱۰۰,۰۰۰",
-    "percentage": "۶۴٪"
-  }
-]
+      {
+        "id": 1,
+        "img": "images/amazing/image1.png",
+        "text": "گوشی موبایل جی ال ایکس مدلF8 دو سیم کارت",
+        "price": "۱,۲۱۹,۰۰۰",
+        "pureprice": "۱,۳۸۰,۰۰۰",
+        "percentage": "۱۲٪"
+      },
+      {
+        "id": 2,
+        "img": "images/amazing/image2.png",
+        "text": "گوشی موبایل تی سی ال مدل nxpaper40دو سیم کارت",
+        "price": "۱۰,۷۹۹,۰۰۰",
+        "pureprice": "۱۲,۱۰۸,۷۰۰",
+        "percentage": "۱۱٪"
+      },
+      {
+        "id": 3,
+        "img": "images/amazing/image3.png",
+        "text": "گوشی موبایل آنر مدل x5b دوسیم کارت",
+        "price": "۶,۵۹۹,۰۰۰",
+        "pureprice": "۷,۲۰۰,۰۰۰",
+        "percentage": "۸٪"
+      },
+      {
+        "id": 4,
+        "img": "images/amazing/image4.png",
+        "text": "گوشی موبایل جی ال ایکس مدل c66 دوسیم کارت",
+        "price": "۱,۰۹۹,۰۰۰",
+        "pureprice": "۱,۱۹۹,۰۰۰",
+        "percentage": "۸٪"
+      },
+      {
+        "id": 5,
+        "img": "images/amazing/image5.png",
+        "text": "هدست بلوتوثی انکر مدل soundcore Q11i",
+        "price": "۲,۰۹۰,۰۰۰",
+        "pureprice": "۲,۶۳۰,۰۰۰",
+        "percentage": "۲۱٪"
+      },
+      {
+        "id": 6,
+        "img": "images/amazing/image6.png",
+        "text": "هدفون بلوتوثی ریمکس مدل RB-S1",
+        "price": "۶۴۹,۰۰۰",
+        "pureprice": "۷۹۹,۰۰۰",
+        "percentage": "۱۹٪"
+      },
+      {
+        "id": 7,
+        "img": "images/amazing/image7.png",
+        "text": "هدست بی سیم اوی مدل A997BL",
+        "price": "۱,۲۹۹,۰۰۰",
+        "pureprice": "۱,۴۹۵,۰۰۰",
+        "percentage": "۱۳٪"
+      },
+      {
+        "id": 8,
+        "img": "images/amazing/image8.png",
+        "text": "لپ تاپ ایسوس مدل vivobook E1504F 15.5",
+        "price": "۲۱,۹۰۰,۰۰۰",
+        "pureprice": "۲۶,۹۰۰,۰۰۰",
+        "percentage": "۱۹٪"
+      },
+      {
+        "id": 9,
+        "img": "images/amazing/image9.png",
+        "text": "لپ تاپ 15.6 اینچی مدل vivobook 15",
+        "price": "۵۰,۲۰۰,۰۰۰",
+        "pureprice": "۵۲,۷۹۹,۰۰۰",
+        "percentage": "۵٪"
+      },
+      {
+        "id": 10,
+        "img": "images/amazing/image10.png",
+        "text": "لپ تاپ 15.6 اینچی ایسوس مدل vivobook GO15",
+        "price": "۲۸,۴۹۹,۰۰۰",
+        "pureprice": "۲۹,۸۰۰,۰۰۰",
+        "percentage": "۴٪"
+      },
+      {
+        "id": 11,
+        "img": "images/amazing/image11.png",
+        "text": "لپ تاپ 15.6اینچی MSI مدل B13UCX-i5",
+        "price": "۵۳,۸۹۹,۰۰۰",
+        "pureprice": "۵۵,۸۹۹,۰۰۰",
+        "percentage": "۴٪"
+      },
+      {
+        "id": 12,
+        "img": "images/amazing/image12.png",
+        "text": "جارو خودرو مدل xm002d",
+        "price": "۱,۴۹۰,۰۰۰",
+        "pureprice": "۴,۱۰۰,۰۰۰",
+        "percentage": "۶۴٪"
+      }
+    ]
   },
   "threeHour": {
     "title": "ارسال ۳ ساعته فروشنده",
     "icon": "/images/threehour/plane.svg",
-   "products": [
-  {
-    "id": 1,
-    "title": "هدفون بلوتوثی انکر مدل SoundCore R50i A3949",
-    "image": "/images/threehour/1.jpg",
-    "price": "۲,۰۸۳,۰۰۰",
-    "discount": "",
-    "oldPrice": null
-  },
-  {
-    "id": 2,
-    "title": "گوشی موبایل شیائومی Redmi Note 14 4G",
-    "image": "/images/threehour/2.jpg",
-    "price": "۳۵,۵۰۰,۰۰۰",
-    "discount": "",
-    "oldPrice": null
-  },
-  {
-    "id": 3,
-    "title": "قرص منیزیم بیس گلایسینات یوروویتال",
-    "image": "/images/threehour/3.jpg",
-    "price": "۵۹۸,۰۰۰",
-    "discount": "۴۷٪",
-    "oldPrice": "۱,۱۳۵,۲۰۰"
-  },
-  {
-    "id": 4,
-    "title": "پودر پروتئین شکلاتی کاله پرو ۱۸۰۰ گرم",
-    "image": "/images/threehour/4.jpg",
-    "price": "۶,۹۰۰,۰۰۰",
-    "discount": "۵٪",
-    "oldPrice": "۷,۳۰۰,۰۰۰"
-  },
-  {
-    "id": 5,
-    "title": "کپسول مگنیفورت هولیستیکا",
-    "image": "/images/threehour/5.jpg",
-    "price": "۴۱۴,۴۸۰",
-    "discount": "۸٪",
-    "oldPrice": "۴۵۱,۰۰۰"
-  },
-  {
-    "id": 6,
-    "title": "هدفون بلوتوثی انکر مدل R50i NC",
-    "image": "/images/threehour/6.jpg",
-    "price": "۳,۱۹۸,۰۰۰",
-    "discount": "",
-    "oldPrice": null
-  },
-  {
-    "id": 7,
-    "title": "گوشی سامسونگ Galaxy S25 FE",
-    "image": "/images/threehour/8.jpg",
-    "price": "۱۱۵,۱۵۹,۰۰۰",
-    "discount": "",
-    "oldPrice": null
-  },
-  {
-    "id": 8,
-    "title": "قرص ویتامین D3 1000 واحدی",
-    "image": "/images/threehour/9.jpg",
-    "price": "۲۳۶,۳۱۰",
-    "discount": "۲٪",
-    "oldPrice": "۲۴۲,۰۰۰"
-  },
-  {
-    "id": 9,
-    "title": "گوشی سامسونگ Galaxy A07",
-    "image": "/images/threehour/10.jpg",
-    "price": "۲۲,۱۹۰,۰۰۰",
-    "discount": "",
-    "oldPrice": null
-  },
-  {
-    "id": 10,
-    "title": "محلول تقویت کننده مژه سریتا",
-    "image": "/images/threehour/11.jpg",
-    "price": "۱,۲۷۰,۰۰۰",
-    "discount": "",
-    "oldPrice": null
-  }
-]
+    "products": [
+      {
+        "id": 1,
+        "title": "هدفون بلوتوثی انکر مدل SoundCore R50i A3949",
+        "image": "/images/threehour/1.jpg",
+        "price": "۲,۰۸۳,۰۰۰",
+        "discount": "",
+        "oldPrice": null
+      },
+      {
+        "id": 2,
+        "title": "گوشی موبایل شیائومی Redmi Note 14 4G",
+        "image": "/images/threehour/2.jpg",
+        "price": "۳۵,۵۰۰,۰۰۰",
+        "discount": "",
+        "oldPrice": null
+      },
+      {
+        "id": 3,
+        "title": "قرص منیزیم بیس گلایسینات یوروویتال",
+        "image": "/images/threehour/3.jpg",
+        "price": "۵۹۸,۰۰۰",
+        "discount": "۴۷٪",
+        "oldPrice": "۱,۱۳۵,۲۰۰"
+      },
+      {
+        "id": 4,
+        "title": "پودر پروتئین شکلاتی کاله پرو ۱۸۰۰ گرم",
+        "image": "/images/threehour/4.jpg",
+        "price": "۶,۹۰۰,۰۰۰",
+        "discount": "۵٪",
+        "oldPrice": "۷,۳۰۰,۰۰۰"
+      },
+      {
+        "id": 5,
+        "title": "کپسول مگنیفورت هولیستیکا",
+        "image": "/images/threehour/5.jpg",
+        "price": "۴۱۴,۴۸۰",
+        "discount": "۸٪",
+        "oldPrice": "۴۵۱,۰۰۰"
+      },
+      {
+        "id": 6,
+        "title": "هدفون بلوتوثی انکر مدل R50i NC",
+        "image": "/images/threehour/6.jpg",
+        "price": "۳,۱۹۸,۰۰۰",
+        "discount": "",
+        "oldPrice": null
+      },
+      {
+        "id": 7,
+        "title": "گوشی سامسونگ Galaxy S25 FE",
+        "image": "/images/threehour/8.jpg",
+        "price": "۱۱۵,۱۵۹,۰۰۰",
+        "discount": "",
+        "oldPrice": null
+      },
+      {
+        "id": 8,
+        "title": "قرص ویتامین D3 1000 واحدی",
+        "image": "/images/threehour/9.jpg",
+        "price": "۲۳۶,۳۱۰",
+        "discount": "۲٪",
+        "oldPrice": "۲۴۲,۰۰۰"
+      },
+      {
+        "id": 9,
+        "title": "گوشی سامسونگ Galaxy A07",
+        "image": "/images/threehour/10.jpg",
+        "price": "۲۲,۱۹۰,۰۰۰",
+        "discount": "",
+        "oldPrice": null
+      },
+      {
+        "id": 10,
+        "title": "محلول تقویت کننده مژه سریتا",
+        "image": "/images/threehour/11.jpg",
+        "price": "۱,۲۷۰,۰۰۰",
+        "discount": "",
+        "oldPrice": null
+      }
+    ]
   },
   "amazingMarket": {
     "shegeftangiz": "images/amazing/shegeft.svg",
@@ -620,7 +620,27 @@
         "image": "/images/category/2-9.jpg"
       }
     }
+  ],
+  "brands": [
+    { "id": 1, "image": "/images/brands/1.png", "link": "#" ,"title":"پریل"},
+    { "id": 2, "image": "/images/brands/2.png", "link": "#","title":"پرسیل"},
+    { "id": 3, "image": "/images/brands/3.jpg", "link": "#" ,"title":"چرم مشهد"},
+    { "id": 4, "image": "/images/brands/4.png", "link": "#" ,"title":"هوآوی"},
+    { "id": 5, "image": "/images/brands/5.png", "link": "#" ,"title":"چینی زرین"},
+    { "id": 6, "image": "/images/brands/6.jpg", "link": "#" ,"title":"پنتر"},
+    { "id": 7, "image": "/images/brands/7.jpg", "link": "#" ,"title":"ایکس ویژن"},
+    { "id": 8, "image": "/images/brands/8.png", "link": "#" ,"title":"پمینا"},
+    { "id": 9, "image": "/images/brands/9.jpg", "link": "#" ,"title":"یوروویتال"},
+    { "id": 10, "image": "/images/brands/10.png", "link": "#" ,"title":"لافارر"},
+    { "id": 11, "image": "/images/brands/11.jpg", "link": "#" ,"title":"اکتیو"},
+    { "id": 12, "image": "/images/brands/12.png", "link": "#","title":"کاله" },
+    { "id": 13, "image": "/images/brands/13.png", "link": "#" ,"title":"مای"},
+    { "id": 14, "image": "/images/brands/14.jpg", "link": "#","title":"سامسونگ" },
+    { "id": 15, "image": "/images/brands/15.png", "link": "#" ,"title":"شیائومی"},
+    { "id": 16, "image": "/images/brands/16.png", "link": "#" ,"title":"ویتالیر"},
+    { "id": 17, "image": "/images/brands/17.jpg", "link": "#","title":"مهیا" },
+    { "id": 18, "image": "/images/brands/18.png", "link": "#" ,"title":"فرش" },
+    { "id": 19, "image": "/images/brands/19.jpg", "link": "#" ,"title":"فولیکا"},
+    { "id": 20, "image": "/images/brands/20..jpg", "link": "#","title":"ساعی" }
   ]
-  
-
 }

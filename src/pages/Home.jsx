@@ -13,6 +13,7 @@ import AmazingMarket from "../components/AmazingMarket/AmazingMarket.jsx";
 import Category from "../components/Category/Category.jsx";
 import BigBanner from "../components/BigBanner/BigBanner.jsx";
 import { bannerGroup1 } from "../components/BigBanner/BigBanner.js";
+import Brands from "../components/Brands/Brands.jsx";
 const Home = () => {
   return (
     <div className="flex flex-col lg:gap-4">
@@ -30,6 +31,7 @@ const Home = () => {
       <AmazingMarket />
       <Category />
       <BigBanner data={bannerGroup1} />
+      <Brands/>
     </div>
   );
 };
