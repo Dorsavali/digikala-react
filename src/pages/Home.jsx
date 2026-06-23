@@ -17,7 +17,7 @@ import Brands from "../components/Brands/Brands.jsx";
 import Suggested from "../components/Suggested/Suggested.jsx";
 const Home = () => {
   return (
-    <div className="flex flex-col lg:gap-4">
+    <div className="flex flex-col lg:gap-4 gap-4">
       <Banner />
       <DesktopHeader />
       <MobileHeader />

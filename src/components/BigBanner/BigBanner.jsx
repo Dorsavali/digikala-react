@@ -3,7 +3,7 @@ import React from "react";
 const BigBanner = ({ data , className = "" }) => {
   return (
     <div className="w-full flex justify-center my-5" className={className}>
-      <div className="max-w-[1336px] mx-auto flex flex-col md:flex-row gap-4 px-5 lg:px-0">
+      <div className="max-w-[1336px] mx-auto flex flex-col md:flex-row gap-4 px-4 lg:px-0">
         {data.map((item, index) => (
           <a
             key={item.id}
@@ -15,7 +15,7 @@ const BigBanner = ({ data , className = "" }) => {
             <img
               src={item.image}
               alt={item.alt}
-              className="w-full h-[180px] md:h-[264px] object-cover rounded-2xl"
+              className="w-full h-[113px] md:h-[264px] object-fill rounded-2xl"
             />
           </a>
         ))}

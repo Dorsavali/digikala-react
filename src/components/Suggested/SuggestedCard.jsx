@@ -19,25 +19,21 @@ const SuggestedCard = ({ product, desktop = false }) => {
       href={product.link}
       className="min-w-[140px] w-[140px] flex-shrink-0 border border-gray-200 rounded-xl overflow-hidden bg-white flex flex-col justify-between"
     >
-      {/* Image */}
       <div className="bg-neutral-100 flex items-center justify-center h-[140px] relative">
         {image ? (
           <img
             src={image}
             alt={product.title}
-            className="w-full h-full object-contain p-2"
+            className="w-full h-full object-contain mix-blend-multiply p-2"
           />
         ) : (
           <div className="w-full h-full bg-neutral-100" />
         )}
       </div>
-
-      {/* Info */}
       <div className="p-2 flex flex-col gap-1 flex-1 justify-between">
         <p className="text-xs leading-5 line-clamp-2 text-gray-800 h-10">
           {product.title}
         </p>
-
         <div className="flex flex-col items-start pt-1">
           {product.discount && product.originalPrice && (
             <div className="flex items-center gap-1">

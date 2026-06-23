@@ -25,6 +25,7 @@ const Suggested = () => {
       </div>
 
       <div className="block lg:hidden">
+        
         <SuggestedMobile suggested={suggested} />
       </div>
     </>
