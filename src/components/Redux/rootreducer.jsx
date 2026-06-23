@@ -10,6 +10,7 @@ import ReducerThreeHour from "./ThreeHour/ReducerThreeHour";
 import ReducerAmazingMarket from "./AmazingMarket/ReducerAmazingMarket";
 import ReducerCategory from "./Category/ReducerCategory";
 import ReducerBrands from "./Brands/ReducerBrands";
+import { ReducerSuggested } from "./Suggested/ReducerSuggested";
 const rootreducer = combineReducers({
   banner: ReducerBanner,
   menuItems: ReducerDesktop,
@@ -22,6 +23,7 @@ const rootreducer = combineReducers({
   amazingMarket:ReducerAmazingMarket,
   category: ReducerCategory,
   brands : ReducerBrands,
+   suggested: ReducerSuggested,
 });
 
 export default rootreducer;

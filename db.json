@@ -622,25 +622,448 @@
     }
   ],
   "brands": [
-    { "id": 1, "image": "/images/brands/1.png", "link": "#" ,"title":"پریل"},
-    { "id": 2, "image": "/images/brands/2.png", "link": "#","title":"پرسیل"},
-    { "id": 3, "image": "/images/brands/3.jpg", "link": "#" ,"title":"چرم مشهد"},
-    { "id": 4, "image": "/images/brands/4.png", "link": "#" ,"title":"هوآوی"},
-    { "id": 5, "image": "/images/brands/5.png", "link": "#" ,"title":"چینی زرین"},
-    { "id": 6, "image": "/images/brands/6.jpg", "link": "#" ,"title":"پنتر"},
-    { "id": 7, "image": "/images/brands/7.jpg", "link": "#" ,"title":"ایکس ویژن"},
-    { "id": 8, "image": "/images/brands/8.png", "link": "#" ,"title":"پمینا"},
-    { "id": 9, "image": "/images/brands/9.jpg", "link": "#" ,"title":"یوروویتال"},
-    { "id": 10, "image": "/images/brands/10.png", "link": "#" ,"title":"لافارر"},
-    { "id": 11, "image": "/images/brands/11.jpg", "link": "#" ,"title":"اکتیو"},
-    { "id": 12, "image": "/images/brands/12.png", "link": "#","title":"کاله" },
-    { "id": 13, "image": "/images/brands/13.png", "link": "#" ,"title":"مای"},
-    { "id": 14, "image": "/images/brands/14.jpg", "link": "#","title":"سامسونگ" },
-    { "id": 15, "image": "/images/brands/15.png", "link": "#" ,"title":"شیائومی"},
-    { "id": 16, "image": "/images/brands/16.png", "link": "#" ,"title":"ویتالیر"},
-    { "id": 17, "image": "/images/brands/17.jpg", "link": "#","title":"مهیا" },
-    { "id": 18, "image": "/images/brands/18.png", "link": "#" ,"title":"فرش" },
-    { "id": 19, "image": "/images/brands/19.jpg", "link": "#" ,"title":"فولیکا"},
-    { "id": 20, "image": "/images/brands/20..jpg", "link": "#","title":"ساعی" }
+    { "id": 1, "image": "/images/brands/1.png", "link": "#", "title": "پریل" },
+    { "id": 2, "image": "/images/brands/2.png", "link": "#", "title": "پرسیل" },
+    {
+      "id": 3,
+      "image": "/images/brands/3.jpg",
+      "link": "#",
+      "title": "چرم مشهد"
+    },
+    { "id": 4, "image": "/images/brands/4.png", "link": "#", "title": "هوآوی" },
+    {
+      "id": 5,
+      "image": "/images/brands/5.png",
+      "link": "#",
+      "title": "چینی زرین"
+    },
+    { "id": 6, "image": "/images/brands/6.jpg", "link": "#", "title": "پنتر" },
+    {
+      "id": 7,
+      "image": "/images/brands/7.jpg",
+      "link": "#",
+      "title": "ایکس ویژن"
+    },
+    { "id": 8, "image": "/images/brands/8.png", "link": "#", "title": "پمینا" },
+    {
+      "id": 9,
+      "image": "/images/brands/9.jpg",
+      "link": "#",
+      "title": "یوروویتال"
+    },
+    {
+      "id": 10,
+      "image": "/images/brands/10.png",
+      "link": "#",
+      "title": "لافارر"
+    },
+    {
+      "id": 11,
+      "image": "/images/brands/11.jpg",
+      "link": "#",
+      "title": "اکتیو"
+    },
+    {
+      "id": 12,
+      "image": "/images/brands/12.png",
+      "link": "#",
+      "title": "کاله"
+    },
+    { "id": 13, "image": "/images/brands/13.png", "link": "#", "title": "مای" },
+    {
+      "id": 14,
+      "image": "/images/brands/14.jpg",
+      "link": "#",
+      "title": "سامسونگ"
+    },
+    {
+      "id": 15,
+      "image": "/images/brands/15.png",
+      "link": "#",
+      "title": "شیائومی"
+    },
+    {
+      "id": 16,
+      "image": "/images/brands/16.png",
+      "link": "#",
+      "title": "ویتالیر"
+    },
+    {
+      "id": 17,
+      "image": "/images/brands/17.jpg",
+      "link": "#",
+      "title": "مهیا"
+    },
+    { "id": 18, "image": "/images/brands/18.png", "link": "#", "title": "فرش" },
+    {
+      "id": 19,
+      "image": "/images/brands/19.jpg",
+      "link": "#",
+      "title": "فولیکا"
+    },
+    {
+      "id": 20,
+      "image": "/images/brands/20..jpg",
+      "link": "#",
+      "title": "ساعی"
+    }
+  ],
+  "suggested": [
+    {
+      "id": 15,
+      "title": "کیف و کاور گوشی",
+      "subtitle": "بر اساس سلیقه شما",
+      "categoryLink": "/personalized-category/cell-phone-pouch-cover/",
+      "products": [
+        {
+          "id": "dkp-18411676",
+          "title": "کاور مدل silick1 مناسب برای گوشی موبایل سامسونگ Galaxy A16",
+          "image": "/images/suggested/2.jpg",
+          "price": 157500,
+          "originalPrice": 175000,
+          "discount": 10,
+          "link": "/product/dkp-18411676/"
+        },
+        {
+          "id": "dkp-20402489",
+          "title": "کاور جی کی کی مدل Thunder مناسب برای گوشی موبایل شیائومی 13T Pro / 13T / Redmi K60 Ultra",
+          "image": "/images/suggested/3.jpg",
+          "price": 440000,
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-20402489/"
+        },
+        {
+          "id": "dkp-16286625",
+          "title": "کاور ضد آب مدل D25 مناسب برای گوشی موبایل سایز 7 اینج",
+          "image": "/images/suggested/1.jpg",
+          "price": 122000,
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-16286625/"
+        },
+        {
+          "id": "dkp-21050008",
+          "title": "کاور بادیگارد مدل Flex مناسب برای گوشی موبایل سامسونگ Galaxy A56 / A36",
+          "image": "/images/suggested/4.jpg",
+          "price": 650000,
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-21050008/"
+        },
+        {
+          "id": "dkp-17138395",
+          "title": "کاور قاب گارد مدل MAGGHAB مناسب برای گوشی موبایل اپل iPhone 13",
+          "image": null,
+          "price": 280000,
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-17138395/"
+        },
+        {
+          "id": "dkp-19335639",
+          "title": "کاور سامورایی مدل elegant مناسب برای گوشی موبایل شیائومی Poco X7 Pro",
+          "image": null,
+          "price": 569000,
+          "originalPrice": 950000,
+          "discount": 40,
+          "link": "/product/dkp-19335639/"
+        },
+        {
+          "id": "dkp-21646720",
+          "title": "کاور لوکسار مدل 13tpro-Vetra مناسب برای گوشی موبایل شیائومی 13T Pro / 13T",
+          "image": null,
+          "price": 330000,
+          "originalPrice": 480000,
+          "discount": 31,
+          "link": "/product/dkp-21646720/"
+        },
+        {
+          "id": "dkp-21420686",
+          "title": "کاور لوکسار مدل s24ultra_Luxmag مناسب برای گوشی موبایل سامسونگ Galaxy S24 Ultra",
+          "image": null,
+          "price": 580000,
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-21420686/"
+        },
+        {
+          "id": "dkp-16326815",
+          "title": "کاور گاردتک مدل SoCool1_A35 مناسب برای گوشی موبایل سامسونگ Galaxy A35",
+          "image": null,
+          "price": 260000,
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-16326815/"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "ویتامین‌ها و مواد معدنی",
+      "subtitle": "بر اساس سلیقه شما",
+      "categoryLink": "/personalized-category/vitamins/",
+      "products": [
+        {
+          "id": "dkp-7158804",
+          "title": "قرص ویتامین D3-1000 واحدی بسته 60 عددی",
+          "image": "/images/suggested/5.jpg",
+          "price": 168000,
+          "originalPrice": 242000,
+          "discount": 31,
+          "link": "/product/dkp-7158804/"
+        },
+        {
+          "id": "dkp-12565176",
+          "title": "قرص ویتامین ب کمپلکس یوروویتال بسته 60 عددی",
+          "image": "/images/suggested/6.jpg",
+          "price": 166840,
+          "originalPrice": 574200,
+          "discount": 71,
+          "link": "/product/dkp-12565176/"
+        },
+        {
+          "id": "dkp-15338501",
+          "title": "قرص زینک پلاس پابا یوروویتال بسته 60 عددی",
+          "image": "/images/suggested/7.jpg",
+          "price": 250000,
+          "originalPrice": 924000,
+          "discount": 73,
+          "link": "/product/dkp-15338501/"
+        },
+        {
+          "id": "dkp-5487416",
+          "title": "کپسول ژلاتینی نرم زینک پلاس فلکسان بسته 60 عددی",
+          "image": "/images/suggested/8.jpg",
+          "price": 160000,
+          "originalPrice": 1056000,
+          "discount": 85,
+          "link": "/product/dkp-5487416/"
+        },
+        {
+          "id": "dkp-19931972",
+          "title": "ساشه منیزیم بیس گلایسینات یوروویتال - 150 میلی گرم بسته 14 عددی",
+          "image": null,
+          "price": 184000,
+          "originalPrice": 770000,
+          "discount": 76,
+          "link": "/product/dkp-19931972/"
+        },
+        {
+          "id": "dkp-9952752",
+          "title": "قرص اکوفاین یوروویتال بسته 60 عددی",
+          "image": null,
+          "price": 241100,
+          "originalPrice": 1386000,
+          "discount": 83,
+          "link": "/product/dkp-9952752/"
+        },
+        {
+          "id": "dkp-5143645",
+          "title": "سافت ژل امگا 3 وانا مکس نورم لایف بسته 60 عددی",
+          "image": null,
+          "price": 625000,
+          "originalPrice": 990000,
+          "discount": 37,
+          "link": "/product/dkp-5143645/"
+        },
+        {
+          "id": "dkp-13364158",
+          "title": "کپسول ویتامین ای 400 واحد یوروویتال بسته 40 عددی",
+          "image": null,
+          "price": 300000,
+          "originalPrice": 792000,
+          "discount": 62,
+          "link": "/product/dkp-13364158/"
+        },
+        {
+          "id": "dkp-11030836",
+          "title": "قرص مولتی پلاس فور من اسپرت یوروویتال بسته 60 عددی",
+          "image": null,
+          "price": 424000,
+          "originalPrice": 1491600,
+          "discount": 72,
+          "link": "/product/dkp-11030836/"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "گوشی موبایل",
+      "subtitle": "بر اساس سلیقه شما",
+      "categoryLink": "/personalized-category/mobile-phone/",
+      "products": [
+        {
+          "id": "dkp-20481188",
+          "title": "گوشی موبایل اپل مدل iPhone 17 Pro Max ZAA تک سیم کارت + eSim ظرفیت 256 گیگابایت و رم 12 گیگابایت - نات اکتیو",
+          "image": "/images/suggested/9.jpg",
+          "price": 349999000,
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-20481188/"
+        },
+        {
+          "id": "dkp-20565427",
+          "title": "گوشی موبایل موتورولا مدل Edge 60 Fusion دو سیم کارت ظرفیت 256 گیگابایت و رم 12 گیگابایت",
+          "image": "/images/suggested/10.jpg",
+          "price": 84370000,
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-20565427/"
+        },
+        {
+          "id": "dkp-17986248",
+          "title": "گوشی موبایل شیائومی مدل Poco X7 Pro دو سیم کارت ظرفیت 512 گیگابایت و رم 12 گیگابایت - گلوبال",
+          "image": "/images/suggested/11.jpg",
+          "price": 83999000,
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-17986248/"
+        },
+        {
+          "id": "dkp-20127115",
+          "title": "گوشی موبایل اپل مدل iPhone 17 CH دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت - نات اکتیو",
+          "image": "/images/suggested/12.webp",
+          "price": 236999000,
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-20127115/"
+        },
+        {
+          "id": "dkp-17918956",
+          "title": "گوشی موبایل سامسونگ مدل Galaxy S25 Ultra دو سیم کارت ظرفیت 256 گیگابایت و رم 12 گیگابایت - پک ویتنام",
+          "image": null,
+          "price": 248684900,
+          "originalPrice": 256376100,
+          "discount": 3,
+          "link": "/product/dkp-17918956/"
+        },
+        {
+          "id": "dkp-20135132",
+          "title": "گوشی موبایل سامسونگ مدل Galaxy S25 FE دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت - ویتنام",
+          "image": null,
+          "price": 117396400,
+          "originalPrice": 121027200,
+          "discount": 3,
+          "link": "/product/dkp-20135132/"
+        },
+        {
+          "id": "dkp-18575577",
+          "title": "گوشی موبایل سامسونگ مدل Galaxy A56 دو سیم کارت ظرفیت 256 گیگابایت و رم 12 گیگابایت - ویتنام",
+          "image": null,
+          "price": 91500000,
+          "originalPrice": 102874000,
+          "discount": 11,
+          "link": "/product/dkp-18575577/"
+        },
+        {
+          "id": "dkp-21190850",
+          "title": "گوشی موبایل شیائومی مدل Redmi Note 15 4G دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت",
+          "image": null,
+          "price": 41599000,
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-21190850/"
+        },
+        {
+          "id": "dkp-18575915",
+          "title": "گوشی موبایل سامسونگ مدل Galaxy A56 دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت - ویتنام",
+          "image": null,
+          "price": 76999000,
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-18575915/"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "هدفون، هدست و هندزفری",
+      "subtitle": "بر اساس سلیقه شما",
+      "categoryLink": "/personalized-category/headphone/",
+      "products": [
+        {
+          "id": "dkp-21552444",
+          "title": "هدفون بلوتوثی سامسونگ مدل Galaxy Buds 4 Pro",
+          "image": "/images/suggested/13.jpg",
+          "price": 26990000,
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-21552444/"
+        },
+        {
+          "id": "dkp-20422049",
+          "title": "هدفون بلوتوثی اپل مدل AirPods Pro 3",
+          "image": "/images/suggested/14.jpg",
+          "price": 33990000,
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-20422049/"
+        },
+        {
+          "id": "dkp-11801878",
+          "title": "هدفون بلوتوثی انکر مدل SoundCore R50i A3949 بدون قابلیت نویز کنسلینگ",
+          "image": "/images/suggested/15.jpg",
+          "price": 1889000,
+          "originalPrice": 3000000,
+          "discount": 37,
+          "link": "/product/dkp-11801878/"
+        },
+        {
+          "id": "dkp-16200986",
+          "title": "هدفون بلوتوثی انکر مدل R50i NC با حذف نویز فعال (ANC)",
+          "image": "/images/suggested/16.jpg",
+          "price": 3100000,
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-16200986/"
+        },
+        {
+          "id": "dkp-21961795",
+          "title": "هدفون ریولینک مدل RV-25",
+          "image": null,
+          "price": 3350000,
+          "originalPrice": 31800000,
+          "discount": 89,
+          "link": "/product/dkp-21961795/"
+        },
+        {
+          "id": "dkp-21868256",
+          "title": "هدفون ریولینک مدل 3 True 3DW",
+          "image": null,
+          "price": 1850000,
+          "originalPrice": 17000000,
+          "discount": 89,
+          "link": "/product/dkp-21868256/"
+        },
+        {
+          "id": "dkp-16072099",
+          "title": "هدفون بلوتوثی سامسونگ مدل Galaxy Buds3 Pro",
+          "image": null,
+          "price": 19480000,
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-16072099/"
+        },
+        {
+          "id": "dkp-19921892",
+          "title": "هدفون بلوتوثی سامسونگ مدل Galaxy Buds Core",
+          "image": null,
+          "price": 6140000,
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-19921892/"
+        },
+        {
+          "id": "dkp-19214260",
+          "title": "هدفون بلوتوثی ناتینگ مدل CMF Buds 2a",
+          "image": null,
+          "price": 4347500,
+          "originalPrice": 6094700,
+          "discount": 29,
+          "link": "/product/dkp-19214260/"
+        }
+      ]
+    }
   ]
 }

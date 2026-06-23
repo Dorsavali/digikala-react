@@ -24,7 +24,7 @@ const Brands = () => {
   if (error) return <div>{error}</div>;
 
   return (
-    <section className="w-[90%] mx-auto lg:border lg:border-gray-200 rounded-2xl lg:py-[24px] ">
+    <section className="w-[93%] mx-auto lg:border lg:border-gray-200 rounded-2xl lg:py-[24px] ">
       <div className="flex flex-row-reverse lg:justify-center justify-start items-center gap-2 mb-5 ">
         <img
           src="/images/icons/star.svg"

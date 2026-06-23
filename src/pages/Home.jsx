@@ -14,6 +14,7 @@ import Category from "../components/Category/Category.jsx";
 import BigBanner from "../components/BigBanner/BigBanner.jsx";
 import { bannerGroup1, bannerGroup2 } from "../components/BigBanner/BigBanner.js";
 import Brands from "../components/Brands/Brands.jsx";
+import Suggested from "../components/Suggested/Suggested.jsx";
 const Home = () => {
   return (
     <div className="flex flex-col lg:gap-4">
@@ -33,6 +34,7 @@ const Home = () => {
       <BigBanner data={bannerGroup1} />
       <Brands/>
       <BigBanner data={bannerGroup2} className="hidden md:block"  />
+      <Suggested/>
     </div>
   );
 };
