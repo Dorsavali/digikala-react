@@ -709,361 +709,708 @@
     }
   ],
   "suggested": [
-   {
-  "id": 15,
-  "title": "کیف و کاور گوشی",
-  "subtitle": "بر اساس سلیقه شما",
-  "categoryLink": "/personalized-category/cell-phone-pouch-cover/",
-  "products": [
     {
-      "id": "dkp-18411676",
-      "title": "کاور مدل silick1 مناسب برای گوشی موبایل سامسونگ Galaxy A16",
-      "image": "/images/suggested/2.jpg",
-      "price": "۱۵۷٬۵۰۰",
-      "originalPrice": "۱۷۵٬۰۰۰",
-      "discount": "۱۰",
-      "link": "/product/dkp-18411676/"
+      "id": 15,
+      "title": "کیف و کاور گوشی",
+      "subtitle": "بر اساس سلیقه شما",
+      "categoryLink": "/personalized-category/cell-phone-pouch-cover/",
+      "products": [
+        {
+          "id": "dkp-18411676",
+          "title": "کاور مدل silick1 مناسب برای گوشی موبایل سامسونگ Galaxy A16",
+          "image": "/images/suggested/2.jpg",
+          "price": "۱۵۷٬۵۰۰",
+          "originalPrice": "۱۷۵٬۰۰۰",
+          "discount": "۱۰",
+          "link": "/product/dkp-18411676/"
+        },
+        {
+          "id": "dkp-20402489",
+          "title": "کاور جی کی کی مدل Thunder مناسب برای گوشی موبایل شیائومی 13T Pro / 13T / Redmi K60 Ultra",
+          "image": "/images/suggested/3.jpg",
+          "price": "۴۴۰٬۰۰۰",
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-20402489/"
+        },
+        {
+          "id": "dkp-16286625",
+          "title": "کاور ضد آب مدل D25 مناسب برای گوشی موبایل سایز 7 اینج",
+          "image": "/images/suggested/1.jpg",
+          "price": "۱۲۲٬۰۰۰",
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-16286625/"
+        },
+        {
+          "id": "dkp-21050008",
+          "title": "کاور بادیگارد مدل Flex مناسب برای گوشی موبایل سامسونگ Galaxy A56 / A36",
+          "image": "/images/suggested/4.jpg",
+          "price": "۶۵۰٬۰۰۰",
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-21050008/"
+        },
+        {
+          "id": "dkp-17138395",
+          "title": "کاور قاب گارد مدل MAGGHAB مناسب برای گوشی موبایل اپل iPhone 13",
+          "image": "/images/suggested/17.webp",
+          "price": "۲۸۰٬۰۰۰",
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-17138395/"
+        },
+        {
+          "id": "dkp-19335639",
+          "title": "کاور سامورایی مدل elegant مناسب برای گوشی موبایل شیائومی Poco X7 Pro",
+          "image": "/images/suggested/18.webp",
+          "price": "۵۶۹٬۰۰۰",
+          "originalPrice": "۹۵۰٬۰۰۰",
+          "discount": "۴۰",
+          "link": "/product/dkp-19335639/"
+        },
+        {
+          "id": "dkp-21646720",
+          "title": "کاور لوکسار مدل 13tpro-Vetra مناسب برای گوشی موبایل شیائومی 13T Pro / 13T",
+          "image": "/images/suggested/19.webp",
+          "price": "۳۳۰٬۰۰۰",
+          "originalPrice": "۴۸۰٬۰۰۰",
+          "discount": "۳۱",
+          "link": "/product/dkp-21646720/"
+        },
+        {
+          "id": "dkp-21420686",
+          "title": "کاور لوکسار مدل s24ultra_Luxmag مناسب برای گوشی موبایل سامسونگ Galaxy S24 Ultra",
+          "image": "/images/suggested/20.webp",
+          "price": "۵۸۰٬۰۰۰",
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-21420686/"
+        },
+        {
+          "id": "dkp-16326815",
+          "title": "کاور گاردتک مدل SoCool1_A35 مناسب برای گوشی موبایل سامسونگ Galaxy A35",
+          "image": "/images/suggested/21.webp",
+          "price": "۲۶۰٬۰۰۰",
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-16326815/"
+        }
+      ]
     },
     {
-      "id": "dkp-20402489",
-      "title": "کاور جی کی کی مدل Thunder مناسب برای گوشی موبایل شیائومی 13T Pro / 13T / Redmi K60 Ultra",
-      "image": "/images/suggested/3.jpg",
-      "price": "۴۴۰٬۰۰۰",
-      "originalPrice": null,
-      "discount": null,
-      "link": "/product/dkp-20402489/"
+      "id": 16,
+      "title": "ویتامین‌ها و مواد معدنی",
+      "subtitle": "بر اساس سلیقه شما",
+      "categoryLink": "/personalized-category/vitamins/",
+      "products": [
+        {
+          "id": "dkp-7158804",
+          "title": "قرص ویتامین D3-1000 واحدی بسته 60 عددی",
+          "image": "/images/suggested/5.jpg",
+          "price": "۱۶۸٬۰۰۰",
+          "originalPrice": "۲۴۲٬۰۰۰",
+          "discount": "۳۱",
+          "link": "/product/dkp-7158804/"
+        },
+        {
+          "id": "dkp-12565176",
+          "title": "قرص ویتامین ب کمپلکس یوروویتال بسته 60 عددی",
+          "image": "/images/suggested/6.jpg",
+          "price": "۱۶۶٬۸۴۰",
+          "originalPrice": "۵۷۴٬۲۰۰",
+          "discount": "۷۱",
+          "link": "/product/dkp-12565176/"
+        },
+        {
+          "id": "dkp-15338501",
+          "title": "قرص زینک پلاس پابا یوروویتال بسته 60 عددی",
+          "image": "/images/suggested/7.jpg",
+          "price": "۲۵۰٬۰۰۰",
+          "originalPrice": "۹۲۴٬۰۰۰",
+          "discount": "۷۳",
+          "link": "/product/dkp-15338501/"
+        },
+        {
+          "id": "dkp-5487416",
+          "title": "کپسول ژلاتینی نرم زینک پلاس فلکسان بسته 60 عددی",
+          "image": "/images/suggested/8.jpg",
+          "price": "۱۶۰٬۰۰۰",
+          "originalPrice": "۱٬۰۵۶٬۰۰۰",
+          "discount": "۸۵",
+          "link": "/product/dkp-5487416/"
+        },
+        {
+          "id": "dkp-19931972",
+          "title": "ساشه منیزیم بیس گلایسینات یوروویتال - 150 میلی گرم بسته 14 عددی",
+          "image": "/images/suggested/22.webp",
+          "price": "۱۸۴٬۰۰۰",
+          "originalPrice": "۷۷۰٬۰۰۰",
+          "discount": "۷۶",
+          "link": "/product/dkp-19931972/"
+        },
+        {
+          "id": "dkp-9952752",
+          "title": "قرص اکوفاین یوروویتال بسته 60 عددی",
+          "image": "/images/suggested/23.webp",
+          "price": "۲۴۱٬۱۰۰",
+          "originalPrice": "۱٬۳۸۶٬۰۰۰",
+          "discount": "۸۳",
+          "link": "/product/dkp-9952752/"
+        },
+        {
+          "id": "dkp-5143645",
+          "title": "سافت ژل امگا 3 وانا مکس نورم لایف بسته 60 عددی",
+          "image": "/images/suggested/24.webp",
+          "price": "۶۲۵٬۰۰۰",
+          "originalPrice": "۹۹۰٬۰۰۰",
+          "discount": "۳۷",
+          "link": "/product/dkp-5143645/"
+        },
+        {
+          "id": "dkp-13364158",
+          "title": "کپسول ویتامین ای 400 واحد یوروویتال بسته 40 عددی",
+          "image": "/images/suggested/25.webp",
+          "price": "۳۰۰٬۰۰۰",
+          "originalPrice": "۷۹۲٬۰۰۰",
+          "discount": "۶۲",
+          "link": "/product/dkp-13364158/"
+        },
+        {
+          "id": "dkp-11030836",
+          "title": "قرص مولتی پلاس فور من اسپرت یوروویتال بسته 60 عددی",
+          "image": "/images/suggested/25.webp",
+          "price": "۴۲۴٬۰۰۰",
+          "originalPrice": "۱٬۴۹۱٬۶۰۰",
+          "discount": "۷۲",
+          "link": "/product/dkp-11030836/"
+        }
+      ]
     },
     {
-      "id": "dkp-16286625",
-      "title": "کاور ضد آب مدل D25 مناسب برای گوشی موبایل سایز 7 اینج",
-      "image": "/images/suggested/1.jpg",
-      "price": "۱۲۲٬۰۰۰",
-      "originalPrice": null,
-      "discount": null,
-      "link": "/product/dkp-16286625/"
+      "id": 17,
+      "title": "گوشی موبایل",
+      "subtitle": "بر اساس سلیقه شما",
+      "categoryLink": "/personalized-category/mobile-phone/",
+      "products": [
+        {
+          "id": "dkp-20481188",
+          "title": "گوشی موبایل اپل مدل iPhone 17 Pro Max ZAA تک سیم کارت + eSim ظرفیت 256 گیگابایت و رم 12 گیگابایت - نات اکتیو",
+          "image": "/images/suggested/9.jpg",
+          "price": "۳۴۹٬۹۹۹٬۰۰۰",
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-20481188/"
+        },
+        {
+          "id": "dkp-20565427",
+          "title": "گوشی موبایل موتورولا مدل Edge 60 Fusion دو سیم کارت ظرفیت 256 گیگابایت و رم 12 گیگابایت",
+          "image": "/images/suggested/10.jpg",
+          "price": "۸۴٬۳۷۰٬۰۰۰",
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-20565427/"
+        },
+        {
+          "id": "dkp-17986248",
+          "title": "گوشی موبایل شیائومی مدل Poco X7 Pro دو سیم کارت ظرفیت 512 گیگابایت و رم 12 گیگابایت - گلوبال",
+          "image": "/images/suggested/11.jpg",
+          "price": "۸۳٬۹۹۹٬۰۰۰",
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-17986248/"
+        },
+        {
+          "id": "dkp-20127115",
+          "title": "گوشی موبایل اپل مدل iPhone 17 CH دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت - نات اکتیو",
+          "image": "/images/suggested/12.webp",
+          "price": "۲۳۶٬۹۹۹٬۰۰۰",
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-20127115/"
+        },
+        {
+          "id": "dkp-17918956",
+          "title": "گوشی موبایل سامسونگ مدل Galaxy S25 Ultra دو سیم کارت ظرفیت 256 گیگابایت و رم 12 گیگابایت - پک ویتنام",
+          "image": "/images/suggested/27.webp",
+          "price": "۲۴۸٬۶۸۴٬۹۰۰",
+          "originalPrice": "۲۵۶٬۳۷۶٬۱۰۰",
+          "discount": "۳",
+          "link": "/product/dkp-17918956/"
+        },
+        {
+          "id": "dkp-20135132",
+          "title": "گوشی موبایل سامسونگ مدل Galaxy S25 FE دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت - ویتنام",
+          "image": "/images/suggested/28.webp",
+          "price": "۱۱۷٬۳۹۶٬۴۰۰",
+          "originalPrice": "۱۲۱٬۰۲۷٬۲۰۰",
+          "discount": "۳",
+          "link": "/product/dkp-20135132/"
+        },
+        {
+          "id": "dkp-18575577",
+          "title": "گوشی موبایل سامسونگ مدل Galaxy A56 دو سیم کارت ظرفیت 256 گیگابایت و رم 12 گیگابایت - ویتنام",
+          "image": "/images/suggested/29.webp",
+          "price": "۹۱٬۵۰۰٬۰۰۰",
+          "originalPrice": "۱۰۲٬۸۷۴٬۰۰۰",
+          "discount": "۱۱",
+          "link": "/product/dkp-18575577/"
+        },
+        {
+          "id": "dkp-21190850",
+          "title": "گوشی موبایل شیائومی مدل Redmi Note 15 4G دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت",
+          "image": "/images/suggested/30.webp",
+          "price": "۴۱٬۵۹۹٬۰۰۰",
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-21190850/"
+        },
+        {
+          "id": "dkp-18575915",
+          "title": "گوشی موبایل سامسونگ مدل Galaxy A56 دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت - ویتنام",
+          "image": "/images/suggested/31.webp",
+          "price": "۷۶٬۹۹۹٬۰۰۰",
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-18575915/"
+        }
+      ]
     },
     {
-      "id": "dkp-21050008",
-      "title": "کاور بادیگارد مدل Flex مناسب برای گوشی موبایل سامسونگ Galaxy A56 / A36",
-      "image": "/images/suggested/4.jpg",
-      "price": "۶۵۰٬۰۰۰",
-      "originalPrice": null,
-      "discount": null,
-      "link": "/product/dkp-21050008/"
+      "id": 18,
+      "title": "هدفون، هدست و هندزفری",
+      "subtitle": "بر اساس سلیقه شما",
+      "categoryLink": "/personalized-category/headphone/",
+      "products": [
+        {
+          "id": "dkp-21552444",
+          "title": "هدفون بلوتوثی سامسونگ مدل Galaxy Buds 4 Pro",
+          "image": "/images/suggested/13.jpg",
+          "price": "۲۶٬۹۹۰٬۰۰۰",
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-21552444/"
+        },
+        {
+          "id": "dkp-20422049",
+          "title": "هدفون بلوتوثی اپل مدل AirPods Pro 3",
+          "image": "/images/suggested/14.jpg",
+          "price": "۳۳٬۹۹۰٬۰۰۰",
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-20422049/"
+        },
+        {
+          "id": "dkp-11801878",
+          "title": "هدفون بلوتوثی انکر مدل SoundCore R50i A3949 بدون قابلیت نویز کنسلینگ",
+          "image": "/images/suggested/15.jpg",
+          "price": "۱٬۸۸۹٬۰۰۰",
+          "originalPrice": "۳٬۰۰۰٬۰۰۰",
+          "discount": "۳۷",
+          "link": "/product/dkp-11801878/"
+        },
+        {
+          "id": "dkp-16200986",
+          "title": "هدفون بلوتوثی انکر مدل R50i NC با حذف نویز فعال (ANC)",
+          "image": "/images/suggested/16.jpg",
+          "price": "۳٬۱۰۰٬۰۰۰",
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-16200986/"
+        },
+        {
+          "id": "dkp-21961795",
+          "title": "هدفون ریولینک مدل RV-25",
+          "image": "/images/suggested/32.webp",
+          "price": "۳٬۳۵۰٬۰۰۰",
+          "originalPrice": "۳۱٬۸۰۰٬۰۰۰",
+          "discount": "۸۹",
+          "link": "/product/dkp-21961795/"
+        },
+        {
+          "id": "dkp-21868256",
+          "title": "هدفون ریولینک مدل 3 True 3DW",
+          "image": "/images/suggested/33.webp",
+          "price": "۱٬۸۵۰٬۰۰۰",
+          "originalPrice": "۱۷٬۰۰۰٬۰۰۰",
+          "discount": "۸۹",
+          "link": "/product/dkp-21868256/"
+        },
+        {
+          "id": "dkp-16072099",
+          "title": "هدفون بلوتوثی سامسونگ مدل Galaxy Buds3 Pro",
+          "image": "/images/suggested/34.webp",
+          "price": "۱۹٬۴۸۰٬۰۰۰",
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-16072099/"
+        },
+        {
+          "id": "dkp-19921892",
+          "title": "هدفون بلوتوثی سامسونگ مدل Galaxy Buds Core",
+          "image": "/images/suggested/35.webp",
+          "price": "۶٬۱۴۰٬۰۰۰",
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-19921892/"
+        },
+        {
+          "id": "dkp-19214260",
+          "title": "هدفون بلوتوثی ناتینگ مدل CMF Buds 2a",
+          "image": "/images/suggested/36.webp",
+          "price": "۴٬۳۴۷٬۵۰۰",
+          "originalPrice": "۶٬۰۹۴٬۷۰۰",
+          "discount": "۲۹",
+          "link": "/product/dkp-19214260/"
+        }
+      ]
     },
     {
-      "id": "dkp-17138395",
-      "title": "کاور قاب گارد مدل MAGGHAB مناسب برای گوشی موبایل اپل iPhone 13",
-      "image": "/images/suggested/17.webp",
-      "price": "۲۸۰٬۰۰۰",
-      "originalPrice": null,
-      "discount": null,
-      "link": "/product/dkp-17138395/"
+      "id": 19,
+      "title": "لوازم جانبی خودرو",
+      "subtitle": "بر اساس سلیقه شما",
+      "categoryLink": "/personalized-category/in-car-accessories/",
+      "products": [
+        {
+          "id": "dkp-15442708",
+          "title": "آرام بند خودرو مدل cr8 بسته 8 عددی",
+          "image": "/images/suggested/car1.jpg",
+          "price": "۱۴۴,۰۰۰",
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-15442708/"
+        },
+        {
+          "id": "dkp-11057496",
+          "title": "آینه وسط خودرو مدل کاپریس سنسوردار و چراغ دار",
+          "image": "/images/suggested/car2.jpg",
+          "price": "۹۵۰,۱۹۰",
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-11057496/"
+        },
+        {
+          "id": "dkp-18161132",
+          "title": "چراغ الوایر خودرو مدل RGB مولتی کالر هفت رنگ کد FN5 طول 2 متر",
+          "image": "/images/suggested/car3.jpg",
+          "price": "۴۵۰,۰۰۰",
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-18161132/"
+        },
+        {
+          "id": "dkp-14455492",
+          "title": "آچار جک جغجغه ای خودرو مدل JMN 138",
+          "image": "/images/suggested/car4.webp",
+          "price": "۱۹۵,۰۰۰",
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-14455492/"
+        },
+        {
+          "id": "dkp-3085029",
+          "title": "تسمه بکسل مدل HVG",
+          "image": "/images/suggested/car5.webp",
+          "price": "۲۹۸,۰۰۰",
+          "originalPrice": "۳۸۵,۰۰۰",
+          "discount": "۲۳",
+          "link": "/product/dkp-3085029/"
+        },
+        {
+          "id": "dkp-16617655",
+          "title": "برس تمیز کننده خودرو مدل CBSH",
+          "image": "/images/suggested/car6.webp",
+          "price": "۱۲۷,۱۵۰",
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-16617655/"
+        },
+        {
+          "id": "dkp-15218510",
+          "title": "تستر فیوز خودرو مدل 65384 بسته 13 عددی",
+          "image": "/images/suggested/car7.webp",
+          "price": "۱۹۲,۱۵۰",
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-15218510/"
+        },
+        {
+          "id": "dkp-21935305",
+          "title": "کیت فلاشر مدل ریموت دار عربی",
+          "image": "/images/suggested/car8.webp",
+          "price": "۱,۴۵۰,۰۰۰",
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-21935305/"
+        },
+        {
+          "id": "dkp-15089669",
+          "title": "جارو شارژی خودرو مدل YT-M2037",
+          "image": "/images/suggested/car9.webp",
+          "price": "۶۰۰,۰۰۰",
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-15089669/"
+        }
+      ]
     },
     {
-      "id": "dkp-19335639",
-      "title": "کاور سامورایی مدل elegant مناسب برای گوشی موبایل شیائومی Poco X7 Pro",
-      "image": "/images/suggested/18.webp",
-      "price": "۵۶۹٬۰۰۰",
-      "originalPrice": "۹۵۰٬۰۰۰",
-      "discount": "۴۰",
-      "link": "/product/dkp-19335639/"
+      "id": 20,
+      "title": "کرم آبرسان و مرطوب کننده",
+      "subtitle": "بر اساس سلیقه شما",
+      "categoryLink": "/personalized-category/moisturizing-cream/",
+      "products": [
+        {
+          "id": "dkp-21624448",
+          "title": "کرم آبرسان و ترمیم کننده مدیکیوب مدل هیالورونیک اسید مناسب انواع پوست حجم ۵۵ میلی لیتر",
+          "image": "/images/suggested/skin1.webp",
+          "price": "۲,۶۱۰,۰۰۰",
+          "originalPrice": "۲,۹۰۰,۰۰۰",
+          "discount": "۱۰",
+          "link": "/product/dkp-21624448/"
+        },
+        {
+          "id": "dkp-4545846",
+          "title": "کرم آبرسان راکوتن مدل Prebiotic حجم 50 میلی‌لیتر",
+          "image": "/images/suggested/skin2.webp",
+          "price": "۳۵۸,۲۰۰",
+          "originalPrice": "۵۹۷,۰۰۰",
+          "discount": "۴۰",
+          "link": "/product/dkp-4545846/"
+        },
+        {
+          "id": "dkp-1518148",
+          "title": "کرم مرطوب‌کننده درمالیفت مدل Hydralift AC Cream مناسب پوست‌های چرب حجم 50 میلی‌لیتر",
+          "image": "/images/suggested/skin3.webp",
+          "price": "۲۶۳,۳۴۰",
+          "originalPrice": "۴۱۸,۰۰۰",
+          "discount": "۳۷",
+          "link": "/product/dkp-1518148/"
+        },
+        {
+          "id": "dkp-20270158",
+          "title": "کرم مرطوب کننده صورت و گردن کلامین مدل collagen bank مناسب انواع پوست حجم 125 میلی لیتر",
+          "image": "/images/suggested/skin4.webp",
+          "price": "۴۷۶,۴۰۰",
+          "originalPrice": "۸۷۰,۰۰۰",
+          "discount": "۴۵",
+          "link": "/product/dkp-20270158/"
+        },
+        {
+          "id": "dkp-11776655",
+          "title": "ژل آبرسان پرایم مدل Ultra-Hydrating حجم 50 میلی‌لیتر",
+          "image": "/images/suggested/skin5.webp",
+          "price": "۹۸۵,۹۰۰",
+          "originalPrice": "۱,۱۴۹,۰۰۰",
+          "discount": "۱۴",
+          "link": "/product/dkp-11776655/"
+        },
+        {
+          "id": "dkp-20073107",
+          "title": "کرم آبرسان تیلسیم مدل هیالورونیک اسید مناسب برای پوست‌های خشک و خیلی خشک حجم 50 میلی‌لیتر",
+          "image": "/images/suggested/skin6.webp",
+          "price": "۲۲۰,۰۰۰",
+          "originalPrice": "۱,۲۵۰,۰۰۰",
+          "discount": "۸۲",
+          "link": "/product/dkp-20073107/"
+        },
+        {
+          "id": "dkp-3149571",
+          "title": "کرم مرطوب‌کننده کامان مدل Oil Plus حجم 250 میلی‌لیتر",
+          "image": "/images/suggested/skin7.webp",
+          "price": "۲۳۸,۷۰۰",
+          "originalPrice": "۲۹۶,۰۰۰",
+          "discount": "۱۹",
+          "link": "/product/dkp-3149571/"
+        },
+        {
+          "id": "dkp-3714518",
+          "title": "کرم آبرسان وچه مدل Bamboo مناسب پوست‌های چرب و مستعد آکنه حجم 60 میلی‌لیتر",
+          "image": "/images/suggested/skin8.webp",
+          "price": "۲۷۴,۱۰۰",
+          "originalPrice": "۴۶۶,۰۰۰",
+          "discount": "۴۱",
+          "link": "/product/dkp-3714518/"
+        },
+        {
+          "id": "dkp-7846857",
+          "title": "کرم مرطوب‌کننده و نرم‌کننده هیدرودرم مدل Aqua Satin حجم 500 میلی‌لیتر",
+          "image": "/images/suggested/skin9.webp",
+          "price": "۳۶۹,۴۰۰",
+          "originalPrice": "۴۷۹,۰۰۰",
+          "discount": "۲۳",
+          "link": "/product/dkp-7846857/"
+        }
+      ]
     },
     {
-      "id": "dkp-21646720",
-      "title": "کاور لوکسار مدل 13tpro-Vetra مناسب برای گوشی موبایل شیائومی 13T Pro / 13T",
-      "image": "/images/suggested/19.webp",
-      "price": "۳۳۰٬۰۰۰",
-      "originalPrice": "۴۸۰٬۰۰۰",
-      "discount": "۳۱",
-      "link": "/product/dkp-21646720/"
+      "id": 21,
+      "title": "واکس، پولیش و تمیزکننده خودرو",
+      "subtitle": "بر اساس سلیقه شما",
+      "categoryLink": "/personalized-category/car-wash-spray-polish-and-wax/",
+      "products": [
+        {
+          "id": "dkp-16153643",
+          "title": "شامپو بدنه خودرو نانو براق کننده و تمیز کننده نکسوس مدل N1 حجم 1 لیتر",
+          "image": "https://dkstatics-public.digikala.com/digikala-products/5c0c00771d24e86f1a34bcd2b82de890f4a901a4_1721741386.jpg",
+          "price": "۱۹۹,۸۵۰",
+          "originalPrice": "۲۲۰,۰۰۰",
+          "discount": "۹",
+          "link": "/product/dkp-16153643/"
+        },
+        {
+          "id": "dkp-20796815",
+          "title": "لکه بر و خشگیر بدنه خودرو روین مدل RV-1 حجم ۱۰۰ میلی لیتر",
+          "image": "https://dkstatics-public.digikala.com/digikala-products/550dcadec8466c32bd90d53add4a648c8a09d84a_1770924236.jpg",
+          "price": "۴۹۰,۰۰۰",
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-20796815/"
+        },
+        {
+          "id": "dkp-15481717",
+          "title": "بدنه شوی اتومبیل یاتاش مدل تاچلس حجم 500 میلی لیتر",
+          "image": "https://dkstatics-public.digikala.com/digikala-products/d81567e6646f18c83e0ffa38d2c8c1654bc3e0a0_1715950849.jpg",
+          "price": "۱۹۲,۹۰۰",
+          "originalPrice": "۲۲۰,۰۰۰",
+          "discount": "۱۲",
+          "link": "/product/dkp-15481717/"
+        },
+        {
+          "id": "dkp-21105629",
+          "title": "اسپری واکس لاستیک خودرو میشلن مدل ML حجم 1000 میلی لیتر",
+          "image": "https://dkstatics-public.digikala.com/digikala-products/e88c437f1854c2d3ba93095fe3d2e48f609b26bf_1765898131.jpg",
+          "price": "۳۹۰,۰۰۰",
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-21105629/"
+        },
+        {
+          "id": "dkp-1010532",
+          "title": "پولیش واکس خودرو جلاسنج مدل NEW",
+          "image": "https://dkstatics-public.digikala.com/digikala-products/4764445.jpg",
+          "price": "۲۷۱,۸۴۰",
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-1010532/"
+        },
+        {
+          "id": "dkp-20417612",
+          "title": "اسپری رنگ خودرو اسمارت پن کد 1150501 حجم 200 میلی لیتر",
+          "image": "https://dkstatics-public.digikala.com/digikala-products/22c14ff60f2db1c1d91471f4f7550bf84fda3e2b_1757691320.jpg",
+          "price": "۱,۰۴۰,۰۰۰",
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-20417612/"
+        },
+        {
+          "id": "dkp-13261163",
+          "title": "واکس داشبورد خودرو رستاک مدل M16 حجم 150 میلی لیتر",
+          "image": "https://dkstatics-public.digikala.com/digikala-products/9c5ac972e6d972da027a1509e4dbf0fdabb94d80_1699274401.jpg",
+          "price": "۱۴۶,۰۰۰",
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-13261163/"
+        },
+        {
+          "id": "dkp-5735591",
+          "title": "شامپو بدنه خودرو نانو براق کننده و تمیز کننده تکرو مدل SH1500 حجم 1.5 لیتر",
+          "image": "https://dkstatics-public.digikala.com/digikala-products/21ce13616edf1f8a9751b08df30eb2b064b4e6d3_1626110340.jpg",
+          "price": "۲۲۹,۶۴۰",
+          "originalPrice": "۲۷۰,۰۰۰",
+          "discount": "۱۵",
+          "link": "/product/dkp-5735591/"
+        },
+        {
+          "id": "dkp-14275101",
+          "title": "اسپری پولیش داشبورد خودرو کاسپین مدل اورجینال حجم 300 میلی لیتر",
+          "image": "https://dkstatics-public.digikala.com/digikala-products/5ed31e9d56b8c1a8599103ec96bed79842fa5ad3_1706709972.jpg",
+          "price": "۲۵۰,۲۶۰",
+          "originalPrice": null,
+          "discount": null,
+          "link": "/product/dkp-14275101/"
+        }
+      ]
     },
     {
-      "id": "dkp-21420686",
-      "title": "کاور لوکسار مدل s24ultra_Luxmag مناسب برای گوشی موبایل سامسونگ Galaxy S24 Ultra",
-      "image": "/images/suggested/20.webp",
-      "price": "۵۸۰٬۰۰۰",
-      "originalPrice": null,
-      "discount": null,
-      "link": "/product/dkp-21420686/"
-    },
-    {
-      "id": "dkp-16326815",
-      "title": "کاور گاردتک مدل SoCool1_A35 مناسب برای گوشی موبایل سامسونگ Galaxy A35",
-      "image": "/images/suggested/21.webp",
-      "price": "۲۶۰٬۰۰۰",
-      "originalPrice": null,
-      "discount": null,
-      "link": "/product/dkp-16326815/"
+      "id": 22,
+      "title": "کتاب رمان و ادبیات داستانی و نمایشی",
+      "subtitle": "بر اساس سلیقه شما",
+      "categoryLink": "/personalized-category/car-wash-spray-polish-and-wax/",
+      "products": [
+        {
+          "id": "dkp-37948",
+          "title": "کتاب شب های روشن اثر فیودور داستایفسکی نشر ماهی",
+          "price": 150000,
+          "discount": 21,
+          "originaPrice": 190000,
+          "image": "/images/suggested/book1.webp"
+        },
+        {
+          "id": "dkp-16004881",
+          "title": "کتاب مرگ ایوان ایلیچ اثر لیو تالستوی نشر چشمه",
+          "price": 90000,
+          "discount": null,
+          "originaPrice": null,
+          "image": "/images/suggested/book2.webp"
+        },
+        {
+          "id": "dkp-37621",
+          "title": "کتاب بانوی میزبان اثر فیودور داستایفسکی نشر ماهی",
+          "price": 152000,
+          "discount": null,
+          "originaPrice": null,
+          "image": "/images/suggested/book3.webp"
+        },
+        {
+          "id": "dkp-19755369",
+          "title": "کتاب سایه میان ما اثر تریشا لونسلر انتشارات آذربیان",
+          "price": 266900,
+          "discount": 70,
+          "originaPrice": 890000,
+          "image": "/images/suggested/book4.webp"
+        },
+        {
+          "id": "dkp-137612",
+          "title": "کتاب بامداد خمار اثر فتانه حاج سید جوادی",
+          "price": 350000,
+          "discount": 65,
+          "originaPrice": 1000000,
+          "image": "/images/suggested/book5.webp"
+        },
+        {
+          "id": "dkp-18447657",
+          "title": "کتاب تنگنا (حکایت یک سرگشتگی روانی) اثر لیانید آندریف نشر چشمه",
+          "price": 254600,
+          "discount": null,
+          "originaPrice": null,
+          "image": "/images/suggested/book6.webp"
+        },
+        {
+          "id": "dkp-18355475",
+          "title": "کتاب جنایت و مکافات اثر فئودور داستایفسکی نشر آذربیان",
+          "price": 449900,
+          "discount": 72,
+          "originaPrice": 1590000,
+          "image": "/images/suggested/book7.webp"
+        },
+        {
+          "id": "dkp-20880719",
+          "title": "کتاب ناتوان، قدرتمند، بی پروا، بی باک و بیمناک اثر لورن رابرتس نشر آذرگون",
+          "price": 1990000,
+          "discount": 75,
+          "originaPrice": 7940000,
+          "image": "/images/suggested/book8.webp"
+        },
+        {
+          "id": "dkp-19871034",
+          "title": "کتاب هردو درنهایت می میرند و اولین نفری که درنهایت می میرد اثر آدام سیلورا",
+          "price": 382900,
+          "discount": 71,
+          "originaPrice": 1338000,
+          "image": "/images/suggested/book9.webp"
+        }
+      ]
     }
-  ]
-},
-   {
-  "id": 16,
-  "title": "ویتامین‌ها و مواد معدنی",
-  "subtitle": "بر اساس سلیقه شما",
-  "categoryLink": "/personalized-category/vitamins/",
-  "products": [
-    {
-      "id": "dkp-7158804",
-      "title": "قرص ویتامین D3-1000 واحدی بسته 60 عددی",
-      "image": "/images/suggested/5.jpg",
-      "price": "۱۶۸٬۰۰۰",
-      "originalPrice": "۲۴۲٬۰۰۰",
-      "discount": "۳۱",
-      "link": "/product/dkp-7158804/"
-    },
-    {
-      "id": "dkp-12565176",
-      "title": "قرص ویتامین ب کمپلکس یوروویتال بسته 60 عددی",
-      "image": "/images/suggested/6.jpg",
-      "price": "۱۶۶٬۸۴۰",
-      "originalPrice": "۵۷۴٬۲۰۰",
-      "discount": "۷۱",
-      "link": "/product/dkp-12565176/"
-    },
-    {
-      "id": "dkp-15338501",
-      "title": "قرص زینک پلاس پابا یوروویتال بسته 60 عددی",
-      "image": "/images/suggested/7.jpg",
-      "price": "۲۵۰٬۰۰۰",
-      "originalPrice": "۹۲۴٬۰۰۰",
-      "discount": "۷۳",
-      "link": "/product/dkp-15338501/"
-    },
-    {
-      "id": "dkp-5487416",
-      "title": "کپسول ژلاتینی نرم زینک پلاس فلکسان بسته 60 عددی",
-      "image": "/images/suggested/8.jpg",
-      "price": "۱۶۰٬۰۰۰",
-      "originalPrice": "۱٬۰۵۶٬۰۰۰",
-      "discount": "۸۵",
-      "link": "/product/dkp-5487416/"
-    },
-    {
-      "id": "dkp-19931972",
-      "title": "ساشه منیزیم بیس گلایسینات یوروویتال - 150 میلی گرم بسته 14 عددی",
-      "image": "/images/suggested/22.webp",
-      "price": "۱۸۴٬۰۰۰",
-      "originalPrice": "۷۷۰٬۰۰۰",
-      "discount": "۷۶",
-      "link": "/product/dkp-19931972/"
-    },
-    {
-      "id": "dkp-9952752",
-      "title": "قرص اکوفاین یوروویتال بسته 60 عددی",
-      "image": "/images/suggested/23.webp",
-      "price": "۲۴۱٬۱۰۰",
-      "originalPrice": "۱٬۳۸۶٬۰۰۰",
-      "discount": "۸۳",
-      "link": "/product/dkp-9952752/"
-    },
-    {
-      "id": "dkp-5143645",
-      "title": "سافت ژل امگا 3 وانا مکس نورم لایف بسته 60 عددی",
-      "image": "/images/suggested/24.webp",
-      "price": "۶۲۵٬۰۰۰",
-      "originalPrice": "۹۹۰٬۰۰۰",
-      "discount": "۳۷",
-      "link": "/product/dkp-5143645/"
-    },
-    {
-      "id": "dkp-13364158",
-      "title": "کپسول ویتامین ای 400 واحد یوروویتال بسته 40 عددی",
-      "image": "/images/suggested/25.webp",
-      "price": "۳۰۰٬۰۰۰",
-      "originalPrice": "۷۹۲٬۰۰۰",
-      "discount": "۶۲",
-      "link": "/product/dkp-13364158/"
-    },
-    {
-      "id": "dkp-11030836",
-      "title": "قرص مولتی پلاس فور من اسپرت یوروویتال بسته 60 عددی",
-      "image": "/images/suggested/25.webp",
-      "price": "۴۲۴٬۰۰۰",
-      "originalPrice": "۱٬۴۹۱٬۶۰۰",
-      "discount": "۷۲",
-      "link": "/product/dkp-11030836/"
-    }
-  ]
-},
-    {
-  "id": 17,
-  "title": "گوشی موبایل",
-  "subtitle": "بر اساس سلیقه شما",
-  "categoryLink": "/personalized-category/mobile-phone/",
-  "products": [
-    {
-      "id": "dkp-20481188",
-      "title": "گوشی موبایل اپل مدل iPhone 17 Pro Max ZAA تک سیم کارت + eSim ظرفیت 256 گیگابایت و رم 12 گیگابایت - نات اکتیو",
-      "image": "/images/suggested/9.jpg",
-      "price": "۳۴۹٬۹۹۹٬۰۰۰",
-      "originalPrice": null,
-      "discount": null,
-      "link": "/product/dkp-20481188/"
-    },
-    {
-      "id": "dkp-20565427",
-      "title": "گوشی موبایل موتورولا مدل Edge 60 Fusion دو سیم کارت ظرفیت 256 گیگابایت و رم 12 گیگابایت",
-      "image": "/images/suggested/10.jpg",
-      "price": "۸۴٬۳۷۰٬۰۰۰",
-      "originalPrice": null,
-      "discount": null,
-      "link": "/product/dkp-20565427/"
-    },
-    {
-      "id": "dkp-17986248",
-      "title": "گوشی موبایل شیائومی مدل Poco X7 Pro دو سیم کارت ظرفیت 512 گیگابایت و رم 12 گیگابایت - گلوبال",
-      "image": "/images/suggested/11.jpg",
-      "price": "۸۳٬۹۹۹٬۰۰۰",
-      "originalPrice": null,
-      "discount": null,
-      "link": "/product/dkp-17986248/"
-    },
-    {
-      "id": "dkp-20127115",
-      "title": "گوشی موبایل اپل مدل iPhone 17 CH دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت - نات اکتیو",
-      "image": "/images/suggested/12.webp",
-      "price": "۲۳۶٬۹۹۹٬۰۰۰",
-      "originalPrice": null,
-      "discount": null,
-      "link": "/product/dkp-20127115/"
-    },
-    {
-      "id": "dkp-17918956",
-      "title": "گوشی موبایل سامسونگ مدل Galaxy S25 Ultra دو سیم کارت ظرفیت 256 گیگابایت و رم 12 گیگابایت - پک ویتنام",
-      "image": "/images/suggested/27.webp",
-      "price": "۲۴۸٬۶۸۴٬۹۰۰",
-      "originalPrice": "۲۵۶٬۳۷۶٬۱۰۰",
-      "discount": "۳",
-      "link": "/product/dkp-17918956/"
-    },
-    {
-      "id": "dkp-20135132",
-      "title": "گوشی موبایل سامسونگ مدل Galaxy S25 FE دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت - ویتنام",
-      "image": "/images/suggested/28.webp",
-      "price": "۱۱۷٬۳۹۶٬۴۰۰",
-      "originalPrice": "۱۲۱٬۰۲۷٬۲۰۰",
-      "discount": "۳",
-      "link": "/product/dkp-20135132/"
-    },
-    {
-      "id": "dkp-18575577",
-      "title": "گوشی موبایل سامسونگ مدل Galaxy A56 دو سیم کارت ظرفیت 256 گیگابایت و رم 12 گیگابایت - ویتنام",
-      "image": "/images/suggested/29.webp",
-      "price": "۹۱٬۵۰۰٬۰۰۰",
-      "originalPrice": "۱۰۲٬۸۷۴٬۰۰۰",
-      "discount": "۱۱",
-      "link": "/product/dkp-18575577/"
-    },
-    {
-      "id": "dkp-21190850",
-      "title": "گوشی موبایل شیائومی مدل Redmi Note 15 4G دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت",
-      "image": "/images/suggested/30.webp",
-      "price": "۴۱٬۵۹۹٬۰۰۰",
-      "originalPrice": null,
-      "discount": null,
-      "link": "/product/dkp-21190850/"
-    },
-    {
-      "id": "dkp-18575915",
-      "title": "گوشی موبایل سامسونگ مدل Galaxy A56 دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت - ویتنام",
-      "image": "/images/suggested/31.webp",
-      "price": "۷۶٬۹۹۹٬۰۰۰",
-      "originalPrice": null,
-      "discount": null,
-      "link": "/product/dkp-18575915/"
-    }
-  ]
-},
-{
-  "id": 18,
-  "title": "هدفون، هدست و هندزفری",
-  "subtitle": "بر اساس سلیقه شما",
-  "categoryLink": "/personalized-category/headphone/",
-  "products": [
-    {
-      "id": "dkp-21552444",
-      "title": "هدفون بلوتوثی سامسونگ مدل Galaxy Buds 4 Pro",
-      "image": "/images/suggested/13.jpg",
-      "price": "۲۶٬۹۹۰٬۰۰۰",
-      "originalPrice": null,
-      "discount": null,
-      "link": "/product/dkp-21552444/"
-    },
-    {
-      "id": "dkp-20422049",
-      "title": "هدفون بلوتوثی اپل مدل AirPods Pro 3",
-      "image": "/images/suggested/14.jpg",
-      "price": "۳۳٬۹۹۰٬۰۰۰",
-      "originalPrice": null,
-      "discount": null,
-      "link": "/product/dkp-20422049/"
-    },
-    {
-      "id": "dkp-11801878",
-      "title": "هدفون بلوتوثی انکر مدل SoundCore R50i A3949 بدون قابلیت نویز کنسلینگ",
-      "image": "/images/suggested/15.jpg",
-      "price": "۱٬۸۸۹٬۰۰۰",
-      "originalPrice": "۳٬۰۰۰٬۰۰۰",
-      "discount": "۳۷",
-      "link": "/product/dkp-11801878/"
-    },
-    {
-      "id": "dkp-16200986",
-      "title": "هدفون بلوتوثی انکر مدل R50i NC با حذف نویز فعال (ANC)",
-      "image": "/images/suggested/16.jpg",
-      "price": "۳٬۱۰۰٬۰۰۰",
-      "originalPrice": null,
-      "discount": null,
-      "link": "/product/dkp-16200986/"
-    },
-    {
-      "id": "dkp-21961795",
-      "title": "هدفون ریولینک مدل RV-25",
-      "image": "/images/suggested/32.webp",
-      "price": "۳٬۳۵۰٬۰۰۰",
-      "originalPrice": "۳۱٬۸۰۰٬۰۰۰",
-      "discount": "۸۹",
-      "link": "/product/dkp-21961795/"
-    },
-    {
-      "id": "dkp-21868256",
-      "title": "هدفون ریولینک مدل 3 True 3DW",
-      "image": "/images/suggested/33.webp",
-      "price": "۱٬۸۵۰٬۰۰۰",
-      "originalPrice": "۱۷٬۰۰۰٬۰۰۰",
-      "discount": "۸۹",
-      "link": "/product/dkp-21868256/"
-    },
-    {
-      "id": "dkp-16072099",
-      "title": "هدفون بلوتوثی سامسونگ مدل Galaxy Buds3 Pro",
-      "image": "/images/suggested/34.webp",
-      "price": "۱۹٬۴۸۰٬۰۰۰",
-      "originalPrice": null,
-      "discount": null,
-      "link": "/product/dkp-16072099/"
-    },
-    {
-      "id": "dkp-19921892",
-      "title": "هدفون بلوتوثی سامسونگ مدل Galaxy Buds Core",
-      "image": "/images/suggested/35.webp",
-      "price": "۶٬۱۴۰٬۰۰۰",
-      "originalPrice": null,
-      "discount": null,
-      "link": "/product/dkp-19921892/"
-    },
-    {
-      "id": "dkp-19214260",
-      "title": "هدفون بلوتوثی ناتینگ مدل CMF Buds 2a",
-      "image": "/images/suggested/36.webp",
-      "price": "۴٬۳۴۷٬۵۰۰",
-      "originalPrice": "۶٬۰۹۴٬۷۰۰",
-      "discount": "۲۹",
-      "link": "/product/dkp-19214260/"
-    }
-  ]
-}
   ]
 }

@@ -30,7 +30,7 @@ const SuggestedCard = ({ product, desktop = false }) => {
           <div className="w-full h-full bg-neutral-100" />
         )}
       </div>
-      <div className="p-2 flex flex-col gap-1 flex-1 justify-between">
+      <div className="p-2 flex flex-col flex-1 justify-around">
         <p className="text-xs leading-5 line-clamp-2 text-gray-800 h-10 font-[iran] text-[11px]">
           {product.title}
         </p>
