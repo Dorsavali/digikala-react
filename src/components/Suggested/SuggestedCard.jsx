@@ -31,16 +31,16 @@ const SuggestedCard = ({ product, desktop = false }) => {
         )}
       </div>
       <div className="p-2 flex flex-col gap-1 flex-1 justify-between">
-        <p className="text-xs leading-5 line-clamp-2 text-gray-800 h-10">
+        <p className="text-xs leading-5 line-clamp-2 text-gray-800 h-10 font-[iran] text-[11px]">
           {product.title}
         </p>
         <div className="flex flex-col items-start pt-1">
           {product.discount && product.originalPrice && (
             <div className="flex items-center gap-1">
-              <span className="bg-red-500 text-white text-[10px] font-bold px-1.5 py-0.5 rounded-full leading-none">
+              <span className=" h-4 bg-[#d32f2f] text-white text-center text-xs px-1.5  rounded-full font-[iran]">
                 ٪{product.discount}
               </span>
-              <span className="text-[11px] text-gray-300 line-through">
+              <span className="line-through text-gray-400 text-xs font-[iran]">
                 {product.originalPrice.toLocaleString()}
               </span>
             </div>
@@ -49,7 +49,11 @@ const SuggestedCard = ({ product, desktop = false }) => {
             <span className="text-sm font-bold text-gray-800">
               {product.price.toLocaleString()}
             </span>
-            <span className="text-[11px] text-gray-500">تومان</span>
+            <img
+                            src="/public/images/icons/toman.svg"
+                            alt="toman"
+                            className="w-4 h-4"
+                          />
           </div>
         </div>
       </div>
