@@ -1341,76 +1341,186 @@
         {
           "id": "dkp-37948",
           "title": "کتاب شب های روشن اثر فیودور داستایفسکی نشر ماهی",
-          "price": 150000,
-          "discount": 21,
-          "originaPrice": 190000,
+          "price": "۱۵۰۰۰۰",
+          "discount": "۲۱",
+          "originalPrice": "۱۹۰۰۰۰",
           "image": "/images/suggested/book1.webp"
         },
         {
           "id": "dkp-16004881",
           "title": "کتاب مرگ ایوان ایلیچ اثر لیو تالستوی نشر چشمه",
-          "price": 90000,
+          "price": "۹۰۰۰۰",
           "discount": null,
-          "originaPrice": null,
+          "originalPrice": null,
           "image": "/images/suggested/book2.webp"
         },
         {
           "id": "dkp-37621",
           "title": "کتاب بانوی میزبان اثر فیودور داستایفسکی نشر ماهی",
-          "price": 152000,
+          "price": "۱۵۲۰۰۰",
           "discount": null,
-          "originaPrice": null,
+          "originalPrice": null,
           "image": "/images/suggested/book3.webp"
         },
         {
           "id": "dkp-19755369",
           "title": "کتاب سایه میان ما اثر تریشا لونسلر انتشارات آذربیان",
-          "price": 266900,
-          "discount": 70,
-          "originaPrice": 890000,
+          "price": "۲۶۶۹۰۰",
+          "discount": "۷۰",
+          "originalPrice": "۸۹۰۰۰۰",
           "image": "/images/suggested/book4.webp"
         },
         {
           "id": "dkp-137612",
           "title": "کتاب بامداد خمار اثر فتانه حاج سید جوادی",
-          "price": 350000,
-          "discount": 65,
-          "originaPrice": 1000000,
+          "price": "۳۵۰۰۰۰",
+          "discount": "۶۵",
+          "originalPrice": "۱۰۰۰۰۰۰",
           "image": "/images/suggested/book5.webp"
         },
         {
           "id": "dkp-18447657",
           "title": "کتاب تنگنا (حکایت یک سرگشتگی روانی) اثر لیانید آندریف نشر چشمه",
-          "price": 254600,
+          "price": "۲۵۴۶۰۰",
           "discount": null,
-          "originaPrice": null,
+          "originalPrice": null,
           "image": "/images/suggested/book6.webp"
         },
         {
           "id": "dkp-18355475",
           "title": "کتاب جنایت و مکافات اثر فئودور داستایفسکی نشر آذربیان",
-          "price": 449900,
-          "discount": 72,
-          "originaPrice": 1590000,
+          "price": "۴۴۹۹۰۰",
+          "discount": "۷۲",
+          "originalPrice": "۱۵۹۰۰۰۰",
           "image": "/images/suggested/book7.webp"
         },
         {
           "id": "dkp-20880719",
           "title": "کتاب ناتوان، قدرتمند، بی پروا، بی باک و بیمناک اثر لورن رابرتس نشر آذرگون",
-          "price": 1990000,
-          "discount": 75,
-          "originaPrice": 7940000,
-          "image": "/images/suggested/book8.webp"
+          "price": "۱۹۹۰۰۰۰",
+          "discount": "۷۵",
+          "originalPrice": "۷۹۴۰۰۰۰",
+          "image": "/images/suggested/book8.jpg"
         },
         {
           "id": "dkp-19871034",
           "title": "کتاب هردو درنهایت می میرند و اولین نفری که درنهایت می میرد اثر آدام سیلورا",
-          "price": 382900,
-          "discount": 71,
-          "originaPrice": 1338000,
+          "price": "۳۸۲۹۰۰",
+          "discount": "۷۱",
+          "originalPrice": "۱۳۳۸۰۰۰",
           "image": "/images/suggested/book9.webp"
         }
       ]
+    }
+  ],
+  "bestSelling": [
+    {
+      "id": 1,
+      "title": "خامه هراز - 200 میلی لیتر",
+      "image": "/images/bestSelling/1.webp",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "title": "کره حیوانی پاستوریزه شکلی 50 گرم",
+      "image": "/images/bestSelling/2.webp",
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "title": "پنیر فتا دوشه هراز - 400 گرم",
+      "image": "/images/bestSelling/3.webp",
+      "link": "#"
+    },
+    {
+      "id": 4,
+      "title": "فلوئید ضدآفتاب بی‌رنگ مای SPF50 مدل Smart Defense مناسب انواع پوست، حجم 50 میلی‌لیتر",
+      "image": "/images/bestSelling/4.webp",
+      "link": "#"
+    },
+    {
+      "id": 5,
+      "title": "شکر سفید الماس دانه - 1 کیلوگرم",
+      "image": "/images/bestSelling/5.webp",
+      "link": "#"
+    },
+    {
+      "id": 6,
+      "title": "کنسرو ماهی تن در روغن گیاهی پیک - 180 گرم",
+      "image": "/images/bestSelling/6.webp",
+      "link": "#"
+    },
+    {
+      "id": 7,
+      "title": "کرم ضدآفتاب و ضدلک بی‌رنگ لافارر مدل SPF50، مناسب پوست‌های چرب، حجم 40 میلی‌لیتر",
+      "image": "/images/bestSelling/7.webp",
+      "link": "#"
+    },
+    {
+      "id": 8,
+      "title": "تونر پاک کننده صورت لافارر مدل مولتی اکتیو مناسب پوست های چرب و مختلط حجم 170 میلی لیتر",
+      "image": "/images/bestSelling/8.webp",
+      "link": "#"
+    },
+    {
+      "id": 9,
+      "title": "اسپاگتی قطر 1.2 تک ماکارون مقدار 700 گرم",
+      "image": "/images/bestSelling/9.webp",
+      "link": "#"
+    },
+    {
+      "id": 10,
+      "title": "پوشک چسبی بچه مولفیکس مدل اکو پلاس سایز چهار 62 عددی",
+      "image": "/images/bestSelling/10.webp",
+      "link": "#"
+    },
+    {
+      "id": 11,
+      "title": "پوشک چسبی بچه مولفیکس مدل اکو سایز شش 24 عددی",
+      "image": "/images/bestSelling/11.webp",
+      "link": "#"
+    },
+    {
+      "id": 12,
+      "title": "کالباس 90 درصد گوشت مرغ مهيا پروتئين - 250 گرم",
+      "image": "/images/bestSelling/12.webp",
+      "link": "#"
+    },
+    {
+      "id": 13,
+      "title": "قرص ویتامین د 3 Health اید بسته 30 عددی",
+      "image": "/images/bestSelling/13.webp",
+      "link": "#"
+    },
+    {
+      "id": 14,
+      "title": "هدفون بلوتوثی انکر مدل SoundCore R50i A3949 کاهش نویز و بهبود مکالمات، مقاوم در برابر رطوبت و عرق",
+      "image": "/images/bestSelling/14.webp",
+      "link": "#"
+    },
+    {
+      "id": 15,
+      "title": "مایع جرمگیر و تمیز کننده من مدل A2 حجم 1000 میلی لیتر",
+      "image": "/images/bestSelling/15.webp",
+      "link": "#"
+    },
+    {
+      "id": 16,
+      "title": "ساشه منیزیم مگا مگ - 400 فرش مورنینگ بسته 30 عددی",
+      "image": "/images/bestSelling/16.webp",
+      "link": "#"
+    },
+    {
+      "id": 17,
+      "title": "کره پاستوریزه پاک- 100 گرم",
+      "image": "/images/bestSelling/17.webp",
+      "link": "#"
+    },
+    {
+      "id": 18,
+      "title": "خیارشور درجه یک بدر - 1450 گرم",
+      "image": "/images/bestSelling/18.webp",
+      "link": "#"
     }
   ]
 }

@@ -6,12 +6,15 @@ import { fetchThreeHour } from "../Redux/ThreeHour/ActionThreeHour";
 const ThreeHourDelivery = () => {
   const dispatch = useDispatch();
 
-  const { threeHour, loading } = useSelector((state) => state.threeHour);
+  const { threeHour, loading ,error  } = useSelector((state) => state.threeHour);
 
   useEffect(() => {
     dispatch(fetchThreeHour());
   }, []);
 
+    if (loading) return null;
+
+  if (error) return <div>{error}</div>;
   return (
     <section dir="rtl" className="block lg:hidden mt-5 bg-[#FCF3EB] py-4">
       <div className="px-4">

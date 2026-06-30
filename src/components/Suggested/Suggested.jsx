@@ -8,7 +8,7 @@ import SuggestedMobile from "./SuggestedMobile";
 const Suggested = () => {
   const dispatch = useDispatch();
 
-  const { suggested, loading } = useSelector(
+  const { suggested, loading, error } = useSelector(
     (state) => state.suggested
   );
 
@@ -16,7 +16,8 @@ const Suggested = () => {
     dispatch(fetchSuggested());
   }, [dispatch]);
 
-  if (loading) return null;
+  if (loading) return <h1>Loading...</h1>;
+  if (error) return <h1>Error: {error}</h1>;
 
   return (
     <>
@@ -25,7 +26,6 @@ const Suggested = () => {
       </div>
 
       <div className="block lg:hidden">
-        
         <SuggestedMobile suggested={suggested} />
       </div>
     </>

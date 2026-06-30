@@ -19,17 +19,20 @@ export const setError = (error) => {
   };
 };
 export const fetchSuggested = () => {
-  console.log("ACTION STARTED");
-  return async function (dispatch) {
+  return async (dispatch) => {
+    dispatch(setLoading(true));
+
     try {
-      let data = await fetch(`${import.meta.env.BASE_URL}db.json`);
-      let res = await data.json();
+      const data = await fetch(`${import.meta.env.BASE_URL}db.json`);
+      const res = await data.json();
+      dispatch(setSuggested(res.suggested));
       dispatch(setError(""));
       dispatch(setLoading(false));
-      dispatch(setSuggested(res.suggested));
     } catch (error) {
       dispatch(setError(error.message));
       dispatch(setLoading(true));
-    }
+    }finally {
+  dispatch(setLoading(false));
+}
   };
 };

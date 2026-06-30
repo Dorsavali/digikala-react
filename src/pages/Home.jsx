@@ -12,10 +12,18 @@ import ThreeHourDelivery from "../components/ThreeHour/ThreeHour.jsx";
 import AmazingMarket from "../components/AmazingMarket/AmazingMarket.jsx";
 import Category from "../components/Category/Category.jsx";
 import BigBanner from "../components/BigBanner/BigBanner.jsx";
-import { bannerGroup1, bannerGroup2 } from "../components/BigBanner/BigBanner.js";
+import {
+  bannerGroup1,
+  bannerGroup2,
+} from "../components/BigBanner/BigBanner.js";
 import Brands from "../components/Brands/Brands.jsx";
 import Suggested from "../components/Suggested/Suggested.jsx";
+import BestSelling from "../components/BestSelling/BestSelling.jsx";
+import { useSelector } from "react-redux";
+import SuggestedDesktop from "../components/Suggested/SuggestedDesktop.jsx";
 const Home = () => {
+  const suggested = useSelector((state) => state.suggested.suggested);
+  const filtered = suggested.filter((item) => item.id >= 19 && item.id <= 22);
   return (
     <div className="flex flex-col lg:gap-4 ">
       <Banner />
@@ -32,9 +40,11 @@ const Home = () => {
       <AmazingMarket />
       <Category />
       <BigBanner data={bannerGroup1} />
-      <Brands/>
-      <BigBanner data={bannerGroup2} className="hidden md:block"  />
-      <Suggested/>
+      <Brands />
+      <BigBanner data={bannerGroup2} className="hidden md:block" />
+      <Suggested />
+      <BestSelling />
+      <SuggestedDesktop suggested={suggested.filter((item) => item.id >= 19 && item.id <= 22)} />
     </div>
   );
 };

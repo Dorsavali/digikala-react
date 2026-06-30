@@ -1,8 +1,8 @@
 import { SET_ERROR, SET_AMAZING_MARKET, SET_LOADING } from "./ActionTypes";
 const initialstate = {
   loading: true,
-  amazingMarket: {},
   error: "",
+  amazingMarket: {},
 };
 const ReducerAmazingMarket = (state = initialstate, action) => {
   switch (action.type) {
