@@ -1522,5 +1522,169 @@
       "image": "/images/bestSelling/18.webp",
       "link": "#"
     }
+  ],
+  "amazingOffer": [
+    {
+      "id": 1,
+      "title": "گوشی موبایل سامسونگ Galaxy A56",
+      "image": "/images/Topseller/1.webp",
+      "price": "۷۸٬۸۸۸٬۸۸۰",
+      "oldPrice": "۹۸٬۹۹۹٬۰۰۰",
+      "discount": "۲۰",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "title": "هدفون بی سیم انکر مدل R50i",
+      "image": "/images/Topseller/2.webp",
+      "price": "۷۳۵٬۰۰۰",
+      "oldPrice": "۸۳۵٬۰۰۰",
+      "discount": "۱۰",
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "title": "لپ تاپ ایسوس Vivobook",
+      "image": "/images/Topseller/3.webp",
+      "price": "۶۷٬۹۸۷٬۶۵۰",
+      "oldPrice": "۷۸٬۹۹۰٬۰۰۰",
+      "discount": "۱۴",
+      "link": "#"
+    },
+    {
+      "id": 4,
+      "title": "ماوس بی سیم لاجیتک",
+      "image": "/images/Topseller/4.webp",
+      "price": "۱٬۷۹۹٬۰۰۰",
+      "oldPrice": "۱٬۹۲۰٬۰۰۰",
+      "discount": "۶",
+      "link": "#"
+    },
+    {
+      "id": 5,
+      "title": "ساعت هوشمند شیائومی",
+      "image": "/images/Topseller/5.webp",
+      "price": "۴۵۱٬۰۰۰",
+      "oldPrice": "۴٬۱۰۰٬۰۰۰",
+      "discount": "۸۹",
+      "link": "#"
+    },
+    {
+      "id": 6,
+      "title": "هارد اکسترنال ای دیتا",
+      "image": "/images/Topseller/6.webp",
+      "price": "۴۶۰٬۰۰۰",
+      "oldPrice": "۹۰۰٬۰۰۰",
+      "discount": "۵۴",
+      "link": "#"
+    },
+    {
+      "id": 7,
+      "title": "کیبورد گیمینگ ردراگون",
+      "image": "/images/Topseller/7.webp",
+      "price": "۱٬۱۲۵٬۰۰۰",
+      "oldPrice": "۱٬۴۵۰٬۰۰۰",
+      "discount": "۲۲",
+      "link": "#"
+    },
+    {
+      "id": 8,
+      "title": "اسپیکر بلوتوثی جی بی ال",
+      "image": "/images/Topseller/8.webp",
+      "price": "۲٬۹۹۰٬۰۰۰",
+      "oldPrice": "۳٬۵۹۰٬۰۰۰",
+      "discount": "۱۷",
+      "link": "#"
+    },
+    {
+      "id": 9,
+      "title": "پاوربانک شیائومی ۲۰۰۰۰",
+      "image": "/images/Topseller/9.webp",
+      "price": "۱٬۴۹۰٬۰۰۰",
+      "oldPrice": "۱٬۸۹۰٬۰۰۰",
+      "discount": "۲۱",
+      "link": "#"
+    },
+    {
+      "id": 10,
+      "title": "فلش مموری سن دیسک ۶۴ گیگ",
+      "image": "/images/Topseller/10.webp",
+      "price": "۳۵۹٬۰۰۰",
+      "oldPrice": "۴۹۹٬۰۰۰",
+      "discount": "۲۸",
+      "link": "#"
+    },
+    {
+      "id": 11,
+      "title": "هندزفری سیمی سامسونگ",
+      "image": "/images/Topseller/11.webp",
+      "price": "۱۸۵٬۰۰۰",
+      "oldPrice": "۲۵۰٬۰۰۰",
+      "discount": "۲۶",
+      "link": "#"
+    },
+    {
+      "id": 12,
+      "title": "شارژر ۲۵ وات سامسونگ",
+      "image": "/images/Topseller/12.webp",
+      "price": "۶۹۰٬۰۰۰",
+      "oldPrice": "۸۹۰٬۰۰۰",
+      "discount": "۲۲",
+      "link": "#"
+    },
+    {
+      "id": 13,
+      "title": "مودم تی پی لینک",
+      "image": "/images/Topseller/13.webp",
+      "price": "۱٬۸۹۰٬۰۰۰",
+      "oldPrice": "۲٬۳۵۰٬۰۰۰",
+      "discount": "۲۰",
+      "link": "#"
+    },
+    {
+      "id": 14,
+      "title": "دسته بازی PS5",
+      "image": "/images/Topseller/14.webp",
+      "price": "۳٬۴۹۰٬۰۰۰",
+      "oldPrice": "۳٬۹۹۰٬۰۰۰",
+      "discount": "۱۳",
+      "link": "#"
+    },
+    {
+      "id": 15,
+      "title": "کیف لپ تاپ",
+      "image": "/images/Topseller/15.webp",
+      "price": "۵۹۰٬۰۰۰",
+      "oldPrice": "۷۹۰٬۰۰۰",
+      "discount": "۲۵",
+      "link": "#"
+    },
+    {
+      "id": 16,
+      "title": "پایه نگهدارنده موبایل",
+      "image": "/images/Topseller/16.webp",
+      "price": "۱۶۹٬۰۰۰",
+      "oldPrice": "۲۴۹٬۰۰۰",
+      "discount": "۳۲",
+      "link": "#"
+    },
+    {
+      "id": 17,
+      "title": "کیف پول چرمی",
+      "image": "/images/Topseller/17.webp",
+      "price": "۳۹۹٬۰۰۰",
+      "oldPrice": "۵۲۰٬۰۰۰",
+      "discount": "۲۳",
+      "link": "#"
+    },
+    {
+      "id": 18,
+      "title": "موس پد گیمینگ",
+      "image": "/images/Topseller/18.webp",
+      "price": "۱۴۵٬۰۰۰",
+      "oldPrice": "۲۲۰٬۰۰۰",
+      "discount": "۳۴",
+      "link": "#"
+    }
   ]
 }

@@ -12,6 +12,7 @@ import ReducerCategory from "./Category/ReducerCategory";
 import ReducerBrands from "./Brands/ReducerBrands";
 import  ReducerSuggested  from "./Suggested/ReducerSuggested";
 import ReducerBestSelling from "./BestSelling/ReducerBestSelling";
+import ReducerAmazingOffer from "./AmazingOffer/ReducerAmazingOffer";
 const rootreducer = combineReducers({
   banner: ReducerBanner,
   menuItems: ReducerDesktop,
@@ -26,6 +27,7 @@ const rootreducer = combineReducers({
   brands: ReducerBrands,
   suggested: ReducerSuggested,
   bestSelling: ReducerBestSelling,
+  amazingOffer:ReducerAmazingOffer,
 });
 
 export default rootreducer;

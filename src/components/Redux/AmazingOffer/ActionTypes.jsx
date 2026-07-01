@@ -1,0 +1,3 @@
+export const SET_AMAZINGOFFER = "SET_AMAZINGOFFER";
+export const SET_LOADING = "SET_LOADING";
+export const SET_ERROR = "SET_ERROR";

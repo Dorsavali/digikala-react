@@ -21,6 +21,7 @@ import Suggested from "../components/Suggested/Suggested.jsx";
 import BestSelling from "../components/BestSelling/BestSelling.jsx";
 import { useSelector } from "react-redux";
 import SuggestedDesktop from "../components/Suggested/SuggestedDesktop.jsx";
+import AmazingOffer from "../components/AmazingOffer/AmazingOffer.jsx";
 const Home = () => {
   const suggested = useSelector((state) => state.suggested.suggested);
   const filtered = suggested.filter((item) => item.id >= 19 && item.id <= 22);
@@ -45,6 +46,7 @@ const Home = () => {
       <Suggested />
       <BestSelling />
       <SuggestedDesktop suggested={suggested.filter((item) => item.id >= 19 && item.id <= 22)} />
+      <AmazingOffer/>
     </div>
   );
 };
