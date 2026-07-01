@@ -1,12 +1,17 @@
 import { Link } from "react-router-dom";
 
-const AmazingOfferCard = ({ product, index }) => {
+const AmazingOfferCard = ({ product, index , total }) => {
+  const columns = 6;
+  const lastRowStart = total - columns;
+  const isLastRow = index >= lastRowStart;
   return (
     <Link
       to={product.link}
-      className={`
-        flex flex-col justify-between items-center px-4 py-3 cursor-pointer transition-all duration-150 hover:shadow-sm"
-
+          className={`
+        flex flex-col justify-between items-center
+        px-4 py-3
+        border-b border-[#e0e0e2]
+        ${isLastRow ? "border-b-0" : ""}
       `}
     >
       <div className="w-[150px] h-[150px] flex justify-center items-center mb-2">

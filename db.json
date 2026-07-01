@@ -1686,5 +1686,133 @@
       "discount": "۳۴",
       "link": "#"
     }
-  ]
+  ],
+  "hotTrends": [
+  {
+    "id": 1,
+    "rank": "۱",
+    "title": "ساعت هوشمند ۴۹ میلی متری جی دی ۱۲ مدل 7IN1 با بند سیلیکونی",
+    "image": "/images/hotTrends/1.jpg",
+    "link": "#"
+  },
+  {
+    "id": 2,
+    "rank": "۲",
+    "title": "پودر جلبک خوراکی اسپیرولینا آلگوتب - ۵۰ گرم",
+    "image": "/images/hotTrends/2.jpg",
+    "link": "#"
+  },
+  {
+    "id": 3,
+    "rank": "۳",
+    "title": "قرص گلوکزامین نکستایل بسته ۶۰ عددی",
+    "image": "/images/hotTrends/3.jpg",
+    "link": "#"
+  },
+  {
+    "id": 4,
+    "rank": "۴",
+    "title": "اس اس دی اینترنال PCIe Gen4 x4 وسترن دیجیتال مدل SN5000 ظرفیت ۱ ترابایت",
+    "image": "/images/hotTrends/4.jpg",
+    "link": "#"
+  },
+  {
+    "id": 5,
+    "rank": "۵",
+    "title": "محافظ ولتاژ ۶۳ آمپر رویال مدل 2P63A",
+    "image": "/images/hotTrends/5.jpg",
+    "link": "#"
+  },
+  {
+    "id": 6,
+    "rank": "۶",
+    "title": "گردنبند زنانه مدل لاکت قلب ۰۱",
+    "image": "/images/hotTrends/6.jpg",
+    "link": "#"
+  },
+  {
+    "id": 7,
+    "rank": "۷",
+    "title": "قرص ویتامین ب ۱۲ یورو ویتال بسته ۶۰ عددی",
+    "image": "/images/hotTrends/7.jpg",
+    "link": "#"
+  },
+  {
+    "id": 8,
+    "rank": "۸",
+    "title": "کپسول ففول پلاس اینترافارم بسته ۳۰ عددی",
+    "image": "/images/hotTrends/8.jpg",
+    "link": "#"
+  },
+  {
+    "id": 9,
+    "rank": "۹",
+    "title": "بخارگر ۱۴۷۰ وات میگل مدل GGS 110",
+    "image": "/images/hotTrends/9.jpg",
+    "link": "#"
+  },
+  {
+    "id": 10,
+    "rank": "۱۰",
+    "title": "گوشی موبایل سامسونگ مدل Galaxy S25 FE دو سیم کارت ظرفیت ۲۵۶ گیگابایت و رم ۸ گیگابایت",
+    "image": "/images/hotTrends/10.jpg",
+    "link": "#"
+  },
+  {
+    "id": 11,
+    "rank": "۱۱",
+    "title": "پیراهن زنانه مدل تابستانی",
+    "image": "/images/hotTrends/11.jpg",
+    "link": "#"
+  },
+  {
+    "id": 12,
+    "rank": "۱۲",
+    "title": "کارواش دینامی ۳۳۰ بار ۳۸۸۰ وات اینتیمکث مدل ۲۰۲۶",
+    "image": "/images/hotTrends/12.jpg",
+    "link": "#"
+  },
+  {
+    "id": 13,
+    "rank": "۱۳",
+    "title": "ساعت هوشمند ۴۶ میلی متری شیائومی مدل Redmi Watch 6 با بند پلاستیکی",
+    "image": "/images/hotTrends/13.jpg",
+    "link": "#"
+  },
+  {
+    "id": 14,
+    "rank": "۱۴",
+    "title": "ماشین اصلاح موی صورت بانوان فیلیپس مدل BRR454",
+    "image": "/images/hotTrends/14.jpg",
+    "link": "#"
+  },
+  {
+    "id": 15,
+    "rank": "۱۵",
+    "title": "مجموعه ۳۳ عددی دریل برقی رونیکس مدل RS-0008",
+    "image": "/images/hotTrends/15.jpg",
+    "link": "#"
+  },
+  {
+    "id": 16,
+    "rank": "۱۶",
+    "title": "پاوربانک ای دیتا مدل P20000QCD ظرفیت ۲۰۰۰۰ میلی آمپر ساعت",
+    "image": "/images/hotTrends/16.jpg",
+    "link": "#"
+  },
+  {
+    "id": 17,
+    "rank": "۱۷",
+    "title": "هدست گیمینگ تسکو مدل TH 5153 دارای میکروفون",
+    "image": "/images/hotTrends/17.jpg",
+    "link": "#"
+  },
+  {
+    "id": 18,
+    "rank": "۱۸",
+    "title": "ماژیک علامت گذار پلیکان مدل هرون TEXTO بسته ۵ عددی",
+    "image": "/images/hotTrends/18.jpg",
+    "link": "#"
+  }
+]
 }

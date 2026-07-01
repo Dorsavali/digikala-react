@@ -30,7 +30,7 @@ const AmazingOffer = () => {
     <div className="w-full flex justify-center items-center pt-5 hidden lg:flex">
       <div
         dir="rtl"
-        className="w-[90%] border border-[#e0e0e2] rounded-2xl overflow-hidden bg-white"
+        className="w-[93%] border border-[#e0e0e2] rounded-2xl overflow-hidden bg-white"
       >
         <div className="flex justify-center items-center h-14 gap-2">
           <svg viewBox="0 0 24 24" className="w-6 h-6 fill-[#ef4056]">
@@ -51,15 +51,20 @@ const AmazingOffer = () => {
     grid-cols-2
     lg:grid-cols-6
     divide-x
-    divide-y
     divide-[#e0e0e2]
     rtl
   "
         >
           {amazingOffer.map((product) => (
-            <AmazingOfferCard key={product.id} product={product} />
+            <AmazingOfferCard
+              key={product.id}
+              product={product}
+              total={amazingOffer.length}
+            />
+            
           ))}
         </div>
+        
       </div>
     </div>
   );

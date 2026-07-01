@@ -3,22 +3,22 @@ import { useDispatch, useSelector } from "react-redux";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 
-import "./BestSelling.css";
+import "./HotTrends.css";
 
 import "swiper/css";
 import "swiper/css/navigation";
-import { fetchBestSelling } from "../Redux/BestSelling/ActionBestSelling";
-import BestSellingCard from "./BestSellingCard";
+import { fetchHotTrends } from "../Redux/HotTrends/ActionHotTrends";
+import HotTrendsCard from "./HotTrendsCard";
 
-const BestSelling = () => {
+const HotTrends = () => {
   const dispatch = useDispatch();
 
-  const { bestSelling, loading, error } = useSelector(
-    (state) => state.bestSelling,
+  const { hotTrends, loading, error } = useSelector(
+    (state) => state.hotTrends,
   );
 
   useEffect(() => {
-    dispatch(fetchBestSelling());
+    dispatch(fetchHotTrends());
   }, [dispatch]);
 
   const chunkArray = (array, size) => {
@@ -29,25 +29,30 @@ const BestSelling = () => {
     return chunks;
   };
 
-  const slides = chunkArray(bestSelling, 3);
+  const slides = chunkArray(hotTrends, 3);
 
   if (loading) return null;
   if (error) return <h2>{error}</h2>;
 
   return (
-    <section className="-full flex justify-center items-center ">
+    <section className="w-full flex flex-col justify-center items-center ">
+      <hr className="w-full bg-[#f5f5f5] border-none h-2 m-4.5 lg:hidden"></hr>
       <div className="w-full lg:w-[93%] lg:border lg:border-[#e0e0e2] lg:rounded-2xl bg-white lg:pt-4 lg:pb-2 ">
         {/* Header */}
         <div className="relative flex items-center justify-end lg:justify-center px-2 lg:px-5 mb-4">
-          <div className="flex items-center gap-2">
+          <div className="flex flex-row-reverse items-center gap-2">
             <img
-              src="/images/icons/star.svg"
+              src="/images/icons/fire.svg"
               alt=""
               className="hidden lg:block w-6 h-6"
             />
-
+           <img
+              src="/images/icons/firehottrend.svg"
+              alt=""
+              className="block lg:hidden w-6 h-6"
+            />
             <h2 className="font-[iranb] lg:font-[iran] text-[14px] lg:text-[21px]">
-              پرفروش‌ترین کالاها
+              داغ ترین چند ساعت گذشته
             </h2>
           </div>
 
@@ -85,7 +90,7 @@ const BestSelling = () => {
               <SwiperSlide key={slideIndex}>
                 <div className="flex flex-col ">
                   {group.map((item, index) => (
-                    <BestSellingCard
+                    <HotTrendsCard
                       key={item.id}
                       item={item}
                       number={slideIndex * 3 + index + 1}
@@ -102,4 +107,4 @@ const BestSelling = () => {
   );
 };
 
-export default BestSelling;
+export default HotTrends;
