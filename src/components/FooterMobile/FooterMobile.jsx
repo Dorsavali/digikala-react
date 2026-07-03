@@ -1,5 +1,6 @@
 import BackToTop from "./BackToTop";
 import FooterAccordion from "./FooterAccordion";
+import FooterDescription from "./FooterDescription.jsx";
 import SupportCard from "./SupportCard";
 
 const FooterMobile = () => {
@@ -8,6 +9,7 @@ const FooterMobile = () => {
       <BackToTop />
       <SupportCard/>
       <FooterAccordion/>
+      <FooterDescription/>
     </div>
   );
 };
