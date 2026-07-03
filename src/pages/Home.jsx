@@ -24,6 +24,7 @@ import SuggestedDesktop from "../components/Suggested/SuggestedDesktop.jsx";
 import AmazingOffer from "../components/AmazingOffer/AmazingOffer.jsx";
 import HotTrends from "../components/HotTrends/HotTrends.jsx";
 import Blog from "../components/Blog/Blog.jsx";
+import FooterMobile from "../components/FooterMobile/FooterMobile.jsx";
 const Home = () => {
   const suggested = useSelector((state) => state.suggested.suggested);
   const filtered = suggested.filter((item) => item.id >= 19 && item.id <= 22);
@@ -51,6 +52,7 @@ const Home = () => {
       <AmazingOffer/>
       <HotTrends/>
       <Blog/>
+      <FooterMobile/>
     </div>
   );
 };
