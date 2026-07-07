@@ -4,8 +4,9 @@ const SuggestedDesktop = ({ suggested }) => {
   if (!suggested?.length) return null;
 
   return (
-    <div
-      className="w-[93%] mx-auto flex justify-center items-center hidden lg:flex bg-white border border-gray-200 rounded-2xl overflow-hidden"
+    <section>
+  <div
+      className=" w-full  flex justify-center items-center hidden lg:flex bg-white border border-gray-200 rounded-2xl overflow-hidden"
       dir="rtl"
     >
       <div className="grid grid-cols-4 w-full">
@@ -13,9 +14,7 @@ const SuggestedDesktop = ({ suggested }) => {
           <div
             key={section.id}
             className={`py-2 px-5 ${
-              index !== suggested.length - 1
-                ? "border-l border-gray-200"
-                : ""
+              index !== 0 ? "border-r border-gray-200" : ""
             }`}
           >
             <div className="mb-5">
@@ -60,6 +59,8 @@ const SuggestedDesktop = ({ suggested }) => {
         ))}
       </div>
     </div>
+    </section>
+  
   );
 };
 

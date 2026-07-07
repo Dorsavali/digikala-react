@@ -13,8 +13,8 @@ const Banner = () => {
   if (loading) return <h1>Loading...</h1>;
   if (error) return <h1>Error: {error}</h1>;
   return (
-    <div className="w-full h-[35px] md:h-[35px] lg:h-[60px] bg-[rgba(0,0,0,0.04)]">
-      <Link to="#" className="w-full h-full">
+    <div className=" w-full h-[35px] md:h-[35px] lg:h-[60px] bg-[rgba(0,0,0,0.04)]">
+      <Link to="#" className="w-full h-full ">
         {banner?.map((item, index) => {
           return (
             <img

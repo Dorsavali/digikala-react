@@ -6,7 +6,9 @@
   background: white;
   border: 1px solid #d1d5db;
 }
-
+.swiper-button-disabled {
+  display: none;
+}
 .swiper-button-next::after,
 .swiper-button-prev::after {
   font-size: 12px;

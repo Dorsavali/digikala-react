@@ -1,8 +1,11 @@
 const Left = () => {
   return (
-    <div className="flex justify-end w-[20%] gap-5 pl-2"  >
-     <p className="text-[24px] text-[#424750] cursor-pointer font-[cube]"></p>
-     <button
+    <div className="flex justify-end items-center gap-5 pl-2 shrink-0">
+      <p className="text-[24px] text-[#424750] cursor-pointer font-[cube]">
+        
+      </p>
+
+      <button
         className="
           h-[40px]
           px-4
@@ -12,20 +15,20 @@ const Left = () => {
           flex
           items-center
           gap-2
-          text-[12px]
-          font-medium
-          text-[#0c0c0c]
-
-          font-[iran]
+          shrink-0
+          whitespace-nowrap
         "
       >
         <svg className="w-6 h-6 fill-[#424750]">
           <path d="M16 15h-2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V7a2 2 0 012-2h6a2 2 0 012 2v2h2V7a4 4 0 00-4-4H6a4 4 0 00-4 4v10a4 4 0 004 4h6a4 4 0 004-4v-2zm6-4H9.414l2.293-2.293-1.414-1.414-4 4a1 1 0 000 1.414l4 4 1.414-1.414L9.414 13H22v-2z" />
         </svg>
 
-        <span >ورود | ثبت‌نام</span>
+        <span className="text-[12px] font-medium text-[#0c0c0c] font-[iran] whitespace-nowrap">
+          ورود | ثبت‌نام
+        </span>
       </button>
-      <div className="border-r border-[#e0e0e2] pr-4 cursor-pointer pt-2">
+
+      <div className="border-r border-[#e0e0e2] pr-4 cursor-pointer pt-2 shrink-0">
         <svg className="w-6 h-6 fill-[#424750]">
           <path
             fillRule="evenodd"
@@ -33,8 +36,6 @@ const Left = () => {
           />
         </svg>
       </div>
-      
-      
     </div>
   );
 };

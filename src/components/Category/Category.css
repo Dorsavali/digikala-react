@@ -12,7 +12,9 @@
     height: 12px !important;
   }
 }
-
+.swiper-button-disabled {
+  display: none;
+}
 .swiper-button-next::after,
 .swiper-button-prev::after {
   font-size: 12px;

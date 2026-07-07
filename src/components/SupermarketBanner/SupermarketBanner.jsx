@@ -8,20 +8,19 @@ const products = [
     id: 2,
     img: "/images/supermarketBanner/superitem2.webp",
     discount: "۵۵٪",
-  }
+  },
 ];
 
 const SuperMarketBanner = () => {
   return (
     <section
       dir="rtl"
-      className="hidden lg:flex justify-center w-full mt-4"
+      className=" hidden lg:flex justify-center w-full"
     >
       <div
         className="
           relative
-          w-[97%]
-          max-w-[1336px] 
+         w-full
           h-[110px]
           bg-[#ECEEEE]
           rounded-2xl
@@ -157,10 +156,7 @@ const SuperMarketBanner = () => {
                 بیش از ۵۰ کالا
               </span>
 
-              <svg
-                viewBox="0 0 24 24"
-                className="w-5 h-5 fill-[#029A49]"
-              >
+              <svg viewBox="0 0 24 24" className="w-5 h-5 fill-[#029A49]">
                 <path
                   fillRule="evenodd"
                   d="M11.293 19.707l1.414-1.414L7.414 13H20v-2H7.414l5.293-5.293-1.414-1.414-7 7a1 1 0 000 1.414l7 7z"

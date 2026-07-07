@@ -24,13 +24,11 @@ const Brands = () => {
   if (error) return <div>{error}</div>;
 
   return (
-    <section className="w-[93%] mx-auto lg:border lg:border-gray-200 rounded-2xl lg:py-[24px] ">
+    <div className=" box-border w-full">
+
+  <section className=" w-full lg:border lg:border-gray-200 rounded-2xl lg:py-[24px] ">
       <div className="flex flex-row-reverse lg:justify-center justify-start items-center gap-2 mb-5 ">
-        <img
-          src="/images/icons/star.svg"
-          alt="star"
-          className="w-6 h-6"
-        />
+        <img src="/images/icons/star.svg" alt="star" className="w-6 h-6" />
 
         <h2 className="font-[iranb] lg:font-[iran] text-[14px] lg:text-[21px] ">
           محبوب‌ترین برندها
@@ -83,9 +81,7 @@ const Brands = () => {
               <a
                 href={item.link}
                 className={`flex justify-center items-center px-4 py-2 ${
-                  index !== brands.length - 1
-                    ? "border-l border-gray-200"
-                    : ""
+                  index !== brands.length - 1 ? "border-l border-gray-200" : ""
                 }`}
               >
                 <img
@@ -99,6 +95,10 @@ const Brands = () => {
         </Swiper>
       </div>
     </section>
+
+
+    </div>
+  
   );
 };
 

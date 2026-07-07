@@ -4,7 +4,7 @@ import Left from "./Left";
 const Top = () => {
   return (
     <div
-      className="w-full h-[68px] lg:flex md:hidden items-center justify-between px-4 bg-white"
+      className="max-w-[1836px] lg:mx-auto w-full h-[68px] lg:flex md:hidden items-center justify-between px-4 bg-white"
       dir="rtl"
     >
       <div className="flex items-center gap-5 w-[70%]">

@@ -27,7 +27,10 @@ const options = [
 ];
 const FooterOptions = () => {
   return (
-    <div className="w-full flex justify-around items-center my-8 px-5" dir="rtl">
+    <div
+      className="max-w-[1550px] lg:mx-auto  w-full flex justify-around items-center my-8 px-5"
+      dir="rtl"
+    >
       {options.map((item) => (
         <div
           key={item.id}
@@ -39,9 +42,7 @@ const FooterOptions = () => {
             className="w-14 h-14 object-contain"
           />
 
-          <p className="mt-2 text-[11px] text-[#3f4064]">
-            {item.title}
-          </p>
+          <p className="mt-2 text-[11px] text-[#3f4064]">{item.title}</p>
         </div>
       ))}
     </div>

@@ -27,8 +27,8 @@ const Blog = () => {
   ];
 
   return (
-    <section className="hidden lg:flex w-full justify-center items-center py-8">
-      <div className="w-full lg:w-[93%]">
+    <section className=" hidden lg:flex w-full justify-center items-center py-8">
+      <div className="w-full lg:w-full">
         <div className="flex flex-row-reverse items-center justify-between mb-5">
           <h2 className="font-[iranb] text-[16px] text-[#0c0c0c]">
             خواندنی‌ها
@@ -40,10 +40,10 @@ const Blog = () => {
           >
             مطالب بیشتر در دیجی‌کالا مگ
             <img
-                  className="w-[18px] h-[18px]"
-                  src="/images/icons/chevblue.svg"
-                  alt="arrow"
-                />
+              className="w-[18px] h-[18px]"
+              src="/images/icons/chevblue.svg"
+              alt="arrow"
+            />
           </a>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">

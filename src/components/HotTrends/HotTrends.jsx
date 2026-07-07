@@ -13,9 +13,7 @@ import HotTrendsCard from "./HotTrendsCard";
 const HotTrends = () => {
   const dispatch = useDispatch();
 
-  const { hotTrends, loading, error } = useSelector(
-    (state) => state.hotTrends,
-  );
+  const { hotTrends, loading, error } = useSelector((state) => state.hotTrends);
 
   useEffect(() => {
     dispatch(fetchHotTrends());
@@ -35,9 +33,9 @@ const HotTrends = () => {
   if (error) return <h2>{error}</h2>;
 
   return (
-    <section className="w-full flex flex-col justify-center items-center ">
+    <section className=" w-full flex flex-col justify-center items-center ">
       <hr className="w-full bg-[#f5f5f5] border-none h-2 m-4.5 lg:hidden"></hr>
-      <div className="w-full lg:w-[93%] lg:border lg:border-[#e0e0e2] lg:rounded-2xl bg-white lg:pt-4 lg:pb-2 ">
+      <div className="w-full lg:w-full lg:border lg:border-[0.8px] lg:border-[#e0e0e2] lg:rounded-2xl bg-white lg:pt-4 lg:pb-2 ">
         {/* Header */}
         <div className="relative flex items-center justify-end lg:justify-center px-2 lg:px-5 mb-4">
           <div className="flex flex-row-reverse items-center gap-2">
@@ -46,7 +44,7 @@ const HotTrends = () => {
               alt=""
               className="hidden lg:block w-6 h-6"
             />
-           <img
+            <img
               src="/images/icons/firehottrend.svg"
               alt=""
               className="block lg:hidden w-6 h-6"
@@ -84,7 +82,6 @@ const HotTrends = () => {
                 spaceBetween: 0,
               },
             }}
-          
           >
             {slides.map((group, slideIndex) => (
               <SwiperSlide key={slideIndex}>

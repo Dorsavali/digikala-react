@@ -1,6 +1,6 @@
 const Banner = ({ image, alt = "banner" }) => {
   return (
-    <div className="my-5 max-w-[1336px] mx-auto flex flex-col md:flex-row gap-4 px-4 lg:px-0">
+    <div className="my-5 flex flex-col md:flex-row gap-4 px-4 lg:px-0">
       <img
         src={image}
         alt={alt}

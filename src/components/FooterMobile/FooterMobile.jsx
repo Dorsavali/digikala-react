@@ -1,7 +1,7 @@
-import BackToTop from "./BackToTop";
-import FooterAccordion from "./FooterAccordion";
+import BackToTop from "./BackToTop.jsx";
+import FooterAccordion from "./FooterAccordion.jsx";
 import FooterDescription from "./FooterDescription.jsx";
-import SupportCard from "./SupportCard";
+import SupportCard from "./SupportCard.jsx";
 
 const FooterMobile = () => {
   return (

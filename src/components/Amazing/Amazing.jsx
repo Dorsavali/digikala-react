@@ -54,8 +54,8 @@ const Amazing = () => {
   };
 
   return (
-    <section className="w-full mt-4 font-[iran,sans-serif]">
-      <div className="max-w-334 mx-auto lg:rounded-2xl" style={amazingBg}>
+    <section className=" w-full mt-4 font-[iran,sans-serif]">
+      <div className=" mx-auto lg:rounded-2xl" style={amazingBg}>
         <div className="lg:hidden pt-4 px-3 flex flex-row-reverse justify-between items-center">
           <div className="flex items-center gap-3">
             <div className="flex gap-0.5 items-center h-6">

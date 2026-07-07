@@ -26,35 +26,45 @@ import HotTrends from "../components/HotTrends/HotTrends.jsx";
 import Blog from "../components/Blog/Blog.jsx";
 import FooterMobile from "../components/FooterMobile/FooterMobile.jsx";
 import FooterDesktop from "../components/FooterDesktop/FooterDesktop.jsx";
+import ContainerSize from "../components/ContainerSize.jsx";
 const Home = () => {
   const suggested = useSelector((state) => state.suggested.suggested);
-  const filtered = suggested.filter((item) => item.id >= 19 && item.id <= 22);
   return (
-    <div className="flex flex-col lg:gap-4 ">
+    <div>
       <Banner />
-      <DesktopHeader />
+        <DesktopHeader />
+     
       <MobileHeader />
-      <Story />
+      <ContainerSize>
+        <Story />
+     </ContainerSize>
       <Slider />
-      <Access />
-      <Amazing />
-      <Container banners={banners1} />
-      <SuperMarketBanner />
+      <ContainerSize>
+        <Access />
+        <Amazing />
+        <Container banners={banners1} />
+        <SuperMarketBanner />
+     
       <ThreeHourDelivery />
-      <Container banners={banners2} />
+        <Container banners={banners2} />
+     
       <AmazingMarket />
-      <Category />
-      <BigBanner data={bannerGroup1} />
-      <Brands />
-      <BigBanner data={bannerGroup2} className="hidden md:block" />
-      <Suggested />
-      <BestSelling />
-      <SuggestedDesktop suggested={suggested.filter((item) => item.id >= 19 && item.id <= 22)} />
-      <AmazingOffer/>
-      <HotTrends/>
-      <Blog/>
-      <FooterMobile/>
-      <FooterDesktop/>
+        <Category />
+     
+        <BigBanner data={bannerGroup1} />
+        <Brands />
+        <BigBanner data={bannerGroup2} className="hidden md:block" />
+        <Suggested />
+        <BestSelling />
+        <SuggestedDesktop
+          suggested={suggested.filter((item) => item.id >= 19 && item.id <= 22)}
+        />
+        <AmazingOffer />
+        <HotTrends />
+        <Blog />
+      </ContainerSize>
+      <FooterMobile />
+      <FooterDesktop />
     </div>
   );
 };

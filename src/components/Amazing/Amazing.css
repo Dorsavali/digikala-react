@@ -6,7 +6,9 @@
   background: white;
   border: 1px solid #e0e0e2;
 }
-
+.swiper-button-disabled {
+  display: none;
+}
 .custom-amazing-swiper .swiper-button-next::after,
 .custom-amazing-swiper .swiper-button-prev::after {
   font-size: 14px !important;

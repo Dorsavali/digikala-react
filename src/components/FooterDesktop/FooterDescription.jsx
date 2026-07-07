@@ -6,7 +6,7 @@ const FooterDescription = () => {
 
   return (
     <div
-      className="px-5 flex justify-between gap-10 py-8 border-t border-[#f0f0f1]"
+      className="max-w-[1550px] lg:mx-auto  px-5 flex justify-between gap-10 py-8 border-t border-[#f0f0f1]"
       dir="rtl"
     >
       {/* متن */}

@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { fetchStory } from "../Redux/Story/ActionStory";
 import { useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -20,7 +20,7 @@ const Story = () => {
   return (
     <div
       dir="rtl"
-      className="hidden lg:flex select-none w-full lg:h-[173px] flex flex-row flex-wrap justify-center pt-3 overflow-hidden lg:overflow-visible"
+      className=" hidden lg:flex select-none w-full lg:h-[173px] flex flex-row flex-wrap justify-center pt-3 overflow-hidden lg:overflow-visible"
     >
       <div className="w-[92%] h-[150px] flex flex-row flex-nowrap items-center gap-6">
         <Swiper

@@ -19,7 +19,9 @@
   font-size: 12px !important;
   font-weight: bold !important;
 }
-
+.swiper-button-disabled {
+  display: none;
+}
 .swiper {
   direction: rtl;
     box-sizing: border-box;}

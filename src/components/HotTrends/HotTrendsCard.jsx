@@ -18,7 +18,7 @@ const HotTrendsCard = ({ item, number, lastItem }) => {
           />
         </div>
 
-        <span className="w-8 ml-3 shrink-0 text-[#1672dd] text-[26px] font-black leading-none font-[iran] flex justify-center">
+        <span className="w-8 ml-2.5 shrink-0 text-[#1672dd] text-[26px] font-black leading-none font-[iran] flex justify-center">
           {number.toLocaleString("fa-IR")}
         </span>
 

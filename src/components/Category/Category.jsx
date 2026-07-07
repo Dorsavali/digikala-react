@@ -35,8 +35,8 @@ const Category = () => {
     );
 
   return (
-    <section className="w-full lg:px-4 px-0 mt-5">
-      <div className="max-w-[1336px] mx-auto">
+    <section className="w-full mt-5">
+      <div >
         <div className="w-full flex lg:justify-center justify-end mb-6 lg:mb-9 px-4 lg:px-0">
           <h2 className="font-[iranb] text-[16px] hidden lg:block lg:text-[21px] text-[#0c0c0c]">
             خرید بر اساس دسته‌بندی
@@ -75,7 +75,7 @@ const Category = () => {
         >
           {category.map((item) => (
             <SwiperSlide key={item.id}>
-              <div className="flex flex-col items-center justify-between gap-5">
+              <div className="flex flex-col items-center justify-between gap-4">
                 <div className="h-[125px] px-4">
                   <div className="flex flex-col items-center w-full select-none cursor-pointer">
                     <div className="lg:w-[100px] lg:h-[100px] w-[70px] h-[70px] flex justify-center items-center">

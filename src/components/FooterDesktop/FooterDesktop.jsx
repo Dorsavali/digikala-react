@@ -1,6 +1,5 @@
 import FooterCopyright from "./FooterCopyright";
 import FooterDescription from "./FooterDescription";
-import FooterAbout from "./FooterDescription";
 import FooterDownload from "./FooterDownload";
 import FooterInfo from "./FooterInfo";
 import FooterMenu from "./FooterMenu";

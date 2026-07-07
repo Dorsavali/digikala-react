@@ -4,9 +4,8 @@ import { fetchAccess } from "../Redux/Access/ActionAccess";
 
 const Access = () => {
   const dispatch = useDispatch();
-const accessState = useSelector((state) => state.access);
-const { access, loading, error } = accessState;
-
+  const accessState = useSelector((state) => state.access);
+  const { access, loading, error } = accessState;
 
   useEffect(() => {
     dispatch(fetchAccess());
@@ -29,7 +28,9 @@ const { access, loading, error } = accessState;
   }
 
   return (
-    <section className="w-full py-4">
+    <section
+      className="w-full pt-7"
+    >
       <div
         dir="rtl"
         className="
@@ -41,9 +42,6 @@ const { access, loading, error } = accessState;
           lg:gap-0
           overflow-x-auto
           lg:overflow-hidden
-          px-4
-          max-w-[1336px]
-          mx-auto
           scrollbar-hide
         "
       >
