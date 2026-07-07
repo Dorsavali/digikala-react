@@ -27,6 +27,7 @@ import Blog from "../components/Blog/Blog.jsx";
 import FooterMobile from "../components/FooterMobile/FooterMobile.jsx";
 import FooterDesktop from "../components/FooterDesktop/FooterDesktop.jsx";
 import ContainerSize from "../components/ContainerSize.jsx";
+import SuperMarketModal from "../components/SuperMarketModal/SuperMarketModal.jsx";
 const Home = () => {
   const suggested = useSelector((state) => state.suggested.suggested);
   return (
@@ -63,6 +64,7 @@ const Home = () => {
         <HotTrends />
         <Blog />
       </ContainerSize>
+      <SuperMarketModal/>
       <FooterMobile />
       <FooterDesktop />
     </div>

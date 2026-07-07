@@ -22,7 +22,7 @@ const Story = () => {
       dir="rtl"
       className=" hidden lg:flex select-none w-full lg:h-[173px] flex flex-row flex-wrap justify-center pt-3 overflow-hidden lg:overflow-visible"
     >
-      <div className="w-[92%] h-[150px] flex flex-row flex-nowrap items-center gap-6">
+      <div className="w-full h-[150px] flex flex-row flex-nowrap items-center gap-6">
         <Swiper
           dir="rtl"
           modules={[Navigation]}
