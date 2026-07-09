@@ -1,6 +1,8 @@
-const Middle = () => {
+﻿import { Link } from "react-router-dom";
+
+const Middle = ({ bgColor = "bg-[#f2f3f5]" }) => {
   return (
-    <div className="flex lg:hidden w-full px-4 py-2 box-border items-center gap-3 bg-[#f2f3f5]">
+    <div className={`flex lg:hidden w-full px-4 py-2 box-border items-center gap-3 ${bgColor}`}>
       <div className="relative flex-1">
         <input
           type="search"
@@ -29,3 +31,4 @@ const Middle = () => {
 };
 
 export default Middle;
+

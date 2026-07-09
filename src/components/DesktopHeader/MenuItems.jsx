@@ -1,4 +1,4 @@
-import { fetchMenuItems } from "../Redux/DesktopHeader/ActionsDesktop";
+﻿import { fetchMenuItems } from "../Redux/DesktopHeader/ActionsDesktop";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import MegaMenu from "./MegaMenu";
@@ -99,7 +99,7 @@ const MenuItems = () => {
         {menuItems?.map((item) => (
           <li
             key={item.id}
-            className="px-3 h-full flex items-center justify-center"
+            className="group/menuitem relative px-3 h-full flex items-center justify-center"
           >
             <a
               href={item.href || "#"}
@@ -118,6 +118,8 @@ const MenuItems = () => {
               <MenuIcon icon={item.icon} />
               {item.title}
             </a>
+
+            <span className="absolute bottom-0 right-3 left-3 h-[2px] origin-center scale-x-0 rounded-full bg-[#ef4056] transition-transform duration-300 ease-out group-hover/menuitem:scale-x-100" />
           </li>
         ))}
       </ul>

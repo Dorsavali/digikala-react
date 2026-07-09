@@ -83,7 +83,7 @@ const Amazing = () => {
           </div>
         </div>
 
-        <div className="px-2 py-2 lg:py-5">
+        <div className="px-2 py-5 lg:py-5">
           <div className="flex flex-row-reverse">
             <div className="flex-1 min-w-0">
               <Swiper
@@ -136,14 +136,14 @@ const Amazing = () => {
                     <SwiperSlide
                       key={item.id}
                       style={{
-                        width: isMobile ? 130 : 150,
+                        width: isMobile ? 114 : 150,
                         height: isMobile ? 220 : 220,
                       }}
                       className={`bg-white ${
                         isFirst ? "rounded-tr-xl rounded-br-xl" : ""
                       }`}
                     >
-                      <div className="flex flex-col items-start p-2 ">
+                      <div className="flex flex-col items-start p-2 gap-1 ">
                         <img
                           src={item.img}
                           className="w-[114px] h-[114px] object-contain self-center"
@@ -155,18 +155,18 @@ const Amazing = () => {
                         <div className="mt-auto">
                           {item.percentage && (
                             <div className="flex items-center gap-1">
-                              <span className="w-[28px] h-4 bg-[#d32f2f] text-white text-center text-xs px-1 rounded-full font-[iran]">
+                              <span className="w-[28px] h-4 bg-[#d32f2f] text-white text-center text-[11px] lg:text-xs px-1 rounded-full font-[iranb]">
                                 {item.percentage}
                               </span>
 
-                              <span className="line-through text-gray-400 text-xs font-[iran]">
+                              <span className="line-through text-gray-300 text-[11px] lg:text-sm  font-[iran]">
                                 {item.price}
                               </span>
                             </div>
                           )}
 
                           <div className="flex items-center gap-1 mt-1">
-                            <span className="font-bold text-sm font-[iran]">
+                            <span className="font-bold text-sm font-[iran]text-[#23254e]">
                               {item.pureprice}
                             </span>
 
