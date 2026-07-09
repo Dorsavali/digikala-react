@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 import ReduxStatus from "../Ui/ReduxStatus";
 import { fetchMenuItems } from "../Redux/DesktopHeader/ActionsDesktop";
+=======
+﻿import { fetchMenuItems } from "../Redux/DesktopHeader/ActionsDesktop";
+>>>>>>> 9a4b1ff3207dad4ce3e01bc6e1c37f2c99b3efe4
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import MegaMenu from "./MegaMenu";

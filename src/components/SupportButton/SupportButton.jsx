@@ -26,10 +26,17 @@ const SupportButton = () => {
           shadow-lg
           lg:bottom-6
           lg:left-6
+<<<<<<< HEAD
           font-[iran]
         "
       >
         <span className="text-[16px] font-[iran]">پشتیبانی</span>
+=======
+          font-[iranb]
+        "
+      >
+           <span className="text-[16px] font-[iranb]">پشتیبانی</span>
+>>>>>>> 9a4b1ff3207dad4ce3e01bc6e1c37f2c99b3efe4
         <span className="flex h-6 w-6 items-center justify-center">
           <svg viewBox="0 0 1024 1024" fill="none" className="h-6 w-6">
             <path
@@ -38,6 +45,11 @@ const SupportButton = () => {
             />
           </svg>
         </span>
+<<<<<<< HEAD
+=======
+
+     
+>>>>>>> 9a4b1ff3207dad4ce3e01bc6e1c37f2c99b3efe4
       </button>
 
       {open && (
@@ -47,7 +59,11 @@ const SupportButton = () => {
         >
           <div className="w-full rounded-t-2xl bg-white p-4 font-[iran] lg:w-[420px] lg:rounded-2xl">
             <div className="mb-4 flex items-center justify-between">
+<<<<<<< HEAD
               <h3 className="font-[iran] text-[16px] text-[#23254e]">
+=======
+              <h3 className="font-[iranb] text-[16px] text-[#23254e]">
+>>>>>>> 9a4b1ff3207dad4ce3e01bc6e1c37f2c99b3efe4
                 پشتیبانی دیجی‌کالا
               </h3>
 
@@ -87,4 +103,8 @@ const SupportButton = () => {
   );
 };
 
+<<<<<<< HEAD
 export default SupportButton;
+=======
+export default SupportButton;
+>>>>>>> 9a4b1ff3207dad4ce3e01bc6e1c37f2c99b3efe4

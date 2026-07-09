@@ -136,13 +136,21 @@ const Amazing = () => {
                       key={item.id}
                       style={{
                         width: isMobile ? 114 : 150,
+<<<<<<< HEAD
                         height: isMobile ? 220 : 230,
+=======
+                        height: isMobile ? 220 : 220,
+>>>>>>> 9a4b1ff3207dad4ce3e01bc6e1c37f2c99b3efe4
                       }}
                       className={`bg-white ${
                         isFirst ? "rounded-tr-xl rounded-br-xl" : ""
                       }`}
                     >
+<<<<<<< HEAD
                       <div className="flex flex-col items-start p-2 gap-1 h-full">
+=======
+                      <div className="flex flex-col items-start p-2 gap-1 ">
+>>>>>>> 9a4b1ff3207dad4ce3e01bc6e1c37f2c99b3efe4
                         <img
                           src={item.img}
                           className="w-[114px] h-[114px] object-contain self-center"
@@ -154,7 +162,11 @@ const Amazing = () => {
                         <div className="mt-auto">
                           {item.percentage && (
                             <div className="flex items-center gap-1">
+<<<<<<< HEAD
                               <span className="w-[28px] h-4 bg-[#d32f2f] text-white text-center text-[11px] lg:text-xs px-1 rounded-full font-[iran]">
+=======
+                              <span className="w-[28px] h-4 bg-[#d32f2f] text-white text-center text-[11px] lg:text-xs px-1 rounded-full font-[iranb]">
+>>>>>>> 9a4b1ff3207dad4ce3e01bc6e1c37f2c99b3efe4
                                 {item.percentage}
                               </span>
 
