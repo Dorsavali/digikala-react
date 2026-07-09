@@ -1,4 +1,5 @@
-﻿import { useDispatch, useSelector } from "react-redux";
+import ReduxStatus from "../Ui/ReduxStatus";
+import { useDispatch, useSelector } from "react-redux";
 import { fetchAmazing } from "../Redux/Amazing/ActionAmazing";
 import { useEffect, useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -44,9 +45,7 @@ const Amazing = () => {
     .toString()
     .padStart(2, "0");
   const seconds = (timeLeft % 60).toString().padStart(2, "0");
-
-  if (loading) return <h1>Loading...</h1>;
-  if (error) return <h1>Error: {error}</h1>;
+  if (loading || error) return <ReduxStatus loading={loading} error={error} />;
   if (!amazing?.roll?.length) return null;
 
   const amazingBg = {
@@ -55,7 +54,7 @@ const Amazing = () => {
   };
 
   return (
-    <section className="w-full mt-4 font-[iran,sans-serif]">
+    <section className="w-full mt-4 font-[iran]">
       <div className="mx-auto lg:rounded-2xl" style={amazingBg}>
         <div className="lg:hidden pt-4 px-3 flex flex-row-reverse justify-between items-center">
           <div className="flex items-center gap-3">
@@ -137,25 +136,25 @@ const Amazing = () => {
                       key={item.id}
                       style={{
                         width: isMobile ? 114 : 150,
-                        height: isMobile ? 220 : 220,
+                        height: isMobile ? 220 : 230,
                       }}
                       className={`bg-white ${
                         isFirst ? "rounded-tr-xl rounded-br-xl" : ""
                       }`}
                     >
-                      <div className="flex flex-col items-start p-2 gap-1 ">
+                      <div className="flex flex-col items-start p-2 gap-1 h-full">
                         <img
                           src={item.img}
                           className="w-[114px] h-[114px] object-contain self-center"
                         />
 
-                        <p className="text-[12px] mt-2 line-clamp-2 text-right h-[40px] overflow-hidden font-[iran]">
+                        <p className="text-[12px] mt-2 line-clamp-2 text-right h-[40px] overflow-hidden font-[iran,sans-serif]">
                           {item.text}
                         </p>
                         <div className="mt-auto">
                           {item.percentage && (
                             <div className="flex items-center gap-1">
-                              <span className="w-[28px] h-4 bg-[#d32f2f] text-white text-center text-[11px] lg:text-xs px-1 rounded-full font-[iranb]">
+                              <span className="w-[28px] h-4 bg-[#d32f2f] text-white text-center text-[11px] lg:text-xs px-1 rounded-full font-[iran]">
                                 {item.percentage}
                               </span>
 
@@ -216,7 +215,7 @@ const Amazing = () => {
                     <span className="flex h-[44px] w-[44px] items-center justify-center rounded-full border-2 border-[#19bfd3] text-[30px] leading-none text-[#19bfd3]">
                       +
                     </span>
-                    <span className="text-center text-xs font-[iranb]">
+                    <span className="text-center text-xs font-[iran]">
                       افزودن اسلاید
                     </span>
                   </button>

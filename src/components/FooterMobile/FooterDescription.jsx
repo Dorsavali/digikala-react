@@ -14,9 +14,16 @@ const FooterDescription = () => {
         <FooterDescriptionDataM />
       </div>
 
-      <button onClick={() => setShowMore(!showMore)} className="flex justify-center items-center text-[#a1a3a8] text-[14px] font-[iran] mt-1.5">
+      <button
+        onClick={() => setShowMore(!showMore)}
+        className="flex justify-center items-center text-[#a1a3a8] text-[14px] font-[iran] mt-1.5"
+      >
         {showMore ? "بستن" : "مشاهده بیشتر"}
-        <img src="/images/icons/chevgray.svg" alt="chev" className="w-[14px] h-[14px]"/>
+        <img
+          src="/images/icons/chevgray.svg"
+          alt="chev"
+          className="w-[14px] h-[14px]"
+        />
       </button>
     </div>
   );

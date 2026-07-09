@@ -13,10 +13,7 @@ const products = [
 
 const SuperMarketBanner = () => {
   return (
-    <section
-      dir="rtl"
-      className=" hidden lg:flex justify-center w-full"
-    >
+    <section dir="rtl" className=" hidden lg:flex justify-center w-full">
       <div
         className="
           relative
@@ -74,7 +71,7 @@ const SuperMarketBanner = () => {
               items-center
               justify-center
               text-[14px]
-              font-[iranb]
+              font-[iran]
             "
           >
             تا ۳۰٪ تخفیف
@@ -119,7 +116,7 @@ const SuperMarketBanner = () => {
                     bg-[#D32F2F]
                     text-white
                     text-[12px]
-                    font-[iranb]
+                    font-[iran]
                     px-2
                     py-[2px]
                     rounded-2xl
@@ -150,7 +147,7 @@ const SuperMarketBanner = () => {
                 className="
                   text-[#029A49]
                   text-[12px]
-                  font-[iranb]
+                  font-[iran]
                 "
               >
                 بیش از ۵۰ کالا

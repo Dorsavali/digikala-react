@@ -1,3 +1,4 @@
+import ReduxStatus from "../Ui/ReduxStatus";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchSuggested } from "../Redux/Suggested/ActionSuggested";
@@ -14,10 +15,8 @@ const Suggested = () => {
 
   useEffect(() => {
     dispatch(fetchSuggested());
-  }, [dispatch]);
-
-  if (loading) return <h1>Loading...</h1>;
-  if (error) return <h1>Error: {error}</h1>;
+  }, [dispatch]);
+  if (loading || error) return <ReduxStatus loading={loading} error={error} />;
 
   return (
     <>

@@ -1,4 +1,5 @@
-﻿import { fetchMenuItems } from "../Redux/DesktopHeader/ActionsDesktop";
+import ReduxStatus from "../Ui/ReduxStatus";
+import { fetchMenuItems } from "../Redux/DesktopHeader/ActionsDesktop";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import MegaMenu from "./MegaMenu";
@@ -60,21 +61,7 @@ const MenuItems = () => {
     }
   };
 
-  if (loading) {
-    return (
-      <div className="h-full flex items-center px-4 font-[iran]">
-        Loading...
-      </div>
-    );
-  }
-
-  if (error) {
-    return (
-      <div className="h-full flex items-center px-4 text-red-500 font-[iran]">
-        {error}
-      </div>
-    );
-  }
+  if (loading || error) return <ReduxStatus loading={loading} error={error} />;
 
   return (
     <div className="h-full font-[iran]">

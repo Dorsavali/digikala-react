@@ -1,3 +1,4 @@
+import ReduxStatus from "../Ui/ReduxStatus";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchStory } from "../Redux/Story/ActionStory";
 import { useEffect } from "react";
@@ -15,8 +16,8 @@ const Story = () => {
   useEffect(() => {
     dispatch(fetchStory());
   }, []);
-  if (loading) return <h1>Loading...</h1>;
-  if (error) return <h1>Error: {error}</h1>;
+
+  if (loading || error) return <ReduxStatus loading={loading} error={error} />;
   return (
     <div
       dir="rtl"
@@ -46,7 +47,7 @@ const Story = () => {
             return (
               <SwiperSlide
                 key={item.id}
-                className="!flex !flex-col justify-start items-center text-center cursor-pointer bg-white h-full"
+                className="!flex !flex-col pr-5 justify-start items-center text-center cursor-pointer bg-white h-full "
               >
                 <div className="flex flex-col items-center w-[110px] h-full pt-2 box-border">
                   <div className="relative w-[84px] h-[84px] flex items-center justify-center flex-shrink-0">
@@ -66,8 +67,8 @@ const Story = () => {
                       className="relative w-[76px] h-[76px] rounded-full object-cover"
                     />
                   </div>
-
-                  <div className="w-full h-[48px] mt-3 text-[11px] leading-6 text-center text-[#23254e] font-[iran] line-clamp-2 overflow-hidden">
+                  
+                  <div className="w-full min-h-[48px] mt-3 text-[11px] leading-5 text-center text-[#23254e] font-[iran,sans-serif] line-clamp-2 " dir="rtl">
                     {item.name}
                   </div>
                 </div>

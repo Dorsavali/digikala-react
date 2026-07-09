@@ -39,7 +39,7 @@ const SupportCard = () => {
             </div>
 
             <div className="flex flex-col gap-1">
-              <h3 className="text-[12px] text-right font-bold text-[#3f4064] font-[iranb]">
+              <h3 className="text-[12px] text-right font-bold text-[#3f4064] font-[iran]">
                 {item.title}
               </h3>
 

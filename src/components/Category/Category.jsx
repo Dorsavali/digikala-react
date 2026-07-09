@@ -1,3 +1,4 @@
+import ReduxStatus from "../Ui/ReduxStatus";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchCategory } from "../Redux/Category/ActionCategory";
@@ -20,19 +21,7 @@ const Category = () => {
     dispatch(fetchCategory());
   }, [dispatch]);
 
-  if (loading)
-    return (
-      <div className="w-full flex justify-center py-10">
-        <h1 className="font-[iran] text-sm">در حال بارگذاری...</h1>
-      </div>
-    );
-
-  if (error)
-    return (
-      <div className="w-full flex justify-center py-10">
-        <h1 className="font-[iran] text-sm">{error}</h1>
-      </div>
-    );
+  if (loading || error) return <ReduxStatus loading={loading} error={error} />;
 
   return (
     <section className="w-full mt-5">

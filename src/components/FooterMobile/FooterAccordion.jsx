@@ -71,7 +71,7 @@ const FooterAccordion = () => {
             onClick={() => handleAccordion(item.id)}
             className="w-full flex items-center justify-between py-4"
           >
-            <span className="text-[13px] font-[iranb] font-bold text-[#3f4064]">
+            <span className="text-[13px] font-[iran] font-bold text-[#3f4064]">
               {item.title}
             </span>
             <img
@@ -106,7 +106,12 @@ const FooterAccordion = () => {
             ) : (
               <div className="flex flex-col gap-6">
                 {item.items.map((link, index) => (
-                  <button className="text-right fonr-[iran] text-[12px] text-[#62666d]" key={index}>{link}</button>
+                  <button
+                    className="text-right fonr-[iran] text-[12px] text-[#62666d]"
+                    key={index}
+                  >
+                    {link}
+                  </button>
                 ))}
               </div>
             )}

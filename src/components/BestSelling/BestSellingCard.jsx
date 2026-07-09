@@ -22,9 +22,9 @@ const BestSellingCard = ({ item, number, lastItem }) => {
           {number.toLocaleString("fa-IR")}
         </span>
 
-        <div >
+        <div>
           <p
-            className="font-[iran] text-[12px] text-[#3f4064] leading-[26px]
+            className="font-[iran,sans-serif] text-[12px] text-[#3f4064] leading-[26px]
             overflow-hidden text-ellipsis"
             style={{
               display: "-webkit-box",
@@ -37,11 +37,8 @@ const BestSellingCard = ({ item, number, lastItem }) => {
         </div>
       </a>
       {/* Mobile */}
-      <div className="lg:hidden   border border-[#e0e0e2] rounded-xl mb-1.5" >
-        <a
-          href={item.link}
-          className="flex items-center  min-h-[88px]"
-        >
+      <div className="lg:hidden   border border-[#e0e0e2] rounded-xl mb-1.5">
+        <a href={item.link} className="flex items-center  min-h-[88px]">
           <div className="w-[88px] h-[88px] ml-3 rounded-lg bg-[#f3f3f3] shrink-0 flex items-center justify-center overflow-hidden">
             <img
               src={item.image}
@@ -51,22 +48,22 @@ const BestSellingCard = ({ item, number, lastItem }) => {
           </div>
 
           <div className="flex-1 min-w-0">
-  <p
-    className="text-[#3f4064]  text-[11px] leading-[22px] font-[iran]"
-    style={{
-      display: "-webkit-box",
-      WebkitLineClamp: 2,
-      WebkitBoxOrient: "vertical",
-      overflow: "hidden",
-    }}
-  >
-    <span className="inline-flex w-[22px] h-[22px] rounded-full bg-[#ef4056] text-white text-[11px] font-bold items-center justify-center ml-2 align-top">
-      {number.toLocaleString("fa-IR")}
-    </span>
+            <p
+              className="text-[#3f4064]  text-[11px] leading-[22px] font-[iran]"
+              style={{
+                display: "-webkit-box",
+                WebkitLineClamp: 2,
+                WebkitBoxOrient: "vertical",
+                overflow: "hidden",
+              }}
+            >
+              <span className="inline-flex w-[22px] h-[22px] rounded-full bg-[#ef4056] text-white text-[11px] font-bold items-center justify-center ml-2 align-top">
+                {number.toLocaleString("fa-IR")}
+              </span>
 
-    {item.title}
-  </p>
-</div>
+              {item.title}
+            </p>
+          </div>
         </a>
       </div>
     </>

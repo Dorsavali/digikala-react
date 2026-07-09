@@ -12,19 +12,20 @@ const SuggestedMobile = ({ suggested }) => {
       <hr className="w-full bg-[#f5f5f5] border-none h-2 mb-4 "></hr>
       <div className="space-y-5  box-border">
         {firstSections.map((section) => (
-          <div key={section.id} >
-            {section.id === 16 || section.id === 18 && (
-              <hr className="w-full bg-[#f5f5f5] border-none h-2 mb-4 " />
-            )}
+          <div key={section.id}>
+            {section.id === 16 ||
+              (section.id === 18 && (
+                <hr className="w-full bg-[#f5f5f5] border-none h-2 mb-4 " />
+              ))}
             <div className=" mb-3 px-4" dir="rtl">
               <div className="flex items-center">
-                <h2 className="text-[14px] font-[iranb] text-gray-900 flex-1">
+                <h2 className="text-[14px] font-[iran] text-gray-900 flex-1">
                   {section.title}
                 </h2>
 
                 <a
                   href={section.categoryLink}
-                  className="flex items-center  text-[12px] font-[iranb] text-[#3f4064]"
+                  className="flex items-center  text-[12px] font-[iran] text-[#3f4064]"
                 >
                   مشاهده همه
                   <img
@@ -73,19 +74,19 @@ const SuggestedMobile = ({ suggested }) => {
       <Banner image="/images/suggested/banner.webp" />
       <div className="space-y-5 box-border">
         {secondSections.map((section) => (
-          <div key={section.id} >
-             {section.id === 20 && (
+          <div key={section.id}>
+            {section.id === 20 && (
               <hr className="w-full bg-[#f5f5f5] border-none h-2 mb-4 " />
             )}
             <div className=" mb-3 px-4" dir="rtl">
               <div className="flex items-center">
-                <h2 className="text-[14px] font-[iranb] text-gray-900 flex-1">
+                <h2 className="text-[14px] font-[iran] text-gray-900 flex-1">
                   {section.title}
                 </h2>
 
                 <a
                   href={section.categoryLink}
-                  className="flex items-center  text-[12px] font-[iranb] text-[#3f4064]"
+                  className="flex items-center  text-[12px] font-[iran] text-[#3f4064]"
                 >
                   مشاهده همه
                   <img
@@ -141,13 +142,13 @@ const SuggestedMobile = ({ suggested }) => {
             )}
             <div className=" mb-3 px-4" dir="rtl">
               <div className="flex items-center">
-                <h2 className="text-[14px] font-[iranb] text-gray-900 flex-1">
+                <h2 className="text-[14px] font-[iran] text-gray-900 flex-1">
                   {section.title}
                 </h2>
 
                 <a
                   href={section.categoryLink}
-                  className="flex items-center  text-[12px] font-[iranb] text-[#3f4064]"
+                  className="flex items-center  text-[12px] font-[iran] text-[#3f4064]"
                 >
                   مشاهده همه
                   <img

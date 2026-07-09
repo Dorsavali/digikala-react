@@ -10,7 +10,7 @@ const SuperMarketModal = () => {
         className="fixed hidden bottom-6 right-6 z-50 lg:flex cursor-pointer items-center gap-2 rounded-3xl bg-[#029a49] px-3 py-2.5 text-white shadow-lg"
       >
         <span className="pl-1 text-[18px] font-[cube]"></span>
-        <span className="font-[iranb]">سوپرمارکت</span>
+        <span className="font-[iran]">سوپرمارکت</span>
       </button>
 
       {open && (
@@ -26,7 +26,6 @@ const SuperMarketModal = () => {
               <h5 className="text-sm font-bold text-gray-700">
                 یکی از سوپرمارکت‌های زیر را انتخاب کنید
               </h5>
-
             </div>
 
             <div className="flex gap-3 p-4" dir="rtl">
@@ -40,7 +39,7 @@ const SuperMarketModal = () => {
                   />
                 </div>
 
-                <div className="mt-4 flex w-fit items-center gap-1 rounded-l-2xl bg-[#029a49] px-3 py-1 text-xs text-white" >
+                <div className="mt-4 flex w-fit items-center gap-1 rounded-l-2xl bg-[#029a49] px-3 py-1 text-xs text-white">
                   <span className="pl-1 text-[18px] font-[cube]"></span>
                   ارسال سریع
                 </div>
@@ -62,7 +61,7 @@ const SuperMarketModal = () => {
                   />
                 </div>
 
-                <div className="mt-4 flex w-fit items-center gap-1 rounded-l-2xl bg-[#ff8042] px-3 py-1 text-xs text-white font-[iranb]">
+                <div className="mt-4 flex w-fit items-center gap-1 rounded-l-2xl bg-[#ff8042] px-3 py-1 text-xs text-white font-[iran]">
                   <span className="pl-1 text-[18px] font-[cube]"></span>
                   ۴۵ دقیقه‌ای
                 </div>

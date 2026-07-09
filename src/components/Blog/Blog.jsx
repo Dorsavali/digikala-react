@@ -30,9 +30,7 @@ const Blog = () => {
     <section className=" hidden lg:flex w-full justify-center items-center py-8">
       <div className="w-full lg:w-full">
         <div className="flex flex-row-reverse items-center justify-between mb-5">
-          <h2 className="font-[iranb] text-[16px] text-[#0c0c0c]">
-            خواندنی‌ها
-          </h2>
+          <h2 className="font-[iran] text-[16px] text-[#0c0c0c]">خواندنی‌ها</h2>
 
           <a
             href="/"

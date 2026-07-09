@@ -1,3 +1,4 @@
+import ReduxStatus from "../Ui/ReduxStatus";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchSlider } from "../Redux/Slider/ActionSlider";
@@ -13,10 +14,8 @@ const Slider = () => {
 
   useEffect(() => {
     dispatch(fetchSlider());
-  }, []);
-
-  if (loading) return <h1>Loading...</h1>;
-  if (error) return <h1>{error}</h1>;
+  }, []);
+  if (loading || error) return <ReduxStatus loading={loading} error={error} />;
 
   return (
     <>

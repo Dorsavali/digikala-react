@@ -1,3 +1,4 @@
+import ReduxStatus from "../Ui/ReduxStatus";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
@@ -6,15 +7,13 @@ import { fetchThreeHour } from "../Redux/ThreeHour/ActionThreeHour";
 const ThreeHourDelivery = () => {
   const dispatch = useDispatch();
 
-  const { threeHour, loading ,error  } = useSelector((state) => state.threeHour);
+  const { threeHour, loading, error } = useSelector((state) => state.threeHour);
 
   useEffect(() => {
     dispatch(fetchThreeHour());
   }, []);
 
-    if (loading) return null;
-
-  if (error) return <div>{error}</div>;
+  if (loading || error) return <ReduxStatus loading={loading} error={error} />;
   return (
     <section dir="rtl" className="block lg:hidden mt-5 bg-[#FCF3EB] py-4">
       <div className="px-4">
@@ -51,7 +50,7 @@ const ThreeHourDelivery = () => {
                 className="w-full h-[114px] object-cover rounded-md"
               />
 
-              <h3 className="text-xs line-clamp-2 h-10 mt-2 font-[iran] line-clamp-2 leading-5 overflow-hidden">
+              <h3 className="text-xs line-clamp-2 h-10 mt-2 font-[iran,sans-serif] line-clamp-2 leading-5 overflow-hidden">
                 {item.title}
               </h3>
 

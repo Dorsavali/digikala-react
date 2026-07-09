@@ -2,7 +2,12 @@ import { fetchMobileHeader } from "../Redux/MobileHeader/ActionMobile";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect, useState } from "react";
 
-const Top = ({ compact = false, bgColor = "bg-[#f2f3f5]", showImages = true, fitText = false }) => {
+const Top = ({
+  compact = false,
+  bgColor = "bg-[#f2f3f5]",
+  showImages = true,
+  fitText = false,
+}) => {
   const [activeId, setActiveId] = useState(3);
   const dispatch = useDispatch();
 
@@ -54,7 +59,7 @@ const Top = ({ compact = false, bgColor = "bg-[#f2f3f5]", showImages = true, fit
 
               <span
                 className={`
-    w-full px-1 text-center truncate font-[iranb]
+    w-full px-1 text-center truncate font-[iran,sans-serif]
     ${compact ? "text-[11px]" : "text-[11px] pb-1"}
     ${active ? "bg-[#e40138]" : "bg-white"}
   `}
@@ -70,6 +75,3 @@ const Top = ({ compact = false, bgColor = "bg-[#f2f3f5]", showImages = true, fit
 };
 
 export default Top;
-
-
-

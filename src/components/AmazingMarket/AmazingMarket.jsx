@@ -1,3 +1,4 @@
+import ReduxStatus from "../Ui/ReduxStatus";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect, useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -42,8 +43,8 @@ const AmazingMarket = () => {
   useEffect(() => {
     dispatch(fetchAmazingMarket());
   }, []);
-  if (loading) return <h1>Loading...</h1>;
-  if (error) return <h1>Error: {error}</h1>;
+
+  if (loading || error) return <ReduxStatus loading={loading} error={error} />;
   const amazingMarketBg = {
     background:
       "linear-gradient(225deg, rgb(107, 185, 39) 0%, rgb(157, 196, 77) 100%)",
@@ -167,7 +168,7 @@ const AmazingMarket = () => {
               >
                 {amazingMarket?.roll?.map((item, index) => (
                   <SwiperSlide
-                    style={{ width: 140, height: 220 }}
+                    style={{ width: 140, height: 225 }}
                     key={item.id}
                     className={` !bg-white ${
                       index === 0 ? "!rounded-tr-2xl !rounded-br-2xl" : ""
@@ -216,7 +217,7 @@ const AmazingMarket = () => {
                 ))}
 
                 <SwiperSlide
-                  style={{ width: 160, height: 220 }}
+                  style={{ width: 160, height: 225 }}
                   className="bg-white rounded-tl-xl rounded-bl-xl"
                 >
                   <div className="h-full gap-2.5 flex flex-col justify-center items-center ">

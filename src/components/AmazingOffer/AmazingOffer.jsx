@@ -1,3 +1,4 @@
+import ReduxStatus from "../Ui/ReduxStatus";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchAmazingOffer } from "../Redux/AmazingOffer/ActionAmazingOffer";
@@ -14,17 +15,7 @@ const AmazingOffer = () => {
     dispatch(fetchAmazingOffer());
   }, [dispatch]);
 
-  if (loading)
-    return (
-      <div className="w-full flex justify-center py-10">در حال بارگذاری...</div>
-    );
-
-  if (error)
-    return (
-      <div className="w-full flex justify-center py-10 text-red-500">
-        {error}
-      </div>
-    );
+  if (loading || error) return <ReduxStatus loading={loading} error={error} />;
 
   return (
     <div className=" w-full flex justify-center items-center  hidden lg:flex">
@@ -40,7 +31,7 @@ const AmazingOffer = () => {
               clipRule="evenodd"
             />
           </svg>
-
+          font-[iran]
           <h2 className="text-xl font-[iranb] text-[#0c0c0c]">
             منتخب محصولات تخفیف و حراج
           </h2>
@@ -56,10 +47,10 @@ const AmazingOffer = () => {
         >
           {amazingOffer.map((product, index) => (
             <AmazingOfferCard
-                 key={product.id}
-    product={product}
-    index={index}
-    total={amazingOffer.length}
+              key={product.id}
+              product={product}
+              index={index}
+              total={amazingOffer.length}
             />
           ))}
         </div>

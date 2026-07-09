@@ -17,9 +17,11 @@ const emptyForm = {
 
 const AmazingCrud = ({ open, onClose, onChanged }) => {
   const dispatch = useDispatch();
-  const { amazing = {}, loading, error } = useSelector(
-    (state) => state.amazingCrud || {}
-  );
+  const {
+    amazing = {},
+    loading,
+    error,
+  } = useSelector((state) => state.amazingCrud || {});
 
   const [form, setForm] = useState(emptyForm);
   const [editId, setEditId] = useState(null);
@@ -94,7 +96,7 @@ const AmazingCrud = ({ open, onClose, onChanged }) => {
         dir="rtl"
       >
         <div className="flex items-center justify-between border-b border-[#e0e0e2] px-5 py-4">
-          <h2 className="text-[17px] font-[iranb] text-[#23254e]">
+          <h2 className="text-[17px] font-[iran] text-[#23254e]">
             مدیریت اسلایدهای شگفت انگیز
           </h2>
 
@@ -154,7 +156,7 @@ const AmazingCrud = ({ open, onClose, onChanged }) => {
 
             <button
               type="submit"
-              className="h-11 rounded-lg bg-[#ef4056] text-[14px] font-[iranb] text-white md:col-span-2 lg:col-span-4"
+              className="h-11 rounded-lg bg-[#ef4056] text-[14px] font-[iran] text-white md:col-span-2 lg:col-span-4"
             >
               {editId ? "ویرایش اسلاید" : "افزودن اسلاید"}
             </button>
@@ -192,12 +194,12 @@ const AmazingCrud = ({ open, onClose, onChanged }) => {
                   className="h-[130px] w-full object-contain"
                 />
 
-                <p className="mt-2 h-[40px] overflow-hidden text-[12px] leading-5 text-[#3f4064]">
+                <p className="mt-2 h-[40px] overflow-hidden font-[iran,sans-serif] text-[12px] leading-5 text-[#3f4064]">
                   {item.text}
                 </p>
 
                 <div className="mt-3 flex items-center justify-between text-[12px]">
-                  <span className="font-[iranb] text-[#23254e]">
+                  <span className="font-[iran] text-[#23254e]">
                     {item.price}
                   </span>
                   <span className="rounded-full bg-[#ef4056] px-2 py-0.5 text-white">

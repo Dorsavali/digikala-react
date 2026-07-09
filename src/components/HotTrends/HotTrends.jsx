@@ -1,3 +1,4 @@
+import ReduxStatus from "../Ui/ReduxStatus";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -29,8 +30,7 @@ const HotTrends = () => {
 
   const slides = chunkArray(hotTrends, 3);
 
-  if (loading) return null;
-  if (error) return <h2>{error}</h2>;
+  if (loading || error) return <ReduxStatus loading={loading} error={error} />;
 
   return (
     <section className=" w-full flex flex-col justify-center items-center ">
@@ -39,11 +39,7 @@ const HotTrends = () => {
         {/* Header */}
         <div className="relative flex items-center justify-end lg:justify-center px-2 lg:px-5 mb-4">
           <div className="flex flex-row-reverse items-center gap-2">
-            <img
-              src="/images/icons/fire.svg"
-              alt=""
-              className="hidden lg:block w-6 h-6"
-            />
+           
             <img
               src="/images/icons/firehottrend.svg"
               alt=""

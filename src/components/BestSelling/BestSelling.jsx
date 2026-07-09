@@ -1,3 +1,4 @@
+import ReduxStatus from "../Ui/ReduxStatus";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -31,8 +32,7 @@ const BestSelling = () => {
 
   const slides = chunkArray(bestSelling, 3);
 
-  if (loading) return null;
-  if (error) return <h2>{error}</h2>;
+  if (loading || error) return <ReduxStatus loading={loading} error={error} />;
 
   return (
     <section className=" w-full flex justify-center items-center ">

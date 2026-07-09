@@ -32,10 +32,7 @@ const SvgIcon = ({ svg, className = "h-4 w-4 fill-current" }) => {
 const MenuIcon = ({ icon, svg }) => {
   if (svg) {
     return (
-      <SvgIcon
-        svg={svg}
-        className="h-[18px] w-[18px] shrink-0 fill-current"
-      />
+      <SvgIcon svg={svg} className="h-[18px] w-[18px] shrink-0 fill-current" />
     );
   }
 
@@ -63,11 +60,7 @@ const MenuIcon = ({ icon, svg }) => {
         className="h-[18px] w-[18px] shrink-0 fill-current"
         viewBox={icon.viewBox || "0 0 24 24"}
       >
-        <path
-          d={icon.path}
-          fillRule={icon.fillRule}
-          clipRule={icon.clipRule}
-        />
+        <path d={icon.path} fillRule={icon.fillRule} clipRule={icon.clipRule} />
       </svg>
     );
   }

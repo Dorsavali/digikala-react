@@ -1,37 +1,21 @@
+import ReduxStatus from "../Ui/ReduxStatus";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchAccess } from "../Redux/Access/ActionAccess";
 
 const Access = () => {
   const dispatch = useDispatch();
-const accessState = useSelector((state) => state.access);
-const { access = [], loading, error } = accessState || {};
-
+  const accessState = useSelector((state) => state.access);
+  const { access = [], loading, error } = accessState || {};
 
   useEffect(() => {
     dispatch(fetchAccess());
   }, [dispatch]);
 
-  if (loading) {
-    return (
-      <div className="w-full py-4">
-        <p className="text-center">در حال بارگذاری...</p>
-      </div>
-    );
-  }
-
-  if (error) {
-    return (
-      <div className="w-full py-4">
-        <p className="text-center text-red-500">{error}</p>
-      </div>
-    );
-  }
+  if (loading || error) return <ReduxStatus loading={loading} error={error} />;
 
   return (
-    <section
-      className="w-full pt-7 pr-2 lg:pr-0"
-    >
+    <section className="w-full pt-7 pr-2 lg:pr-0">
       <div
         dir="rtl"
         className="
@@ -55,7 +39,7 @@ const { access = [], loading, error } = accessState || {};
               items-center
               shrink-0
               w-[60px]
-              cursor-pointer
+              font-[iran]er
               font-[iranb]
               
             "

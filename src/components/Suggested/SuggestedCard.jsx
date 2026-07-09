@@ -50,10 +50,10 @@ const SuggestedCard = ({ product, desktop = false }) => {
               {product.price.toLocaleString()}
             </span>
             <img
-                            src="/public/images/icons/toman.svg"
-                            alt="toman"
-                            className="w-4 h-4"
-                          />
+              src="/public/images/icons/toman.svg"
+              alt="toman"
+              className="w-4 h-4"
+            />
           </div>
         </div>
       </div>

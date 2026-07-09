@@ -1,3 +1,4 @@
+import ReduxStatus from "../Ui/ReduxStatus";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchMobileMegaMenu } from "../Redux/MobileMegaMenu/ActionsMobileMegaMenu";
@@ -52,9 +53,11 @@ const MobileMegaMenu = () => {
   const [activeId, setActiveId] = useState(null);
   const [openGroupId, setOpenGroupId] = useState(null);
 
-  const { mobileMegaMenu = [], loading, error } = useSelector(
-    (state) => state.mobileMegaMenu || {}
-  );
+  const {
+    mobileMegaMenu = [],
+    loading,
+    error,
+  } = useSelector((state) => state.mobileMegaMenu || {});
 
   useEffect(() => {
     dispatch(fetchMobileMegaMenu());
@@ -69,16 +72,10 @@ const MobileMegaMenu = () => {
       (column.groups || []).map((group) => ({
         ...group,
         key: `${activeItem?.id}-${column.id}-${group.id}`,
-      }))
+      })),
     ) || [];
 
-  if (loading) {
-    return <div className="p-4 font-[iran] text-sm">در حال بارگذاری...</div>;
-  }
-
-  if (error) {
-    return <div className="p-4 font-[iran] text-sm text-red-500">{error}</div>;
-  }
+  if (loading || error) return <ReduxStatus loading={loading} error={error} />;
 
   return (
     <div
@@ -105,7 +102,7 @@ const MobileMegaMenu = () => {
             >
               <SvgIcon svg={item.svg} active={active} />
 
-              <span className="text-[9px] leading-5 font-[iranb]">
+              <span className="text-[9px] leading-5 font-[iran,sans-serif]">
                 {item.title}
               </span>
             </button>
@@ -116,12 +113,11 @@ const MobileMegaMenu = () => {
       <main className="flex-1 overflow-y-auto bg-white px-3 pb-12 no-scrollbar">
         <a
           href={activeItem?.allProductsHref || activeItem?.href || "#"}
-          className="flex items-center justify-between border-b border-[#f0f0f1] py-4 text-[13px] font-[iranb] text-[#19bfd3]"
+          className="flex items-center justify-between border-b border-[#f0f0f1] py-4 text-[13px] font-[iran] text-[#19bfd3]"
         >
           <span>
             {activeItem?.allProductsTitle || `همه محصولات ${activeItem?.title}`}
           </span>
-         
         </a>
 
         {groups.map((group) => {
@@ -133,7 +129,7 @@ const MobileMegaMenu = () => {
               <button
                 type="button"
                 onClick={() => setOpenGroupId(open ? null : group.key)}
-                className="flex w-full items-center justify-between py-4 text-right text-[12px] font-[iranb] text-[#23254e]"
+                className="flex w-full items-center justify-between py-4 text-right text-[12px] font-[iran] text-[#23254e]"
               >
                 <span>{group.title}</span>
                 <ChevronIcon open={open} />
@@ -155,7 +151,7 @@ const MobileMegaMenu = () => {
 
                       <a
                         href={group.href || "#"}
-                        className="block border-t border-[#f5f5f5] py-3 pr-3 text-[12px] leading-6 text-[#19bfd3] font-[iranb]"
+                        className="block border-t border-[#f5f5f5] py-3 pr-3 text-[12px] leading-6 text-[#19bfd3] font-[iran]"
                       >
                         همه کالاها
                       </a>
@@ -163,7 +159,7 @@ const MobileMegaMenu = () => {
                   ) : (
                     <a
                       href={group.href || "#"}
-                      className="block border-t border-[#f5f5f5] py-3 pr-3 text-[12px] leading-6 text-[#19bfd3] font-[iranb]"
+                      className="block border-t border-[#f5f5f5] py-3 pr-3 text-[12px] leading-6 text-[#19bfd3] font-[iran]"
                     >
                       مشاهده همه
                     </a>
