@@ -1,4 +1,6 @@
-import { SET_STORY, SET_LOADING, SET_ERROR } from "./ActionTypes";
+﻿import { SET_STORY, SET_LOADING, SET_ERROR } from "./ActionTypes";
+
+const API_URL = "http://localhost:3000/story";
 
 export const setStory = (story) => {
   return {
@@ -6,29 +8,35 @@ export const setStory = (story) => {
     payload: story,
   };
 };
+
 export const setLoading = (status) => {
   return {
     type: SET_LOADING,
     payload: status,
   };
 };
+
 export const setError = (error) => {
   return {
     type: SET_ERROR,
     payload: error,
   };
 };
+
 export const fetchStory = () => {
   return async function (dispatch) {
     try {
-      let data = await fetch(`${import.meta.env.BASE_URL}db.json`);
-      let res = await data.json();
+      dispatch(setLoading(true));
+
+      const data = await fetch(API_URL);
+      const res = await data.json();
+
+      dispatch(setStory(res || []));
       dispatch(setError(""));
       dispatch(setLoading(false));
-      dispatch(setStory(res.story));
     } catch (error) {
       dispatch(setError(error.message));
-      dispatch(setLoading(true));
+      dispatch(setLoading(false));
     }
   };
 };

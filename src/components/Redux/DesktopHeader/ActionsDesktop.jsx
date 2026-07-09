@@ -5,6 +5,9 @@ import {
   SET_ERROR,
 } from "./ActionType";
 
+const MENU_ITEMS_URL = "http://localhost:3000/menuItems";
+const MEGA_MENU_URL = "http://localhost:3000/megaMenu";
+
 export const setMenuItems = (items) => {
   return {
     type: SET_MENU_ITEMS,
@@ -18,7 +21,6 @@ export const setMegaMenu = (items) => {
     payload: items,
   };
 };
-
 
 export const setLoading = (status) => {
   return {
@@ -39,11 +41,24 @@ export const fetchMenuItems = () => {
     try {
       dispatch(setLoading(true));
 
-      const response = await fetch(`${import.meta.env.BASE_URL}db.json`);
-      const data = await response.json();
+      const [menuItemsResponse, megaMenuResponse] = await Promise.all([
+        fetch(MENU_ITEMS_URL),
+        fetch(MEGA_MENU_URL),
+      ]);
 
-dispatch(setMenuItems(data.menuItems || []));
-dispatch(setMegaMenu(data.megaMenu || []));
+      if (!menuItemsResponse.ok) {
+        throw new Error("Failed to fetch menuItems");
+      }
+
+      if (!megaMenuResponse.ok) {
+        throw new Error("Failed to fetch megaMenu");
+      }
+
+      const menuItems = await menuItemsResponse.json();
+      const megaMenu = await megaMenuResponse.json();
+
+      dispatch(setMenuItems(menuItems || []));
+      dispatch(setMegaMenu(megaMenu || []));
       dispatch(setError(""));
       dispatch(setLoading(false));
     } catch (error) {

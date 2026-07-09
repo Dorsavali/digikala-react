@@ -1,8 +1,9 @@
-import { useDispatch, useSelector } from "react-redux";
+﻿import { useDispatch, useSelector } from "react-redux";
 import { fetchAmazing } from "../Redux/Amazing/ActionAmazing";
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
+import AmazingCrud from "./AmazingCrud";
 import "swiper/css";
 import "swiper/css/navigation";
 
@@ -15,8 +16,8 @@ const Amazing = () => {
 
   const START_TIME = 60 * 200;
   const [timeLeft, setTimeLeft] = useState(START_TIME);
-
   const [isMobile, setIsMobile] = useState(false);
+  const [crudOpen, setCrudOpen] = useState(false);
 
   useEffect(() => {
     const check = () => setIsMobile(window.innerWidth < 1024);
@@ -54,8 +55,8 @@ const Amazing = () => {
   };
 
   return (
-    <section className=" w-full mt-4 font-[iran,sans-serif]">
-      <div className=" mx-auto lg:rounded-2xl" style={amazingBg}>
+    <section className="w-full mt-4 font-[iran,sans-serif]">
+      <div className="mx-auto lg:rounded-2xl" style={amazingBg}>
         <div className="lg:hidden pt-4 px-3 flex flex-row-reverse justify-between items-center">
           <div className="flex items-center gap-3">
             <div className="flex gap-0.5 items-center h-6">
@@ -73,9 +74,9 @@ const Amazing = () => {
             </div>
 
             <img src={amazing.mobileshegeft} className="w-[100px]" alt="" />
-
             <img src={amazing.percentage} className="w-6 h-6" alt="" />
           </div>
+
           <div className="flex items-center justify-center text-white text-sm gap-0.5">
             <img src="/images/icons/chev.svg" className="w-[16px] mt-0.5" />
             <span className="text-xs font-[iran]">همه</span>
@@ -84,29 +85,6 @@ const Amazing = () => {
 
         <div className="px-2 py-5">
           <div className="flex flex-row-reverse">
-            <div className="hidden w-[150px] flex-col items-center justify-center">
-              <img src={amazing.shegeftangiz} className="w-[88px]" />
-
-              <div className="flex gap-1 mt-3">
-                <span className="bg-white px-2 py-1 rounded text-xs font-bold">
-                  {hours}
-                </span>
-                <span className="bg-white px-2 py-1 rounded text-xs font-bold">
-                  {minutes}
-                </span>
-                <span className="bg-white px-2 py-1 rounded text-xs font-bold">
-                  {seconds}
-                </span>
-              </div>
-
-              <img src={amazing.percentage} className="w-[80px] mt-2" />
-
-              <button className="text-white text-xs mt-3 flex items-center gap-1">
-                مشاهده همه
-                <img src="/images/icons/chev.svg" className="w-[16px]" />
-              </button>
-            </div>
-
             <div className="flex-1 min-w-0">
               <Swiper
                 onSwiper={(s) => (swiperRef.current = s)}
@@ -133,7 +111,7 @@ const Amazing = () => {
                           {minutes}
                         </span>
                         :
-                        <span className="bg-white px-2 py-1 rounded text-xs font-bold text-black ">
+                        <span className="bg-white px-2 py-1 rounded text-xs font-bold text-black">
                           {hours}
                         </span>
                       </div>
@@ -142,10 +120,7 @@ const Amazing = () => {
 
                       <button className="text-white text-xs mt-3 flex items-center gap-1">
                         مشاهده همه
-                        <img
-                          src="/images/icons/chev.svg"
-                          className="w-[16px]"
-                        />
+                        <img src="/images/icons/chev.svg" className="w-[16px]" />
                       </button>
                     </div>
                   </SwiperSlide>
@@ -158,10 +133,9 @@ const Amazing = () => {
                     <SwiperSlide
                       key={item.id}
                       style={{ width: 160, height: 250 }}
-                      className={`
-        bg-white
-        ${isFirst ? "rounded-tr-xl rounded-br-xl" : ""}
-      `}
+                      className={`bg-white ${
+                        isFirst ? "rounded-tr-xl rounded-br-xl" : ""
+                      }`}
                     >
                       <div className="flex flex-col items-center p-3">
                         <img
@@ -196,11 +170,9 @@ const Amazing = () => {
                     </SwiperSlide>
                   );
                 })}
-                <SwiperSlide
-                  style={{ width: 160, height: 250 }}
-                  className="bg-white rounded-tl-xl rounded-bl-xl"
-                >
-                  <div className="h-full gap-2.5 flex flex-col justify-center items-center ">
+
+                <SwiperSlide style={{ width: 160, height: 250 }} className="bg-white">
+                  <div className="h-full gap-2.5 flex flex-col justify-center items-center">
                     <img
                       src="/images/icons/arrowleft.svg"
                       alt="arrow"
@@ -211,11 +183,35 @@ const Amazing = () => {
                     </span>
                   </div>
                 </SwiperSlide>
+
+                <SwiperSlide
+                  style={{ width: 160, height: 250 }}
+                  className="bg-white rounded-tl-xl rounded-bl-xl"
+                >
+                  <button
+                    type="button"
+                    onClick={() => setCrudOpen(true)}
+                    className="flex h-full w-full flex-col items-center justify-center gap-3 p-3 text-[#3f4064]"
+                  >
+                    <span className="flex h-[44px] w-[44px] items-center justify-center rounded-full border-2 border-[#19bfd3] text-[30px] leading-none text-[#19bfd3]">
+                      +
+                    </span>
+                    <span className="text-center text-xs font-[iranb]">
+                      افزودن اسلاید
+                    </span>
+                  </button>
+                </SwiperSlide>
               </Swiper>
             </div>
           </div>
         </div>
       </div>
+
+      <AmazingCrud
+        open={crudOpen}
+        onClose={() => setCrudOpen(false)}
+        onChanged={() => dispatch(fetchAmazing())}
+      />
     </section>
   );
 };

@@ -1,8 +1,10 @@
-import {
+﻿import {
   SET_AMAZINGOFFER,
   SET_LOADING,
   SET_ERROR,
 } from "./ActionTypes";
+
+const API_URL = "http://localhost:3000/amazingOffer";
 
 export const setAmazingOffer = (amazingOffer) => {
   return {
@@ -28,15 +30,17 @@ export const setError = (error) => {
 export const fetchAmazingOffer = () => {
   return async function (dispatch) {
     try {
-      const data = await fetch(`${import.meta.env.BASE_URL}db.json`);
+      dispatch(setLoading(true));
+
+      const data = await fetch(API_URL);
       const res = await data.json();
 
+      dispatch(setAmazingOffer(res || []));
       dispatch(setError(""));
       dispatch(setLoading(false));
-      dispatch(setAmazingOffer(res.amazingOffer));
     } catch (error) {
       dispatch(setError(error.message));
-      dispatch(setLoading(true));
+      dispatch(setLoading(false));
     }
   };
 };

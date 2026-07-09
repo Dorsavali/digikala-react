@@ -1,8 +1,10 @@
-import {
+﻿import {
   SET_HOTTRENDS,
   SET_LOADING,
   SET_ERROR,
 } from "./ActionTypes";
+
+const API_URL = "http://localhost:3000/hotTrends";
 
 export const setHotTrends = (hotTrends) => {
   return {
@@ -28,15 +30,17 @@ export const setError = (error) => {
 export const fetchHotTrends = () => {
   return async function (dispatch) {
     try {
-      let data = await fetch(`${import.meta.env.BASE_URL}db.json`);
-      let res = await data.json();
+      dispatch(setLoading(true));
 
+      const data = await fetch(API_URL);
+      const res = await data.json();
+
+      dispatch(setHotTrends(res || []));
       dispatch(setError(""));
       dispatch(setLoading(false));
-      dispatch(setHotTrends(res.hotTrends));
     } catch (error) {
       dispatch(setError(error.message));
-      dispatch(setLoading(true));
+      dispatch(setLoading(false));
     }
   };
 };

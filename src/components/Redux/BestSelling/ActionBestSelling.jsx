@@ -1,8 +1,10 @@
-import {
+﻿import {
   SET_BESTSELLING,
   SET_LOADING,
   SET_ERROR,
 } from "./ActionTypes";
+
+const API_URL = "http://localhost:3000/bestSelling";
 
 export const setBestSelling = (bestSelling) => {
   return {
@@ -28,15 +30,17 @@ export const setError = (error) => {
 export const fetchBestSelling = () => {
   return async function (dispatch) {
     try {
-      let data = await fetch(`${import.meta.env.BASE_URL}db.json`);
-      let res = await data.json();
+      dispatch(setLoading(true));
 
+      const data = await fetch(API_URL);
+      const res = await data.json();
+
+      dispatch(setBestSelling(res || []));
       dispatch(setError(""));
       dispatch(setLoading(false));
-      dispatch(setBestSelling(res.bestSelling));
     } catch (error) {
       dispatch(setError(error.message));
-      dispatch(setLoading(true));
+      dispatch(setLoading(false));
     }
   };
 };

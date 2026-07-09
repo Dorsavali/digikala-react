@@ -1,34 +1,46 @@
-import {SET_ACCESS, SET_LOADING, SET_ERROR} from "./ActionType";
+import {
+  SET_ACCESS,
+  SET_LOADING,
+  SET_ERROR,
+} from "./ActionType";
 
-export const setAccess = (Access) => {
+const API_URL = "http://localhost:3000/access";
+
+export const setAccess = (access) => {
   return {
     type: SET_ACCESS,
-    payload: Access,
+    payload: access,
   };
 };
+
 export const setLoading = (status) => {
   return {
     type: SET_LOADING,
     payload: status,
   };
 };
+
 export const setError = (error) => {
   return {
     type: SET_ERROR,
     payload: error,
   };
 };
+
 export const fetchAccess = () => {
   return async function (dispatch) {
     try {
-      let data = await fetch("/db.json");
-      let res = await data.json();
+      dispatch(setLoading(true));
+
+      const data = await fetch(API_URL);
+      const res = await data.json();
+
+      dispatch(setAccess(res || []));
       dispatch(setError(""));
       dispatch(setLoading(false));
-      dispatch(setAccess(res.access));
     } catch (error) {
       dispatch(setError(error.message));
-      dispatch(setLoading(true));
+      dispatch(setLoading(false));
     }
   };
 };

@@ -1,4 +1,6 @@
-import { SET_MOBILE_HEADER, SET_LOADING, SET_ERROR } from "./ActionType";
+﻿import { SET_MOBILE_HEADER, SET_LOADING, SET_ERROR } from "./ActionType";
+
+const API_URL = "http://localhost:3000/MobileHeader";
 
 export const setMobileHeader = (items) => {
   return {
@@ -13,6 +15,7 @@ export const setLoading = (status) => {
     payload: status,
   };
 };
+
 export const setError = (error) => {
   return {
     type: SET_ERROR,
@@ -25,18 +28,14 @@ export const fetchMobileHeader = () => {
     try {
       dispatch(setLoading(true));
 
-      const response = await fetch("/db.json");
-
+      const response = await fetch(API_URL);
       const data = await response.json();
 
-      dispatch(setMobileHeader(data.MobileHeader));
-
+      dispatch(setMobileHeader(data || []));
       dispatch(setError(""));
-
       dispatch(setLoading(false));
     } catch (error) {
       dispatch(setError(error.message));
-
       dispatch(setLoading(false));
     }
   };

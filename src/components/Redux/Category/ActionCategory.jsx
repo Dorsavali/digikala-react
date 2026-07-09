@@ -3,7 +3,7 @@ import {
   FETCH_CATEGORY_SUCCESS,
   FETCH_CATEGORY_FAILURE,
 } from "./ActionTypes";
-
+const API_URL = "http://localhost:3000/category";
 export const fetchCategory = () => {
   return async (dispatch) => {
     dispatch({
@@ -11,7 +11,7 @@ export const fetchCategory = () => {
     });
 
     try {
-      const response = await fetch("/db.json");
+      const response = await fetch(API_URL);
 
       if (!response.ok) {
         throw new Error("خطا در دریافت اطلاعات");
@@ -21,7 +21,7 @@ export const fetchCategory = () => {
 
       dispatch({
         type: FETCH_CATEGORY_SUCCESS,
-        payload: data.category,
+        payload: data,
       });
     } catch (error) {
       dispatch({

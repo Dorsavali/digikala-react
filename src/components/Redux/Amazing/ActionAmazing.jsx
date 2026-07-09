@@ -1,4 +1,6 @@
-import { SET_AMAZING, SET_LOADING, SET_ERROR } from "./ActionTypes";
+﻿import { SET_AMAZING, SET_LOADING, SET_ERROR } from "./ActionTypes";
+
+const API_URL = "http://localhost:3000/amazing";
 
 export const setAmazing = (amazing) => {
   return {
@@ -6,29 +8,35 @@ export const setAmazing = (amazing) => {
     payload: amazing,
   };
 };
+
 export const setLoading = (status) => {
   return {
     type: SET_LOADING,
     payload: status,
   };
 };
+
 export const setError = (error) => {
   return {
     type: SET_ERROR,
     payload: error,
   };
 };
+
 export const fetchAmazing = () => {
   return async function (dispatch) {
     try {
-      let data = await fetch(`${import.meta.env.BASE_URL}db.json`);
-      let res = await data.json();
+      dispatch(setLoading(true));
+
+      const data = await fetch(API_URL);
+      const res = await data.json();
+
+      dispatch(setAmazing(res || {}));
       dispatch(setError(""));
       dispatch(setLoading(false));
-      dispatch(setAmazing(res.amazing));
     } catch (error) {
       dispatch(setError(error.message));
-      dispatch(setLoading(true));
+      dispatch(setLoading(false));
     }
   };
 };

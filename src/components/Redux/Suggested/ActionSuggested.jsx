@@ -1,4 +1,6 @@
-import { SET_SUGGESTED, SET_LOADING, SET_ERROR } from "./ActionTypes";
+﻿import { SET_SUGGESTED, SET_LOADING, SET_ERROR } from "./ActionTypes";
+
+const API_URL = "http://localhost:3000/suggested";
 
 export const setSuggested = (suggested) => {
   return {
@@ -6,33 +8,35 @@ export const setSuggested = (suggested) => {
     payload: suggested,
   };
 };
+
 export const setLoading = (status) => {
   return {
     type: SET_LOADING,
     payload: status,
   };
 };
+
 export const setError = (error) => {
   return {
     type: SET_ERROR,
     payload: error,
   };
 };
-export const fetchSuggested = () => {
-  return async (dispatch) => {
-    dispatch(setLoading(true));
 
+export const fetchSuggested = () => {
+  return async function (dispatch) {
     try {
-      const data = await fetch(`${import.meta.env.BASE_URL}db.json`);
+      dispatch(setLoading(true));
+
+      const data = await fetch(API_URL);
       const res = await data.json();
-      dispatch(setSuggested(res.suggested));
+
+      dispatch(setSuggested(res || []));
       dispatch(setError(""));
       dispatch(setLoading(false));
     } catch (error) {
       dispatch(setError(error.message));
-      dispatch(setLoading(true));
-    }finally {
-  dispatch(setLoading(false));
-}
+      dispatch(setLoading(false));
+    }
   };
 };

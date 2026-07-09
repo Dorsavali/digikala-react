@@ -13,6 +13,7 @@ import  ReducerSuggested  from "./Suggested/ReducerSuggested";
 import ReducerBestSelling from "./BestSelling/ReducerBestSelling";
 import ReducerAmazingOffer from "./AmazingOffer/ReducerAmazingOffer";
 import ReducerHotTrends from "./HotTrends/ReducerHotTrends";
+import ReducerAmazingCrud from "./AmazingCrud/ReducerAmazingCrud";
 const rootreducer = combineReducers({
   menuItems: ReducerDesktop,
   mobileHeader: ReducerMobile,
@@ -20,6 +21,7 @@ const rootreducer = combineReducers({
   slider: ReducerSlider,
   access: ReducerAccess,
   amazing: ReducerAmazing,
+amazingCrud: ReducerAmazingCrud,
   threeHour: ReducerThreeHour,
   amazingMarket: ReducerAmazingMarket,
   category: ReducerCategory,

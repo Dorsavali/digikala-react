@@ -1,4 +1,4 @@
-import Access from "../components/Access/Access";
+﻿import Access from "../components/Access/Access";
 import Amazing from "../components/Amazing/Amazing";
 import Container from "../components/Container/Container";
 import DesktopHeader from "../components/DesktopHeader/DesktopHeader";
@@ -70,3 +70,4 @@ const Home = () => {
 };
 
 export default Home;
+

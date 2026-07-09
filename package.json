@@ -8,13 +8,15 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "server": "npx json-server db.json -- --port 3000 "
+    "server": "npx json-server ./db.json -- --port 3000 "
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.0",
     "json-server": "^1.0.0-beta.15",
+    "leaflet": "^1.9.4",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
+    "react-leaflet": "^5.0.0",
     "react-redux": "^9.3.0",
     "react-router": "^8.1.0",
     "react-router-dom": "^7.15.1",

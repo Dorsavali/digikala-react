@@ -4,8 +4,9 @@ import { fetchAccess } from "../Redux/Access/ActionAccess";
 
 const Access = () => {
   const dispatch = useDispatch();
-  const accessState = useSelector((state) => state.access);
-  const { access, loading, error } = accessState;
+const accessState = useSelector((state) => state.access);
+const { access = [], loading, error } = accessState || {};
+
 
   useEffect(() => {
     dispatch(fetchAccess());

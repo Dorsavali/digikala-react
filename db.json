@@ -1,7 +1,7 @@
 {
- "megaMenu": [
+  "megaMenu": [
     {
-      "id": 1,
+      "id": "1",
       "title": "موبایل",
       "href": "/search/category-mobile-phone/",
       "allProductsTitle": "همه محصولات موبایل",
@@ -627,7 +627,7 @@
       }
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "لپ تاپ",
       "href": "/landing/laptop/",
       "allProductsTitle": "همه محصولات لپ تاپ",
@@ -1217,7 +1217,7 @@
       }
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "کالای دیجیتال",
       "href": "/main/electronic-devices/",
       "allProductsTitle": "همه محصولات کالای دیجیتال",
@@ -2337,7 +2337,7 @@
       }
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "خانه و آشپزخانه",
       "href": "/main/home-and-kitchen/",
       "allProductsTitle": "همه محصولات خانه و آشپزخانه",
@@ -3270,7 +3270,7 @@
       }
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "لوازم خانگی برقی",
       "href": "/landing/category-home-appliance/",
       "allProductsTitle": "همه محصولات لوازم خانگی برقی",
@@ -3874,7 +3874,7 @@
       }
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "آرایشی بهداشتی",
       "href": "/main/personal-appliance/",
       "allProductsTitle": "همه محصولات آرایشی بهداشتی",
@@ -4231,7 +4231,7 @@
       }
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "مد و پوشاک",
       "href": "/landing/apparel/",
       "allProductsTitle": "همه محصولات مد و پوشاک",
@@ -5203,7 +5203,7 @@
       }
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "طلا و نقره",
       "href": "/landing/gold/",
       "allProductsTitle": "همه محصولات طلا و نقره",
@@ -5859,7 +5859,7 @@
       }
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "خودرو و موتورسیکلت",
       "href": "/main/vehicles-spare-parts/",
       "allProductsTitle": "همه محصولات خودرو و موتورسیکلت",
@@ -6295,7 +6295,7 @@
       }
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "سلامت و پزشکی",
       "href": "/landing/medical-health-equipment/",
       "allProductsTitle": "همه محصولات سلامت و پزشکی",
@@ -6782,7 +6782,7 @@
       }
     },
     {
-      "id": 11,
+      "id": "11",
       "title": "ابزارآلات و تجهیزات",
       "href": "/main/vehicles/",
       "allProductsTitle": "همه محصولات ابزارآلات و تجهیزات",
@@ -7154,7 +7154,7 @@
       }
     },
     {
-      "id": 12,
+      "id": "12",
       "title": "کتاب و هنر",
       "href": "/main/book-and-media/",
       "allProductsTitle": "همه محصولات کتاب و هنر",
@@ -7511,7 +7511,7 @@
       }
     },
     {
-      "id": 13,
+      "id": "13",
       "title": "ورزش و سفر",
       "href": "/main/sport-entertainment/",
       "allProductsTitle": "همه محصولات ورزش و سفر",
@@ -7823,7 +7823,7 @@
       }
     },
     {
-      "id": 14,
+      "id": "14",
       "title": "کارت هدیه و گیفت کارت",
       "href": "/main/dk-ds-gift-card/",
       "allProductsTitle": "همه محصولات کارت هدیه و گیفت کارت",
@@ -8055,7 +8055,7 @@
       }
     },
     {
-      "id": 15,
+      "id": "15",
       "title": "سوپر مارکت آنلاین",
       "href": "/main/food-beverage/",
       "allProductsTitle": "همه محصولات سوپر مارکت آنلاین",
@@ -8729,7 +8729,7 @@
       }
     },
     {
-      "id": 16,
+      "id": "16",
       "title": "اسباب بازی، کودک و نوزاد",
       "href": "/main/mother-and-child/",
       "allProductsTitle": "همه محصولات اسباب بازی، کودک و نوزاد",
@@ -9138,7 +9138,7 @@
       }
     },
     {
-      "id": 17,
+      "id": "17",
       "title": "محصولات بومی و محلی",
       "href": "/main/rural-products/",
       "allProductsTitle": "همه محصولات محصولات بومی و محلی",
@@ -9486,7 +9486,7 @@
       }
     },
     {
-      "id": 18,
+      "id": "18",
       "title": "پت شاپ",
       "href": "/landing/fmcg-petshop/",
       "allProductsTitle": "همه محصولات پت شاپ",
@@ -9532,7 +9532,7 @@
   ],
   "menuItems": [
     {
-      "id": 1,
+      "id": "1",
       "title": "شگفت‌انگیزها",
       "href": "/incredible-offers/",
       "target": "_self",
@@ -9543,7 +9543,7 @@
       }
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "سوپرمارکت",
       "href": "/fresh/",
       "target": "_self",
@@ -9553,7 +9553,7 @@
       }
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "طلا و نقره دیجیتال",
       "href": "/wealth/landing/digital-gold/",
       "target": "_blank",
@@ -9563,7 +9563,7 @@
       }
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "پرفروش‌ترین‌ها",
       "href": "/best-selling/",
       "target": "_self",
@@ -9574,241 +9574,237 @@
       }
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "سوالی دارید؟",
       "href": "#",
       "target": "_self"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": " در دیجی‌کالا بفروشید!",
       "href": "#",
       "target": "_self"
     }
   ],
-
   "MobileHeader": [
     {
-      "id": 1,
+      "id": "1",
       "title": "سرویس ها",
       "imgSrc": "/images/header/mobile/service.png"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "دیجی‌کالا",
       "imgSrc": "/images/header/mobile/box.png"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "۴۵ دقیقه‌ای",
       "imgSrc": "/images/header/mobile/45min.png"
     },
-
     {
-      "id": 4,
+      "id": "4",
       "title": "طلا و نقره",
       "imgSrc": "/images/header/mobile/gold.png"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "استایل",
       "imgSrc": "/images/header/mobile/style.png"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "سوپرمارکت",
       "imgSrc": "/images/header/mobile/supermarket.png"
     },
-
     {
-      "id": 7,
+      "id": "7",
       "title": "اعتبار خرید",
       "imgSrc": "/images/header/mobile/pay.png"
     }
   ],
   "story": [
     {
-      "id": 1,
+      "id": "1",
       "img": "/images/story/image1.png",
       "name": "مشاور خرید موبایل و کالای الکترونیک"
     },
     {
-      "id": 2,
+      "id": "2",
       "img": "/images/story/image2.png",
       "name": "گردونه میلیاردی"
     },
     {
-      "id": 3,
+      "id": "3",
       "img": "/images/story/image3.png",
       "name": "بررسی کامل Galaxy Z fold7"
     },
     {
-      "id": 4,
+      "id": "4",
       "img": "/images/story/image4.png",
       "name": "فر یورزفرندلی الیور"
     },
     {
-      "id": 5,
+      "id": "5",
       "img": "/images/story/image5.png",
       "name": "خداحافظی با گره های موهات"
     },
     {
-      "id": 6,
+      "id": "6",
       "img": "/images/story/image6.png",
       "name": "کولر گازی اسپلیت تی سی ال مدلXA73N"
     },
     {
-      "id": 7,
+      "id": "7",
       "img": "/images/story/image7.png",
       "name": "کلاسیک خنک"
     },
     {
-      "id": 8,
+      "id": "8",
       "img": "/images/story/image8.png",
       "name": "برای کوچولوهای کلاس اولی"
     },
     {
-      "id": 9,
+      "id": "9",
       "img": "/images/story/image9.png",
       "name": "این دیگه چیه؟  اندک پرینتر"
     },
     {
-      "id": 10,
+      "id": "10",
       "img": "/images/story/image10.png",
       "name": "بی نظیر اما ساده"
     },
     {
-      "id": 11,
+      "id": "11",
       "img": "/images/story/image11.png",
       "name": "اجاق گاز مدلIG-8503"
     },
     {
-      "id": 12,
+      "id": "12",
       "img": "/images/story/image12.png",
       "name": "مصر روی میز بازی"
     },
     {
-      "id": 13,
+      "id": "13",
       "img": "/images/story/image13.png",
       "name": "هود مخفی کن مدل آرتیما"
     },
     {
-      "id": 14,
+      "id": "14",
       "img": "/images/story/image14.png",
       "name": "جای دستمال کاغذی خودرو مدل روکنسولی"
     },
     {
-      "id": 15,
+      "id": "15",
       "img": "/images/story/image15.png",
       "name": "استند گردان آرایشی"
     },
     {
-      "id": 16,
+      "id": "16",
       "img": "/images/story/image16.png",
       "name": "ULanzi A30"
     },
     {
-      "id": 17,
+      "id": "17",
       "img": "/images/story/image17.png",
       "name": "تپه ندیده!!"
     },
     {
-      "id": 18,
+      "id": "18",
       "img": "/images/story/image18.png",
       "name": "دیدی ضدآبه؟"
     },
     {
-      "id": 19,
+      "id": "19",
       "img": "/images/story/image19.png",
       "name": "کلید انتقال فایل"
     }
   ],
   "slider": [
     {
-      "id": 1,
+      "id": "1",
       "img": "/images/slider/1.webp",
       "link": "#"
     },
     {
-      "id": 2,
+      "id": "2",
       "img": "/images/slider/2.webp",
       "link": "#"
     },
     {
-      "id": 3,
+      "id": "3",
       "img": "/images/slider/3.webp",
       "link": "#"
     },
     {
-      "id": 4,
+      "id": "4",
       "img": "/images/slider/4.webp",
       "link": "#"
     },
     {
-      "id": 5,
+      "id": "5",
       "img": "/images/slider/5.webp",
       "link": "#"
     },
     {
-      "id": 6,
+      "id": "6",
       "img": "/images/slider/6.webp",
       "link": "#"
     },
     {
-      "id": 7,
+      "id": "7",
       "img": "/images/slider/7.webp",
       "link": "#"
     }
   ],
   "access": [
     {
-      "id": 1,
+      "id": "1",
       "title": "سوپرمارکت فوری",
       "img": "/images/access/super.png"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "طلا و نقره دیجیتال",
       "img": "/images/access/gold.png"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "بفرمایید جام!",
       "img": "/images/access/jam.png"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "تخفیف داغ!",
       "img": "/images/access/hot.jpg"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "موبایل زیر ۱۰۰میلیون",
       "img": "/images/access/mobile.png"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "وام بانکی",
       "img": "/images/access/pay.png"
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "گل تخفیف دیجیتال",
       "img": "/images/access/off.png"
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "کالکشن لگو ۲۰۲۶",
       "img": "/images/access/lego.png"
     },
     {
-      "id": 9,
+      "id": "9",
       "title": " اشتراک پلاس",
       "img": "/images/access/plus.png"
     },
-
     {
-      "id": 11,
+      "id": "11",
       "title": "بیشتر",
       "img": "/images/access/more.svg"
     }
@@ -10095,7 +10091,7 @@
   },
   "category": [
     {
-      "id": 1,
+      "id": "1",
       "top": {
         "title": "موبایل",
         "image": "/images/category/1.jpg"
@@ -10106,7 +10102,7 @@
       }
     },
     {
-      "id": 2,
+      "id": "2",
       "top": {
         "title": "لپ‌تاپ",
         "image": "/images/category/2.jpg"
@@ -10117,7 +10113,7 @@
       }
     },
     {
-      "id": 3,
+      "id": "3",
       "top": {
         "title": "کالای دیجیتال",
         "image": "/images/category/3.jpg"
@@ -10128,7 +10124,7 @@
       }
     },
     {
-      "id": 4,
+      "id": "4",
       "top": {
         "title": "خانه و آشپزخانه",
         "image": "/images/category/4.jpg"
@@ -10139,7 +10135,7 @@
       }
     },
     {
-      "id": 5,
+      "id": "5",
       "top": {
         "title": "لوازم خانگی برقی",
         "image": "/images/category/5.jpg"
@@ -10150,7 +10146,7 @@
       }
     },
     {
-      "id": 6,
+      "id": "6",
       "top": {
         "title": "آرایشی و بهداشتی",
         "image": "/images/category/6.jpg"
@@ -10161,7 +10157,7 @@
       }
     },
     {
-      "id": 7,
+      "id": "7",
       "top": {
         "title": "خودرو و موتورسیکلت",
         "image": "/images/category/7.jpg"
@@ -10172,7 +10168,7 @@
       }
     },
     {
-      "id": 8,
+      "id": "8",
       "top": {
         "title": "ابزار آلات و تجهیزات",
         "image": "/images/category/8.jpg"
@@ -10183,7 +10179,7 @@
       }
     },
     {
-      "id": 9,
+      "id": "9",
       "top": {
         "title": "مد و پوشاک",
         "image": "/images/category/9.jpg"
@@ -10195,87 +10191,122 @@
     }
   ],
   "brands": [
-    { "id": 1, "image": "/images/brands/1.png", "link": "#", "title": "پریل" },
-    { "id": 2, "image": "/images/brands/2.png", "link": "#", "title": "پرسیل" },
     {
-      "id": 3,
+      "id": "1",
+      "image": "/images/brands/1.png",
+      "link": "#",
+      "title": "پریل"
+    },
+    {
+      "id": "2",
+      "image": "/images/brands/2.png",
+      "link": "#",
+      "title": "پرسیل"
+    },
+    {
+      "id": "3",
       "image": "/images/brands/3.jpg",
       "link": "#",
       "title": "چرم مشهد"
     },
-    { "id": 4, "image": "/images/brands/4.png", "link": "#", "title": "هوآوی" },
     {
-      "id": 5,
+      "id": "4",
+      "image": "/images/brands/4.png",
+      "link": "#",
+      "title": "هوآوی"
+    },
+    {
+      "id": "5",
       "image": "/images/brands/5.png",
       "link": "#",
       "title": "چینی زرین"
     },
-    { "id": 6, "image": "/images/brands/6.jpg", "link": "#", "title": "پنتر" },
     {
-      "id": 7,
+      "id": "6",
+      "image": "/images/brands/6.jpg",
+      "link": "#",
+      "title": "پنتر"
+    },
+    {
+      "id": "7",
       "image": "/images/brands/7.jpg",
       "link": "#",
       "title": "ایکس ویژن"
     },
-    { "id": 8, "image": "/images/brands/8.png", "link": "#", "title": "پمینا" },
     {
-      "id": 9,
+      "id": "8",
+      "image": "/images/brands/8.png",
+      "link": "#",
+      "title": "پمینا"
+    },
+    {
+      "id": "9",
       "image": "/images/brands/9.jpg",
       "link": "#",
       "title": "یوروویتال"
     },
     {
-      "id": 10,
+      "id": "10",
       "image": "/images/brands/10.png",
       "link": "#",
       "title": "لافارر"
     },
     {
-      "id": 11,
+      "id": "11",
       "image": "/images/brands/11.jpg",
       "link": "#",
       "title": "اکتیو"
     },
     {
-      "id": 12,
+      "id": "12",
       "image": "/images/brands/12.png",
       "link": "#",
       "title": "کاله"
     },
-    { "id": 13, "image": "/images/brands/13.png", "link": "#", "title": "مای" },
     {
-      "id": 14,
+      "id": "13",
+      "image": "/images/brands/13.png",
+      "link": "#",
+      "title": "مای"
+    },
+    {
+      "id": "14",
       "image": "/images/brands/14.jpg",
       "link": "#",
       "title": "سامسونگ"
     },
     {
-      "id": 15,
+      "id": "15",
       "image": "/images/brands/15.png",
       "link": "#",
       "title": "شیائومی"
     },
     {
-      "id": 16,
+      "id": "16",
       "image": "/images/brands/16.png",
       "link": "#",
       "title": "ویتالیر"
     },
     {
-      "id": 17,
+      "id": "17",
       "image": "/images/brands/17.jpg",
       "link": "#",
       "title": "مهیا"
     },
-    { "id": 18, "image": "/images/brands/18.png", "link": "#", "title": "فرش" },
     {
-      "id": 19,
+      "id": "18",
+      "image": "/images/brands/18.png",
+      "link": "#",
+      "title": "فرش"
+    },
+    {
+      "id": "19",
       "image": "/images/brands/19.jpg",
       "link": "#",
       "title": "فولیکا"
     },
     {
-      "id": 20,
+      "id": "20",
       "image": "/images/brands/20..jpg",
       "link": "#",
       "title": "ساعی"
@@ -10283,7 +10314,7 @@
   ],
   "suggested": [
     {
-      "id": 15,
+      "id": "15",
       "title": "کیف و کاور گوشی",
       "subtitle": "بر اساس سلیقه شما",
       "categoryLink": "/personalized-category/cell-phone-pouch-cover/",
@@ -10372,7 +10403,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": "16",
       "title": "ویتامین‌ها و مواد معدنی",
       "subtitle": "بر اساس سلیقه شما",
       "categoryLink": "/personalized-category/vitamins/",
@@ -10461,7 +10492,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": "17",
       "title": "گوشی موبایل",
       "subtitle": "بر اساس سلیقه شما",
       "categoryLink": "/personalized-category/mobile-phone/",
@@ -10550,7 +10581,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": "18",
       "title": "هدفون، هدست و هندزفری",
       "subtitle": "بر اساس سلیقه شما",
       "categoryLink": "/personalized-category/headphone/",
@@ -10639,7 +10670,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": "19",
       "title": "لوازم جانبی خودرو",
       "subtitle": "بر اساس سلیقه شما",
       "categoryLink": "/personalized-category/in-car-accessories/",
@@ -10728,7 +10759,7 @@
       ]
     },
     {
-      "id": 20,
+      "id": "20",
       "title": "کرم آبرسان و مرطوب کننده",
       "subtitle": "بر اساس سلیقه شما",
       "categoryLink": "/personalized-category/moisturizing-cream/",
@@ -10817,7 +10848,7 @@
       ]
     },
     {
-      "id": 21,
+      "id": "21",
       "title": "واکس، پولیش و تمیزکننده خودرو",
       "subtitle": "بر اساس سلیقه شما",
       "categoryLink": "/personalized-category/car-wash-spray-polish-and-wax/",
@@ -10906,7 +10937,7 @@
       ]
     },
     {
-      "id": 22,
+      "id": "22",
       "title": "کتاب رمان و ادبیات داستانی و نمایشی",
       "subtitle": "بر اساس سلیقه شما",
       "categoryLink": "/personalized-category/car-wash-spray-polish-and-wax/",
@@ -10988,109 +11019,109 @@
   ],
   "bestSelling": [
     {
-      "id": 1,
+      "id": "1",
       "title": "خامه هراز - 200 میلی لیتر",
       "image": "/images/bestSelling/1.webp",
       "link": "#"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "کره حیوانی پاستوریزه شکلی 50 گرم",
       "image": "/images/bestSelling/2.webp",
       "link": "#"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "پنیر فتا دوشه هراز - 400 گرم",
       "image": "/images/bestSelling/3.webp",
       "link": "#"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "فلوئید ضدآفتاب بی‌رنگ مای SPF50 مدل Smart Defense مناسب انواع پوست، حجم 50 میلی‌لیتر",
       "image": "/images/bestSelling/4.webp",
       "link": "#"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "شکر سفید الماس دانه - 1 کیلوگرم",
       "image": "/images/bestSelling/5.webp",
       "link": "#"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "کنسرو ماهی تن در روغن گیاهی پیک - 180 گرم",
       "image": "/images/bestSelling/6.webp",
       "link": "#"
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "کرم ضدآفتاب و ضدلک بی‌رنگ لافارر مدل SPF50، مناسب پوست‌های چرب، حجم 40 میلی‌لیتر",
       "image": "/images/bestSelling/7.webp",
       "link": "#"
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "تونر پاک کننده صورت لافارر مدل مولتی اکتیو مناسب پوست های چرب و مختلط حجم 170 میلی لیتر",
       "image": "/images/bestSelling/8.webp",
       "link": "#"
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "اسپاگتی قطر 1.2 تک ماکارون مقدار 700 گرم",
       "image": "/images/bestSelling/9.webp",
       "link": "#"
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "پوشک چسبی بچه مولفیکس مدل اکو پلاس سایز چهار 62 عددی",
       "image": "/images/bestSelling/10.webp",
       "link": "#"
     },
     {
-      "id": 11,
+      "id": "11",
       "title": "پوشک چسبی بچه مولفیکس مدل اکو سایز شش 24 عددی",
       "image": "/images/bestSelling/11.webp",
       "link": "#"
     },
     {
-      "id": 12,
+      "id": "12",
       "title": "کالباس 90 درصد گوشت مرغ مهيا پروتئين - 250 گرم",
       "image": "/images/bestSelling/12.webp",
       "link": "#"
     },
     {
-      "id": 13,
+      "id": "13",
       "title": "قرص ویتامین د 3 Health اید بسته 30 عددی",
       "image": "/images/bestSelling/13.webp",
       "link": "#"
     },
     {
-      "id": 14,
+      "id": "14",
       "title": "هدفون بلوتوثی انکر مدل SoundCore R50i A3949 کاهش نویز و بهبود مکالمات، مقاوم در برابر رطوبت و عرق",
       "image": "/images/bestSelling/14.webp",
       "link": "#"
     },
     {
-      "id": 15,
+      "id": "15",
       "title": "مایع جرمگیر و تمیز کننده من مدل A2 حجم 1000 میلی لیتر",
       "image": "/images/bestSelling/15.webp",
       "link": "#"
     },
     {
-      "id": 16,
+      "id": "16",
       "title": "ساشه منیزیم مگا مگ - 400 فرش مورنینگ بسته 30 عددی",
       "image": "/images/bestSelling/16.webp",
       "link": "#"
     },
     {
-      "id": 17,
+      "id": "17",
       "title": "کره پاستوریزه پاک- 100 گرم",
       "image": "/images/bestSelling/17.webp",
       "link": "#"
     },
     {
-      "id": 18,
+      "id": "18",
       "title": "خیارشور درجه یک بدر - 1450 گرم",
       "image": "/images/bestSelling/18.webp",
       "link": "#"
@@ -11098,7 +11129,7 @@
   ],
   "amazingOffer": [
     {
-      "id": 1,
+      "id": "1",
       "title": "گوشی موبایل سامسونگ Galaxy A56",
       "image": "/images/Topseller/1.webp",
       "price": "۷۸٬۸۸۸٬۸۸۰",
@@ -11107,7 +11138,7 @@
       "link": "#"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "هدفون بی سیم انکر مدل R50i",
       "image": "/images/Topseller/2.webp",
       "price": "۷۳۵٬۰۰۰",
@@ -11116,7 +11147,7 @@
       "link": "#"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "لپ تاپ ایسوس Vivobook",
       "image": "/images/Topseller/3.webp",
       "price": "۶۷٬۹۸۷٬۶۵۰",
@@ -11125,7 +11156,7 @@
       "link": "#"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "ماوس بی سیم لاجیتک",
       "image": "/images/Topseller/4.webp",
       "price": "۱٬۷۹۹٬۰۰۰",
@@ -11134,7 +11165,7 @@
       "link": "#"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "ساعت هوشمند شیائومی",
       "image": "/images/Topseller/5.webp",
       "price": "۴۵۱٬۰۰۰",
@@ -11143,7 +11174,7 @@
       "link": "#"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "هارد اکسترنال ای دیتا",
       "image": "/images/Topseller/6.webp",
       "price": "۴۶۰٬۰۰۰",
@@ -11152,7 +11183,7 @@
       "link": "#"
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "کیبورد گیمینگ ردراگون",
       "image": "/images/Topseller/7.webp",
       "price": "۱٬۱۲۵٬۰۰۰",
@@ -11161,7 +11192,7 @@
       "link": "#"
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "اسپیکر بلوتوثی جی بی ال",
       "image": "/images/Topseller/8.webp",
       "price": "۲٬۹۹۰٬۰۰۰",
@@ -11170,7 +11201,7 @@
       "link": "#"
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "پاوربانک شیائومی ۲۰۰۰۰",
       "image": "/images/Topseller/9.webp",
       "price": "۱٬۴۹۰٬۰۰۰",
@@ -11179,7 +11210,7 @@
       "link": "#"
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "فلش مموری سن دیسک ۶۴ گیگ",
       "image": "/images/Topseller/10.webp",
       "price": "۳۵۹٬۰۰۰",
@@ -11188,7 +11219,7 @@
       "link": "#"
     },
     {
-      "id": 11,
+      "id": "11",
       "title": "هندزفری سیمی سامسونگ",
       "image": "/images/Topseller/11.webp",
       "price": "۱۸۵٬۰۰۰",
@@ -11197,7 +11228,7 @@
       "link": "#"
     },
     {
-      "id": 12,
+      "id": "12",
       "title": "شارژر ۲۵ وات سامسونگ",
       "image": "/images/Topseller/12.webp",
       "price": "۶۹۰٬۰۰۰",
@@ -11206,7 +11237,7 @@
       "link": "#"
     },
     {
-      "id": 13,
+      "id": "13",
       "title": "مودم تی پی لینک",
       "image": "/images/Topseller/13.webp",
       "price": "۱٬۸۹۰٬۰۰۰",
@@ -11215,7 +11246,7 @@
       "link": "#"
     },
     {
-      "id": 14,
+      "id": "14",
       "title": "دسته بازی PS5",
       "image": "/images/Topseller/14.webp",
       "price": "۳٬۴۹۰٬۰۰۰",
@@ -11224,7 +11255,7 @@
       "link": "#"
     },
     {
-      "id": 15,
+      "id": "15",
       "title": "کیف لپ تاپ",
       "image": "/images/Topseller/15.webp",
       "price": "۵۹۰٬۰۰۰",
@@ -11233,7 +11264,7 @@
       "link": "#"
     },
     {
-      "id": 16,
+      "id": "16",
       "title": "پایه نگهدارنده موبایل",
       "image": "/images/Topseller/16.webp",
       "price": "۱۶۹٬۰۰۰",
@@ -11242,7 +11273,7 @@
       "link": "#"
     },
     {
-      "id": 17,
+      "id": "17",
       "title": "کیف پول چرمی",
       "image": "/images/Topseller/17.webp",
       "price": "۳۹۹٬۰۰۰",
@@ -11251,7 +11282,7 @@
       "link": "#"
     },
     {
-      "id": 18,
+      "id": "18",
       "title": "موس پد گیمینگ",
       "image": "/images/Topseller/18.webp",
       "price": "۱۴۵٬۰۰۰",
@@ -11262,130 +11293,131 @@
   ],
   "hotTrends": [
     {
-      "id": 1,
+      "id": "1",
       "rank": "۱",
       "title": "ساعت هوشمند ۴۹ میلی متری جی دی ۱۲ مدل 7IN1 با بند سیلیکونی",
       "image": "/images/hotTrends/1.jpg",
       "link": "#"
     },
     {
-      "id": 2,
+      "id": "2",
       "rank": "۲",
       "title": "پودر جلبک خوراکی اسپیرولینا آلگوتب - ۵۰ گرم",
       "image": "/images/hotTrends/2.jpg",
       "link": "#"
     },
     {
-      "id": 3,
+      "id": "3",
       "rank": "۳",
       "title": "قرص گلوکزامین نکستایل بسته ۶۰ عددی",
       "image": "/images/hotTrends/3.jpg",
       "link": "#"
     },
     {
-      "id": 4,
+      "id": "4",
       "rank": "۴",
       "title": "اس اس دی اینترنال PCIe Gen4 x4 وسترن دیجیتال مدل SN5000 ظرفیت ۱ ترابایت",
       "image": "/images/hotTrends/4.jpg",
       "link": "#"
     },
     {
-      "id": 5,
+      "id": "5",
       "rank": "۵",
       "title": "محافظ ولتاژ ۶۳ آمپر رویال مدل 2P63A",
       "image": "/images/hotTrends/5.jpg",
       "link": "#"
     },
     {
-      "id": 6,
+      "id": "6",
       "rank": "۶",
       "title": "گردنبند زنانه مدل لاکت قلب ۰۱",
       "image": "/images/hotTrends/6.jpg",
       "link": "#"
     },
     {
-      "id": 7,
+      "id": "7",
       "rank": "۷",
       "title": "قرص ویتامین ب ۱۲ یورو ویتال بسته ۶۰ عددی",
       "image": "/images/hotTrends/7.jpg",
       "link": "#"
     },
     {
-      "id": 8,
+      "id": "8",
       "rank": "۸",
       "title": "کپسول ففول پلاس اینترافارم بسته ۳۰ عددی",
       "image": "/images/hotTrends/8.jpg",
       "link": "#"
     },
     {
-      "id": 9,
+      "id": "9",
       "rank": "۹",
       "title": "بخارگر ۱۴۷۰ وات میگل مدل GGS 110",
       "image": "/images/hotTrends/9.jpg",
       "link": "#"
     },
     {
-      "id": 10,
+      "id": "10",
       "rank": "۱۰",
       "title": "گوشی موبایل سامسونگ مدل Galaxy S25 FE دو سیم کارت ظرفیت ۲۵۶ گیگابایت و رم ۸ گیگابایت",
       "image": "/images/hotTrends/10.jpg",
       "link": "#"
     },
     {
-      "id": 11,
+      "id": "11",
       "rank": "۱۱",
       "title": "پیراهن زنانه مدل تابستانی",
       "image": "/images/hotTrends/11.jpg",
       "link": "#"
     },
     {
-      "id": 12,
+      "id": "12",
       "rank": "۱۲",
       "title": "کارواش دینامی ۳۳۰ بار ۳۸۸۰ وات اینتیمکث مدل ۲۰۲۶",
       "image": "/images/hotTrends/12.jpg",
       "link": "#"
     },
     {
-      "id": 13,
+      "id": "13",
       "rank": "۱۳",
       "title": "ساعت هوشمند ۴۶ میلی متری شیائومی مدل Redmi Watch 6 با بند پلاستیکی",
       "image": "/images/hotTrends/13.jpg",
       "link": "#"
     },
     {
-      "id": 14,
+      "id": "14",
       "rank": "۱۴",
       "title": "ماشین اصلاح موی صورت بانوان فیلیپس مدل BRR454",
       "image": "/images/hotTrends/14.jpg",
       "link": "#"
     },
     {
-      "id": 15,
+      "id": "15",
       "rank": "۱۵",
       "title": "مجموعه ۳۳ عددی دریل برقی رونیکس مدل RS-0008",
       "image": "/images/hotTrends/15.jpg",
       "link": "#"
     },
     {
-      "id": 16,
+      "id": "16",
       "rank": "۱۶",
       "title": "پاوربانک ای دیتا مدل P20000QCD ظرفیت ۲۰۰۰۰ میلی آمپر ساعت",
       "image": "/images/hotTrends/16.jpg",
       "link": "#"
     },
     {
-      "id": 17,
+      "id": "17",
       "rank": "۱۷",
       "title": "هدست گیمینگ تسکو مدل TH 5153 دارای میکروفون",
       "image": "/images/hotTrends/17.jpg",
       "link": "#"
     },
     {
-      "id": 18,
+      "id": "18",
       "rank": "۱۸",
       "title": "ماژیک علامت گذار پلیکان مدل هرون TEXTO بسته ۵ عددی",
       "image": "/images/hotTrends/18.jpg",
       "link": "#"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
