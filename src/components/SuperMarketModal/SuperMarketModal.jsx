@@ -7,7 +7,7 @@ const SuperMarketModal = () => {
     <>
       <button
         onClick={() => setOpen(true)}
-        className="fixed bottom-6 right-6 z-50 flex cursor-pointer items-center gap-2 rounded-3xl bg-[#029a49] px-3 py-2.5 text-white shadow-lg"
+        className="fixed hidden bottom-6 right-6 z-50 lg:flex cursor-pointer items-center gap-2 rounded-3xl bg-[#029a49] px-3 py-2.5 text-white shadow-lg"
       >
         <span className="pl-1 text-[18px] font-[cube]"></span>
         <span className="font-[iranb]">سوپرمارکت</span>

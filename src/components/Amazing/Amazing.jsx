@@ -83,7 +83,7 @@ const Amazing = () => {
           </div>
         </div>
 
-        <div className="px-2 py-5">
+        <div className="px-2 py-2 lg:py-5">
           <div className="flex flex-row-reverse">
             <div className="flex-1 min-w-0">
               <Swiper
@@ -96,7 +96,7 @@ const Amazing = () => {
               >
                 {!isMobile && (
                   <SwiperSlide
-                    style={{ width: 160, height: 250 }}
+                    style={{ width: 130, height: 220 }}
                     className="bg-transparent"
                   >
                     <div className="hidden lg:flex flex-col items-center justify-center h-full text-white">
@@ -116,11 +116,14 @@ const Amazing = () => {
                         </span>
                       </div>
 
-                      <img src={amazing.percentage} className="w-[80px] mt-2" />
+                      <img src={amazing.percentage} className="w-[80px] " />
 
-                      <button className="text-white text-xs mt-3 flex items-center gap-1">
+                      <button className="text-white text-xs flex items-center gap-1">
                         مشاهده همه
-                        <img src="/images/icons/chev.svg" className="w-[16px]" />
+                        <img
+                          src="/images/icons/chev.svg"
+                          className="w-[16px]"
+                        />
                       </button>
                     </div>
                   </SwiperSlide>
@@ -132,46 +135,60 @@ const Amazing = () => {
                   return (
                     <SwiperSlide
                       key={item.id}
-                      style={{ width: 160, height: 250 }}
+                      style={{
+                        width: isMobile ? 130 : 150,
+                        height: isMobile ? 220 : 220,
+                      }}
                       className={`bg-white ${
                         isFirst ? "rounded-tr-xl rounded-br-xl" : ""
                       }`}
                     >
-                      <div className="flex flex-col items-center p-3">
+                      <div className="flex flex-col items-start p-2 ">
                         <img
                           src={item.img}
-                          className="w-[132px] h-[132px] object-contain"
+                          className="w-[114px] h-[114px] object-contain self-center"
                         />
 
                         <p className="text-[12px] mt-2 line-clamp-2 text-right h-[40px] overflow-hidden font-[iran]">
                           {item.text}
                         </p>
+                        <div className="mt-auto">
+                          {item.percentage && (
+                            <div className="flex items-center gap-1">
+                              <span className="w-[28px] h-4 bg-[#d32f2f] text-white text-center text-xs px-1 rounded-full font-[iran]">
+                                {item.percentage}
+                              </span>
 
-                        <div className="w-full flex justify-between items-center mt-3">
-                          <span className="bg-[#d32f2f] text-white rounded-full px-2 py-[2px] text-[11px]">
-                            {item.percentage}
-                          </span>
+                              <span className="line-through text-gray-400 text-xs font-[iran]">
+                                {item.price}
+                              </span>
+                            </div>
+                          )}
 
-                          <div className="flex gap-1">
-                            <span className="text-xs font-bold">
-                              {item.price}
+                          <div className="flex items-center gap-1 mt-1">
+                            <span className="font-bold text-sm font-[iran]">
+                              {item.pureprice}
                             </span>
+
                             <img
                               src="/images/icons/toman.svg"
-                              className="w-[16px] h-[16px]"
+                              alt="toman"
+                              className="w-4 h-4"
                             />
                           </div>
-                        </div>
-
-                        <div className="w-full text-left text-[11px] text-gray-400 line-through mt-1 pl-5">
-                          {item.pureprice}
                         </div>
                       </div>
                     </SwiperSlide>
                   );
                 })}
 
-                <SwiperSlide style={{ width: 160, height: 250 }} className="bg-white">
+                <SwiperSlide
+                  style={{
+                    width: isMobile ? 130 : 150,
+                    height: isMobile ? 220 : 220,
+                  }}
+                  className="bg-white"
+                >
                   <div className="h-full gap-2.5 flex flex-col justify-center items-center">
                     <img
                       src="/images/icons/arrowleft.svg"
@@ -185,7 +202,10 @@ const Amazing = () => {
                 </SwiperSlide>
 
                 <SwiperSlide
-                  style={{ width: 160, height: 250 }}
+                  style={{
+                    width: isMobile ? 130 : 150,
+                    height: isMobile ? 220 : 220,
+                  }}
                   className="bg-white rounded-tl-xl rounded-bl-xl"
                 >
                   <button
