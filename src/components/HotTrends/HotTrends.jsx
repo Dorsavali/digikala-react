@@ -62,7 +62,7 @@ const HotTrends = () => {
           </a>
         </div>
 
-        <div className="lg:px-2">
+        <div className="lg:px-2 pr-4 lg:pr-0">
           <Swiper
             modules={[Navigation]}
             navigation

@@ -1,4 +1,9 @@
-import { SET_MENU_ITEMS, SET_LOADING, SET_ERROR } from "./ActionType";
+import {
+  SET_MENU_ITEMS,
+  SET_MEGA_MENU,
+  SET_LOADING,
+  SET_ERROR,
+} from "./ActionType";
 
 export const setMenuItems = (items) => {
   return {
@@ -6,6 +11,14 @@ export const setMenuItems = (items) => {
     payload: items,
   };
 };
+
+export const setMegaMenu = (items) => {
+  return {
+    type: SET_MEGA_MENU,
+    payload: items,
+  };
+};
+
 
 export const setLoading = (status) => {
   return {
@@ -26,18 +39,15 @@ export const fetchMenuItems = () => {
     try {
       dispatch(setLoading(true));
 
-      const response = await fetch("/db.json");
-
+      const response = await fetch(`${import.meta.env.BASE_URL}db.json`);
       const data = await response.json();
 
-      dispatch(setMenuItems(data.menuItems));
-
+dispatch(setMenuItems(data.menuItems || []));
+dispatch(setMegaMenu(data.megaMenu || []));
       dispatch(setError(""));
-
       dispatch(setLoading(false));
     } catch (error) {
       dispatch(setError(error.message));
-
       dispatch(setLoading(false));
     }
   };

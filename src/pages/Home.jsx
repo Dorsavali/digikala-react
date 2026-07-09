@@ -1,6 +1,5 @@
 import Access from "../components/Access/Access";
 import Amazing from "../components/Amazing/Amazing";
-import Banner from "../components/Banner/Banner";
 import Container from "../components/Container/Container";
 import DesktopHeader from "../components/DesktopHeader/DesktopHeader";
 import MobileHeader from "../components/MobileHeader/MobileHeader";
@@ -32,11 +31,10 @@ const Home = () => {
   const suggested = useSelector((state) => state.suggested.suggested);
   return (
     <div>
-      <Banner />
         <DesktopHeader />
-     
       <MobileHeader />
       <ContainerSize>
+        <div className="hidden lg:block h-[100px]" />
         <Story />
      </ContainerSize>
       <Slider />

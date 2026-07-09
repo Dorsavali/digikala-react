@@ -1,5 +1,4 @@
 import { combineReducers } from "redux";
-import ReducerBanner from "./Banner/ReducerBanner";
 import ReducerDesktop from "./DesktopHeader/ReducerDesktop";
 import ReducerMobile from "./MobileHeader/ReducerMobile";
 import ReducerStory from "./Story/ReducerStory";
@@ -15,7 +14,6 @@ import ReducerBestSelling from "./BestSelling/ReducerBestSelling";
 import ReducerAmazingOffer from "./AmazingOffer/ReducerAmazingOffer";
 import ReducerHotTrends from "./HotTrends/ReducerHotTrends";
 const rootreducer = combineReducers({
-  banner: ReducerBanner,
   menuItems: ReducerDesktop,
   mobileHeader: ReducerMobile,
   story: ReducerStory,

@@ -2,7 +2,7 @@ const Container = ({ banners }) => {
   return (
     <div >
       <div className="">
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 lg:gap-4">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 lg:gap-4 px-4 lg:px-0 ">
           {banners.map((banner) => (
             <a key={banner.id} href="#" className="block w-full">
               <img

@@ -1,25 +1,27 @@
 import {
   SET_MENU_ITEMS,
+  SET_MEGA_MENU,
   SET_LOADING,
   SET_ERROR,
 } from "./ActionType";
-
 const initialState = {
   menuItems: [],
+  megaMenu: [],
   loading: false,
   error: "",
 };
-
-const ReducerDesktop = (
-  state = initialState,
-  action
-) => {
+const ReducerDesktop = (state = initialState, action) => {
   switch (action.type) {
-
     case SET_MENU_ITEMS:
       return {
         ...state,
         menuItems: action.payload,
+      };
+
+    case SET_MEGA_MENU:
+      return {
+        ...state,
+        megaMenu: action.payload,
       };
 
     case SET_LOADING:

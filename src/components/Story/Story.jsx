@@ -40,7 +40,7 @@ const Story = () => {
             },
           }}
           navigation
-          className="w-full h-full"
+          className="w-full h-full "
         >
           {story?.map((item) => {
             return (

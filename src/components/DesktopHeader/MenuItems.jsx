@@ -1,40 +1,60 @@
 import { fetchMenuItems } from "../Redux/DesktopHeader/ActionsDesktop";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
+import MegaMenu from "./MegaMenu";
+
+const MenuIcon = ({ icon }) => {
+  if (!icon) return null;
+
+  if (icon.type === "cube") {
+    return (
+      <span
+        className="ml-1 flex h-[18px] w-[18px] items-center justify-center font-[cube] text-[18px] leading-none text-[#a1a3a8]"
+        aria-hidden="true"
+      >
+        {icon.content}
+      </span>
+    );
+  }
+
+  if (icon.type === "svg") {
+    return (
+      <svg
+        className="ml-1 h-[18px] w-[18px] fill-[#a1a3a8]"
+        viewBox={icon.viewBox || "0 0 24 24"}
+        aria-hidden="true"
+      >
+        <path
+          d={icon.path}
+          fillRule={icon.fillRule}
+          clipRule={icon.clipRule}
+        />
+      </svg>
+    );
+  }
+
+  return null;
+};
 
 const MenuItems = () => {
   const dispatch = useDispatch();
 
-  const {
-    menuItems,
-    loading,
-    error,
-  } = useSelector((state) => state.menuItems);
+  const { menuItems, megaMenu, loading, error } = useSelector(
+    (state) => state.menuItems
+  );
 
   useEffect(() => {
     dispatch(fetchMenuItems());
   }, [dispatch]);
 
-  const getClassName = (title) => {
-    switch (title) {
-      case "شگفت‌انگیز‌ها":
-        return "border-r border-[#e0e0e2] pr-2";
-
-      case "سوپرمارکت":
-        return "";
-
-      case "طلای دیجیتال":
-        return "";
-
-      case "پرفروش‌ترین‌ها":
+  const getClassName = (id) => {
+    switch (id) {
+      case 1:
+        return "border-r-[2px] border-[#e0e0e2] pr-2";
+      case 4:
         return "w-[97px]";
-
-      case "خرید کالای کارکرده":
-        return "";
-
-      case "سوالی دارید؟":
-        return "border-r border-[#e0e0e2] pr-2";
-
+      case 5:
+        return "border-r-[2px] border-[#e0e0e2] pr-2";
       default:
         return "";
     }
@@ -59,25 +79,21 @@ const MenuItems = () => {
   return (
     <div className="h-full font-[iran]">
       <ul className="w-full h-full flex items-center list-none">
-        
-        <li className="px-3 h-full flex items-center justify-center">
+        <li className="group relative px-3 h-full flex items-center justify-center">
           <a
             href="#"
-            className="flex items-center text-[14px] font-bold text-[#3f4064] font-[iran]"
+            className="flex items-center gap-1 text-[14px] font-bold text-[#3f4064] font-[iran]"
           >
-            <svg
-              className="w-5 h-5 fill-[#424750]"
-              viewBox="0 0 24 24"
-            >
-              <path
-                fillRule="evenodd"
-                d="M19 8V6H5v2h14zm0 3v2H5v-2h14zm0 5v2H5v-2h14z"
-                clipRule="evenodd"
-              />
-            </svg>
+            <img
+              src="/images/icons/hamburger.svg"
+              alt=""
+              className="w-[18px] h-[18px]"
+            />
 
             دسته‌بندی کالا‌ها
           </a>
+
+          <MegaMenu items={megaMenu} />
         </li>
 
         {menuItems?.map((item) => (
@@ -86,16 +102,20 @@ const MenuItems = () => {
             className="px-3 h-full flex items-center justify-center"
           >
             <a
-              href="#"
+              href={item.href || "#"}
+              target={item.target || "_self"}
+              rel={item.target === "_blank" ? "noreferrer" : undefined}
               className={`
                 flex
                 items-center
+                whitespace-nowrap
                 text-[12px]
                 text-[#62666d]
                 font-[iran]
-                ${getClassName(item.title)}
+                ${getClassName(item.id)}
               `}
             >
+              <MenuIcon icon={item.icon} />
               {item.title}
             </a>
           </li>

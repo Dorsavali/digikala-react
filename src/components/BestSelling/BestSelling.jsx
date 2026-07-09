@@ -36,7 +36,7 @@ const BestSelling = () => {
 
   return (
     <section className=" w-full flex justify-center items-center ">
-      <div className="w-full lg:w-full lg:border lg:border-[#e0e0e2] lg:rounded-2xl bg-white lg:pt-4 lg:pb-2 ">
+      <div className="w-full lg:w-full lg:border lg:border-[#e0e0e2] lg:rounded-2xl bg-white  lg:pt-4 lg:pb-2 ">
         {/* Header */}
         <div className="relative flex items-center justify-end lg:justify-center px-2 lg:px-5 mb-4">
           <div className="flex items-center gap-2">
@@ -59,7 +59,7 @@ const BestSelling = () => {
           </a>
         </div>
 
-        <div className="lg:px-2">
+        <div className="lg:px-2 pr-4 lg:pr-0">
           <Swiper
             modules={[Navigation]}
             navigation

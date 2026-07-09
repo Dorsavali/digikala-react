@@ -35,7 +35,7 @@ const Brands = () => {
         </h2>
       </div>
 
-      <div className="md:hidden ">
+      <div className="md:hidden pr-4 lg:pr-0 ">
         <div className="flex overflow-x-auto hide-scrollbar gap-2 " dir="rtl">
           {brands.map((item) => (
             <a

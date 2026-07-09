@@ -45,7 +45,7 @@ const Slider = () => {
           ))}
         </Swiper>
       </div>
-      <div dir="rtl" className="hidden max-w-[2000px] lg:mx-auto lg:block w-full">
+      <div dir="rtl" className="hidden max-w-[2000px] lg:mx-auto lg:block w-full " >
         <Swiper
           modules={[Autoplay]}
           slidesPerView={1}   

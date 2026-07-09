@@ -29,7 +29,7 @@ const Access = () => {
 
   return (
     <section
-      className="w-full pt-7"
+      className="w-full pt-7 pr-2 lg:pr-0"
     >
       <div
         dir="rtl"
