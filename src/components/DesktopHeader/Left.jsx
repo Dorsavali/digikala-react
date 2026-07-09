@@ -1,11 +1,17 @@
+import { Link } from "react-router-dom";
+
 const Left = () => {
   return (
     <div className="flex justify-end items-center gap-5 pl-2 shrink-0">
-      <p className="text-[24px] text-[#424750] cursor-pointer font-[cube]">
+      <Link
+        to="/login/"
+        className="text-[24px] text-[#424750] cursor-pointer font-[cube]"
+      >
         
-      </p>
+      </Link>
 
-      <button
+      <Link
+        to="/login/"
         className="
           h-[40px]
           px-4
@@ -26,7 +32,7 @@ const Left = () => {
         <span className="text-[12px] font-medium text-[#0c0c0c] font-[iranb] whitespace-nowrap">
           ورود | ثبت‌نام
         </span>
-      </button>
+      </Link>
 
       <div className="border-r border-[#e0e0e2] pr-4 cursor-pointer pt-2 shrink-0">
         <svg className="w-6 h-6 fill-[#424750]">

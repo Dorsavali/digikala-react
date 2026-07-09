@@ -34,7 +34,7 @@ const MobileHeader = () => {
 
         if (currentY <= 20) {
           setCompactSafe(false);
-        } else if (currentY > 400) {
+        } else if (currentY > 200) {
           setCompactSafe(true);
         } else if (diff < 0) {
           setCompactSafe(false);

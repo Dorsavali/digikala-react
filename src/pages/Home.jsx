@@ -27,6 +27,8 @@ import FooterMobile from "../components/FooterMobile/FooterMobile.jsx";
 import FooterDesktop from "../components/FooterDesktop/FooterDesktop.jsx";
 import ContainerSize from "../components/ContainerSize.jsx";
 import SuperMarketModal from "../components/SuperMarketModal/SuperMarketModal.jsx";
+import MobileNavbar from "../components/MobileNavbar/MobileNavbar.jsx";
+import SupportButton from "../components/SupportButton/SupportButton.jsx";
 const Home = () => {
   const suggested = useSelector((state) => state.suggested.suggested);
   return (
@@ -63,8 +65,10 @@ const Home = () => {
         <Blog />
       </ContainerSize>
       <SuperMarketModal/>
+      <SupportButton />
       <FooterMobile />
       <FooterDesktop />
+      <MobileNavbar />
     </div>
   );
 };

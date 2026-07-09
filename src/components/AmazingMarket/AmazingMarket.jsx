@@ -148,32 +148,32 @@ const AmazingMarket = () => {
                 spaceBetween={5}
                 breakpoints={{
                   0: {
-                    slidesPerView: 2.2,
+                    slidesPerView: 3.5,
                   },
                   480: {
-                    slidesPerView: 3.2,
+                    slidesPerView: 3.5,
                   },
                   768: {
-                    slidesPerView: 4.2,
+                    slidesPerView: 7,
                   },
                   1024: {
-                    slidesPerView: 5.2,
+                    slidesPerView: 7,
                   },
                   1280: {
-                    slidesPerView: 10,
+                    slidesPerView: 7,
                   },
                 }}
                 className="custom-amazing-swiper"
               >
                 {amazingMarket?.roll?.map((item, index) => (
                   <SwiperSlide
-                    style={{ width: 140, height: 250 }}
+                    style={{ width: 140, height: 220 }}
                     key={item.id}
                     className={` !bg-white ${
                       index === 0 ? "!rounded-tr-2xl !rounded-br-2xl" : ""
                     }`}
                   >
-                    <div className="flex flex-col gap-4 p-2 h-full">
+                    <div className="flex flex-col  p-2 h-full">
                       {item.img && (
                         <img
                           src={item.img}
@@ -186,7 +186,7 @@ const AmazingMarket = () => {
                         {item.text}
                       </h3>
 
-                      <div className="mt-auto">
+                      <div className="mt-2">
                         {item.percentage && (
                           <div className="flex items-center gap-1">
                             <span className="w-[28px] h-4 bg-[#d32f2f] text-white text-center text-xs px-1 rounded-full font-[iran] px-1">
@@ -216,7 +216,7 @@ const AmazingMarket = () => {
                 ))}
 
                 <SwiperSlide
-                  style={{ width: 160, height: 250 }}
+                  style={{ width: 160, height: 220 }}
                   className="bg-white rounded-tl-xl rounded-bl-xl"
                 >
                   <div className="h-full gap-2.5 flex flex-col justify-center items-center ">

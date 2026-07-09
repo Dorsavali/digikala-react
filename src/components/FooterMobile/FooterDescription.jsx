@@ -1,5 +1,5 @@
 import { useState } from "react";
-import FooterDescriptionData from "./FooterDescriptionData";
+import FooterDescriptionDataM from "./FooterDescriptionDataM";
 
 const FooterDescription = () => {
   const [showMore, setShowMore] = useState(false);
@@ -11,7 +11,7 @@ const FooterDescription = () => {
           showMore ? "max-h-[10000px]" : "max-h-[110px]"
         }`}
       >
-        <FooterDescriptionData />
+        <FooterDescriptionDataM />
       </div>
 
       <button onClick={() => setShowMore(!showMore)} className="flex justify-center items-center text-[#a1a3a8] text-[14px] font-[iran] mt-1.5">

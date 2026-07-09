@@ -1,4 +1,4 @@
-const FooterDescriptionData = () => {
+const FooterDescriptionDataM = () => {
   return (
     <div>
       <div >
@@ -855,4 +855,4 @@ p-0
   );
 };
 
-export default FooterDescriptionData;
+export default FooterDescriptionDataM;

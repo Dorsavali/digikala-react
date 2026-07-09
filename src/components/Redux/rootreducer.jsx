@@ -14,6 +14,8 @@ import ReducerBestSelling from "./BestSelling/ReducerBestSelling";
 import ReducerAmazingOffer from "./AmazingOffer/ReducerAmazingOffer";
 import ReducerHotTrends from "./HotTrends/ReducerHotTrends";
 import ReducerAmazingCrud from "./AmazingCrud/ReducerAmazingCrud";
+import ReducerMobileNavbar from "./MobileNavbar/ReducerMobileNavbar";
+import ReducerMobileMegaMenu from "./MobileMegaMenu/ReducerMobileMegaMenu";
 const rootreducer = combineReducers({
   menuItems: ReducerDesktop,
   mobileHeader: ReducerMobile,
@@ -30,6 +32,8 @@ amazingCrud: ReducerAmazingCrud,
   bestSelling: ReducerBestSelling,
   amazingOffer:ReducerAmazingOffer,
   hotTrends:ReducerHotTrends,
+  mobileNavbar: ReducerMobileNavbar,
+  mobileMegaMenu: ReducerMobileMegaMenu,
 });
 
 export default rootreducer;
