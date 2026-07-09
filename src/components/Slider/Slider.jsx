@@ -22,13 +22,13 @@ const Slider = () => {
     <>
       <div dir="rtl" className="block lg:hidden w-full bg-[rgb(242,243,245)] px-3 py-2">
         <Swiper
+        loop={slider.length > 3}
           modules={[Pagination, Autoplay]}
           slidesPerView={1.08}     
           centeredSlides={true}
           spaceBetween={8}
           pagination={{ clickable: true }}
           autoplay={{ delay: 3000, disableOnInteraction: false }}
-          loop={true}
           style={{ "--swiper-pagination-color": "#ef4056", "--swiper-pagination-bottom": "6px" }}
           className="w-full h-[155px] rounded-xl overflow-hidden"
         >
@@ -52,7 +52,7 @@ const Slider = () => {
           centeredSlides={true}
           spaceBetween={0}
           autoplay={{ delay: 3000, disableOnInteraction: false }}
-          loop={true}
+loop={slider.length > 3}
           className="w-full h-[400px] p-[unset]"
         >
           {slider?.map((item) => (

@@ -9594,33 +9594,43 @@
     },
     {
       "id": "2",
+      "title": "جام جهانی",
+      "imgSrc": "/images/header/mobile/fifa.gif"
+    },
+    {
+      "id": "3",
       "title": "دیجی‌کالا",
       "imgSrc": "/images/header/mobile/box.png"
     },
     {
-      "id": "3",
+      "id": "4",
       "title": "۴۵ دقیقه‌ای",
       "imgSrc": "/images/header/mobile/45min.png"
     },
     {
-      "id": "4",
+      "id": "5",
       "title": "طلا و نقره",
       "imgSrc": "/images/header/mobile/gold.png"
     },
     {
-      "id": "5",
+      "id": "6",
       "title": "استایل",
       "imgSrc": "/images/header/mobile/style.png"
     },
     {
-      "id": "6",
+      "id": "7",
       "title": "سوپرمارکت",
       "imgSrc": "/images/header/mobile/supermarket.png"
     },
     {
-      "id": "7",
+      "id": "8",
       "title": "اعتبار خرید",
       "imgSrc": "/images/header/mobile/pay.png"
+    },
+    {
+      "id": "9",
+      "title": "دارو",
+      "imgSrc": "/images/header/mobile/pills.webp"
     }
   ],
   "story": [
@@ -9754,6 +9764,56 @@
     {
       "id": "7",
       "img": "/images/slider/7.webp",
+      "link": "#"
+    },
+    {
+      "id": "8",
+      "img": "/images/slider/8.webp",
+      "link": "#"
+    },
+    {
+      "id": "9",
+      "img": "/images/slider/9.webp",
+      "link": "#"
+    },
+    {
+      "id": "10",
+      "img": "/images/slider/10.jpg",
+      "link": "#"
+    },
+    {
+      "id": "11",
+      "img": "/images/slider/11.webp",
+      "link": "#"
+    },
+    {
+      "id": "12",
+      "img": "/images/slider/12.webp",
+      "link": "#"
+    },
+    {
+      "id": "13",
+      "img": "/images/slider/13.webp",
+      "link": "#"
+    },
+    {
+      "id": "14",
+      "img": "/images/slider/14.webp",
+      "link": "#"
+    },
+    {
+      "id": "15",
+      "img": "/images/slider/15.webp",
+      "link": "#"
+    },
+    {
+      "id": "16",
+      "img": "/images/slider/16.webp",
+      "link": "#"
+    },
+    {
+      "id": "17",
+      "img": "/images/slider/17.gif",
       "link": "#"
     }
   ],
@@ -9923,7 +9983,7 @@
         "title": "هدفون بلوتوثی انکر مدل SoundCore R50i A3949",
         "image": "/images/threehour/1.jpg",
         "price": "۲,۰۸۳,۰۰۰",
-        "discount": "",
+        "discount": null,
         "oldPrice": null
       },
       {
@@ -9931,7 +9991,7 @@
         "title": "گوشی موبایل شیائومی Redmi Note 14 4G",
         "image": "/images/threehour/2.jpg",
         "price": "۳۵,۵۰۰,۰۰۰",
-        "discount": "",
+        "discount": null,
         "oldPrice": null
       },
       {
@@ -9963,7 +10023,7 @@
         "title": "هدفون بلوتوثی انکر مدل R50i NC",
         "image": "/images/threehour/6.jpg",
         "price": "۳,۱۹۸,۰۰۰",
-        "discount": "",
+        "discount": null,
         "oldPrice": null
       },
       {
@@ -9971,7 +10031,7 @@
         "title": "گوشی سامسونگ Galaxy S25 FE",
         "image": "/images/threehour/8.jpg",
         "price": "۱۱۵,۱۵۹,۰۰۰",
-        "discount": "",
+        "discount": null,
         "oldPrice": null
       },
       {
@@ -9987,7 +10047,7 @@
         "title": "گوشی سامسونگ Galaxy A07",
         "image": "/images/threehour/10.jpg",
         "price": "۲۲,۱۹۰,۰۰۰",
-        "discount": "",
+        "discount": null,
         "oldPrice": null
       },
       {
@@ -9995,7 +10055,7 @@
         "title": "محلول تقویت کننده مژه سریتا",
         "image": "/images/threehour/11.jpg",
         "price": "۱,۲۷۰,۰۰۰",
-        "discount": "",
+        "discount": null,
         "oldPrice": null
       }
     ]
@@ -11418,6 +11478,5 @@
       "image": "/images/hotTrends/18.jpg",
       "link": "#"
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
 }

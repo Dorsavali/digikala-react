@@ -1,13 +1,14 @@
 import { fetchMobileHeader } from "../Redux/MobileHeader/ActionMobile";
 import { useDispatch, useSelector } from "react-redux";
-import { useEffect } from "react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
-const Top = () => {
-  const [activeId, setActiveId] = useState(null);
+const Top = ({ compact = false }) => {
+  const [activeId, setActiveId] = useState(3);
   const dispatch = useDispatch();
-  const { MobileHeader } = useSelector((state) => state.mobileHeader);
-const data = useSelector((state) => state.mobileHeader)
+
+  const { MobileHeader = [] } = useSelector(
+    (state) => state.mobileHeader || {},
+  );
 
   useEffect(() => {
     dispatch(fetchMobileHeader());
@@ -16,46 +17,54 @@ const data = useSelector((state) => state.mobileHeader)
   return (
     <div
       dir="rtl"
-      className="md:flex lg:hidden flex  h-[82px] gap-2.5  justify-start snap-x snap-mandatory items-center gap-1.5 px-4 py-2 box-border overflow-x-scroll no-scrollbar"
-    >
-      {MobileHeader?.map((item) => {
-  return (
-    <div
-      key={item.id}
-      onClick={() => setActiveId(item.id)}
       className={`
-        shrink-0
-        w-[68px]
-        h-[66px]
-        rounded-xl
-        py-1
-        flex
-        flex-col
-        justify-around
-        items-center
-        border
-        border-[#e0e0e2]
-        cursor-pointer
-        transition-all
-text-[10px]
-font-[iranb]
-        ${
-          activeId === item.id
-            ? "bg-red-500 text-white"
-            : "bg-white text-black"
-        }
-      `}
+  flex lg:hidden w-full min-w-full items-center gap-2 px-4 overflow-x-auto overflow-y-hidden no-scrollbar bg-[#f2f3f5]
+  ${compact ? "h-10 py-1" : "h-full py-2"}
+`}
     >
-      <img
-        src={item.imgSrc}
-        alt={item.title}
-        className="w-[32px] h-[32px] object-cover"
-      />
+      {MobileHeader.map((item) => {
+        const active = String(activeId) === String(item.id);
 
-      {item.title}
-    </div>
-  );
-})}
+        return (
+          <a
+            key={item.id}
+            href={item.href || "#"}
+            onClick={(e) => {
+              e.preventDefault();
+              setActiveId(item.id);
+            }}
+            className={`
+  flex-1 min-w-[68px] max-w-[103px] rounded-lg overflow-hidden flex flex-col items-center justify-center shadow-sm transition-all duration-300
+  ${compact ? "h-8" : "h-full"}
+  ${active ? "text-white bg-[#e40138]" : "text-[#23254e] bg-white"}
+`}
+          >
+            <div
+              className={`w-full flex flex-col gap-1 items-center justify-center pt-1 ${
+                active ? "bg-[#e40138]" : "bg-white"
+              }`}
+            >
+              {!compact && item.imgSrc && (
+                <img
+                  src={item.imgSrc}
+                  alt={item.title}
+                  className="w-8 h-8 object-contain"
+                />
+              )}
+
+              <span
+                className={`
+    w-full px-1 text-center truncate font-[iranb]
+    ${compact ? "text-[11px]" : "text-[11px] pb-1"}
+    ${active ? "bg-[#e40138]" : "bg-white"}
+  `}
+              >
+                {item.title}
+              </span>
+            </div>
+          </a>
+        );
+      })}
     </div>
   );
 };

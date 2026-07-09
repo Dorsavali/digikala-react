@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect, useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -14,11 +14,7 @@ const AmazingMarket = () => {
     (state) => state.amazingMarket,
   );
   const dispatch = useDispatch();
-    const swiperRef = useRef(null);
-  function handleAddamazing(item, source) {
-    dispatch(setAddcart({ ...item, uniqueId: `${source}_${item.id}` }));
-    alert(`${item.text} به سبد خرید اضافه شد 🛒`);
-  }
+  const swiperRef = useRef(null);
 
   const START_TIME = 60 * 200;
   const [timeLeft, setTimeLeft] = useState(START_TIME);
@@ -53,23 +49,29 @@ const AmazingMarket = () => {
       "linear-gradient(225deg, rgb(107, 185, 39) 0%, rgb(157, 196, 77) 100%)",
   };
   return (
-    <section className="lg:hidden w-full lg:px-2 lg:px-4 mt-4" style={amazingMarketBg}>
+    <section
+      className="lg:hidden w-full lg:px-2 lg:px-4 mt-4"
+      style={amazingMarketBg}
+    >
       <div className="max-w-334 mx-auto">
-        <div className=" pt-4" >
+        <div className=" pt-4">
           <div className="flex flex-row-reverse items-center px-3">
             <div className="flex flex-row-reverse items-center gap-2.5 w-3/4">
-              <div className="flex flex-row-reverse items-center gap-2">
-                <img
-                  src={amazingMarket.percentage}
-                  alt=""
-                  className="w-6 h-6"
-                />
-
-                <img
-                  src={amazingMarket.mobileshegeft}
-                  alt=""
-                  className="w-[108px]"
-                />
+              <div className="flex flex-row-reverse items-center gap-2 ">
+                {amazingMarket?.percentage && (
+                  <img
+                    src={amazingMarket.percentage}
+                    alt="percentage"
+                    className="w-6 h-6"
+                  />
+                )}
+                {amazingMarket?.mobileshegeft && (
+                  <img
+                    src={amazingMarket.mobileshegeft}
+                    alt="mobileshegeft"
+                    className="w-[108px]"
+                  />
+                )}
               </div>
 
               <div className="flex items-center gap-1">
@@ -97,17 +99,16 @@ const AmazingMarket = () => {
             </button>
           </div>
         </div>
-        <div
-          className=" lg:rounded-2xl rounded-b-2xl px-2 py-5"
-          
-        >
+        <div className=" lg:rounded-2xl rounded-b-2xl px-2 py-5">
           <div className="flex flex-row-reverse">
             <div className="hidden lg:flex w-[150px]  flex-col items-center justify-center">
-              <img
-                src={amazingMarket.shegeftangiz}
-                alt=""
-                className="w-[88px]"
-              />
+              {amazingMarket?.shegeftangiz && (
+                <img
+                  src={amazingMarket.shegeftangiz}
+                  alt=""
+                  className="w-[88px]"
+                />
+              )}
               <div className="flex gap-1 mt-3">
                 <span className="bg-white px-2 py-1 rounded text-xs font-bold">
                   {hours}
@@ -119,11 +120,13 @@ const AmazingMarket = () => {
                   {seconds}
                 </span>
               </div>
-              <img
-                src={amazingMarket.percentage}
-                alt=""
-                className="w-[80px] mt-2"
-              />
+              {amazingMarket?.percentage && (
+                <img
+                  src={amazingMarket.percentage}
+                  alt="percentage"
+                  className="w-6 h-6"
+                />
+              )}
 
               <button className="text-white text-[12px] mt-4 flex flex-row-reverse items-center justify-start font-[iran]">
                 مشاهده همه
@@ -137,7 +140,7 @@ const AmazingMarket = () => {
 
             <div className="flex-1 overflow-hidden">
               <Swiper
-                 onSwiper={(s) => (swiperRef.current = s)}
+                onSwiper={(s) => (swiperRef.current = s)}
                 modules={[Navigation]}
                 navigation
                 dir="rtl"
@@ -164,18 +167,20 @@ const AmazingMarket = () => {
               >
                 {amazingMarket?.roll?.map((item, index) => (
                   <SwiperSlide
-                  style={{ width: 140, height: 250 }}
-  key={item.id}
-  className={` !bg-white ${
-    index === 0 ? "!rounded-tr-2xl !rounded-br-2xl" : ""
-  }`}
->
+                    style={{ width: 140, height: 250 }}
+                    key={item.id}
+                    className={` !bg-white ${
+                      index === 0 ? "!rounded-tr-2xl !rounded-br-2xl" : ""
+                    }`}
+                  >
                     <div className="flex flex-col gap-4 p-2 h-full">
-                      <img
-                        src={item.img}
-                        alt={item.text}
-                        className="w-full h-[114px] object-contain rounded-md"
-                      />
+                      {item.img && (
+                        <img
+                          src={item.img}
+                          alt={item.text}
+                          className="w-full h-[114px] object-contain rounded-md"
+                        />
+                      )}
 
                       <h3 className="text-xs h-10 mt-2 font-[iran , sans-serif] font-medium leading-5 line-clamp-2 overflow-hidden text-right">
                         {item.text}
@@ -210,16 +215,20 @@ const AmazingMarket = () => {
                   </SwiperSlide>
                 ))}
 
-                    <SwiperSlide
+                <SwiperSlide
                   style={{ width: 160, height: 250 }}
-                  className="bg-white rounded-tl-xl rounded-bl-xl" 
+                  className="bg-white rounded-tl-xl rounded-bl-xl"
                 >
-                <div className="h-full gap-2.5 flex flex-col justify-center items-center ">
-                    <img src="/images/icons/arrowleft.svg" alt="arrow" className="w-[44px] h-[44px] border-[2px] border-[#3f4064] rounded-full p-1 box-border"/>
-                 <span className="font-[iran] text-[#3f4064] text-xs">مشاهده همه
-
-                 </span>
-                </div>
+                  <div className="h-full gap-2.5 flex flex-col justify-center items-center ">
+                    <img
+                      src="/images/icons/arrowleft.svg"
+                      alt="arrow"
+                      className="w-[44px] h-[44px] border-[2px] border-[#3f4064] rounded-full p-1 box-border"
+                    />
+                    <span className="font-[iran] text-[#3f4064] text-xs">
+                      مشاهده همه
+                    </span>
+                  </div>
                 </SwiperSlide>
               </Swiper>
             </div>

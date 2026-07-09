@@ -34,7 +34,7 @@ const Home = () => {
         <DesktopHeader />
       <MobileHeader />
       <ContainerSize>
-        <div className="hidden lg:block h-[100px]" />
+        <div className="hidden lg:block h-25" />
         <Story />
      </ContainerSize>
       <Slider />

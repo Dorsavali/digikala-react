@@ -1,30 +1,11 @@
-
-import { useState } from "react";
-
 const City = () => {
-
   return (
-    <div className="h-full flex items-center relative px-4 py-1 gap-1 box-border">
-      <button className="font-[iran] text-[#934c0e] rounded-full  text-[12px]  flex items-center">
-        <span className="text-[18px] pl-1 font-[cube]"></span>
-        انتخاب آدرس 
-        
+    <div className="flex lg:hidden w-full h-9 items-center px-4 bg-[#f2f3f5]">
+      <button className="flex items-center gap-1 text-[12px] font-[iranb] text-[#934c0e]">
+        <span className="text-[18px] font-[cube]"></span>
+        انتخاب آدرس
+        <span className="text-[15px] font-[cube]"></span>
       </button>
-      <div
-  className="
-    font-[cube]
-    w-4
-    h-4
-    text-[16px]
-    font-normal
-    text-[#934c0e]
-    flex
-    items-center
-    justify-center
-  "
->
-  
-</div>
     </div>
   );
 };
