@@ -31,7 +31,6 @@ const AmazingOffer = () => {
               clipRule="evenodd"
             />
           </svg>
-          font-[iran]
           <h2 className="text-xl font-[iranb] text-[#0c0c0c]">
             منتخب محصولات تخفیف و حراج
           </h2>

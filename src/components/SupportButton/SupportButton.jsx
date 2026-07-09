@@ -11,6 +11,7 @@ const SupportButton = () => {
         aria-expanded={open}
         onClick={() => setOpen(true)}
         className="
+        cursor-pointer
           fixed
           bottom-20
           left-4

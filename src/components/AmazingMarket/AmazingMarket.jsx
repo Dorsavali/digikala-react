@@ -206,7 +206,7 @@ const AmazingMarket = () => {
                           </span>
 
                           <img
-                            src="/public/images/icons/toman.svg"
+                            src="/images/icons/toman.svg"
                             alt="toman"
                             className="w-4 h-4"
                           />

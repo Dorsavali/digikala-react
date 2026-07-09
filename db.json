@@ -9871,7 +9871,7 @@
   ],
   "amazing": {
     "shegeftangiz": "images/amazing/shegeft.svg",
-    "mobileshegeft": "./public/images/amazing/mobile shegeft.svg",
+    "mobileshegeft": "/images/amazing/mobile shegeft.svg",
     "percentage": "images/amazing/percentage.svg",
     "flesh": "images/amazing/fleshbechap.svg",
     "fleshhuge": "images/amazing/fleshhuge.svg",
@@ -10062,7 +10062,7 @@
   },
   "amazingMarket": {
     "shegeftangiz": "images/amazing/shegeft.svg",
-    "mobileshegeft": "./public/images/amazing/mobile shegeft.svg",
+    "mobileshegeft": "/images/amazing/mobile shegeft.svg",
     "percentage": "images/amazing/percentage.svg",
     "flesh": "images/amazing/fleshbechap.svg",
     "fleshhuge": "images/amazing/fleshhuge.svg",
