@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 import ReduxStatus from "../Ui/ReduxStatus";
-=======
->>>>>>> 9a4b1ff3207dad4ce3e01bc6e1c37f2c99b3efe4
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchMobileMegaMenu } from "../Redux/MobileMegaMenu/ActionsMobileMegaMenu";
@@ -56,17 +53,11 @@ const MobileMegaMenu = () => {
   const [activeId, setActiveId] = useState(null);
   const [openGroupId, setOpenGroupId] = useState(null);
 
-<<<<<<< HEAD
   const {
     mobileMegaMenu = [],
     loading,
     error,
   } = useSelector((state) => state.mobileMegaMenu || {});
-=======
-  const { mobileMegaMenu = [], loading, error } = useSelector(
-    (state) => state.mobileMegaMenu || {}
-  );
->>>>>>> 9a4b1ff3207dad4ce3e01bc6e1c37f2c99b3efe4
 
   useEffect(() => {
     dispatch(fetchMobileMegaMenu());
@@ -81,23 +72,10 @@ const MobileMegaMenu = () => {
       (column.groups || []).map((group) => ({
         ...group,
         key: `${activeItem?.id}-${column.id}-${group.id}`,
-<<<<<<< HEAD
       })),
     ) || [];
 
   if (loading || error) return <ReduxStatus loading={loading} error={error} />;
-=======
-      }))
-    ) || [];
-
-  if (loading) {
-    return <div className="p-4 font-[iran] text-sm">در حال بارگذاری...</div>;
-  }
-
-  if (error) {
-    return <div className="p-4 font-[iran] text-sm text-red-500">{error}</div>;
-  }
->>>>>>> 9a4b1ff3207dad4ce3e01bc6e1c37f2c99b3efe4
 
   return (
     <div
@@ -124,11 +102,7 @@ const MobileMegaMenu = () => {
             >
               <SvgIcon svg={item.svg} active={active} />
 
-<<<<<<< HEAD
               <span className="text-[9px] leading-5 font-[iran,sans-serif]">
-=======
-              <span className="text-[9px] leading-5 font-[iranb]">
->>>>>>> 9a4b1ff3207dad4ce3e01bc6e1c37f2c99b3efe4
                 {item.title}
               </span>
             </button>
@@ -139,19 +113,11 @@ const MobileMegaMenu = () => {
       <main className="flex-1 overflow-y-auto bg-white px-3 pb-12 no-scrollbar">
         <a
           href={activeItem?.allProductsHref || activeItem?.href || "#"}
-<<<<<<< HEAD
           className="flex items-center justify-between border-b border-[#f0f0f1] py-4 text-[13px] font-[iran] text-[#19bfd3]"
-=======
-          className="flex items-center justify-between border-b border-[#f0f0f1] py-4 text-[13px] font-[iranb] text-[#19bfd3]"
->>>>>>> 9a4b1ff3207dad4ce3e01bc6e1c37f2c99b3efe4
         >
           <span>
             {activeItem?.allProductsTitle || `همه محصولات ${activeItem?.title}`}
           </span>
-<<<<<<< HEAD
-=======
-         
->>>>>>> 9a4b1ff3207dad4ce3e01bc6e1c37f2c99b3efe4
         </a>
 
         {groups.map((group) => {
@@ -163,11 +129,7 @@ const MobileMegaMenu = () => {
               <button
                 type="button"
                 onClick={() => setOpenGroupId(open ? null : group.key)}
-<<<<<<< HEAD
                 className="flex w-full items-center justify-between py-4 text-right text-[12px] font-[iran] text-[#23254e]"
-=======
-                className="flex w-full items-center justify-between py-4 text-right text-[12px] font-[iranb] text-[#23254e]"
->>>>>>> 9a4b1ff3207dad4ce3e01bc6e1c37f2c99b3efe4
               >
                 <span>{group.title}</span>
                 <ChevronIcon open={open} />
@@ -189,11 +151,7 @@ const MobileMegaMenu = () => {
 
                       <a
                         href={group.href || "#"}
-<<<<<<< HEAD
                         className="block border-t border-[#f5f5f5] py-3 pr-3 text-[12px] leading-6 text-[#19bfd3] font-[iran]"
-=======
-                        className="block border-t border-[#f5f5f5] py-3 pr-3 text-[12px] leading-6 text-[#19bfd3] font-[iranb]"
->>>>>>> 9a4b1ff3207dad4ce3e01bc6e1c37f2c99b3efe4
                       >
                         همه کالاها
                       </a>
@@ -201,11 +159,7 @@ const MobileMegaMenu = () => {
                   ) : (
                     <a
                       href={group.href || "#"}
-<<<<<<< HEAD
                       className="block border-t border-[#f5f5f5] py-3 pr-3 text-[12px] leading-6 text-[#19bfd3] font-[iran]"
-=======
-                      className="block border-t border-[#f5f5f5] py-3 pr-3 text-[12px] leading-6 text-[#19bfd3] font-[iranb]"
->>>>>>> 9a4b1ff3207dad4ce3e01bc6e1c37f2c99b3efe4
                     >
                       مشاهده همه
                     </a>

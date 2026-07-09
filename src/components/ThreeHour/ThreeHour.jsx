@@ -24,7 +24,7 @@ const ThreeHourDelivery = () => {
 
         <div className="bg-[#F6E6D5] mt-4 rounded-lg p-3">
           <div className="font-medium text-[12px] font-[iran] flex gap-2 items-center">
-            <p className="font-[cube2] text-xl text-[#934c0e]"> </p>
+            <p className="font-[cube] text-xl text-[#934c0e]"> </p>
             برای بررسی امکان ارسال، آدرس را انتخاب کنید.
           </div>
 

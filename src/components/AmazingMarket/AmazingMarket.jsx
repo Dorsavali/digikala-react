@@ -168,11 +168,7 @@ const AmazingMarket = () => {
               >
                 {amazingMarket?.roll?.map((item, index) => (
                   <SwiperSlide
-<<<<<<< HEAD
                     style={{ width: 140, height: 225 }}
-=======
-                    style={{ width: 140, height: 220 }}
->>>>>>> 9a4b1ff3207dad4ce3e01bc6e1c37f2c99b3efe4
                     key={item.id}
                     className={` !bg-white ${
                       index === 0 ? "!rounded-tr-2xl !rounded-br-2xl" : ""
@@ -221,11 +217,7 @@ const AmazingMarket = () => {
                 ))}
 
                 <SwiperSlide
-<<<<<<< HEAD
                   style={{ width: 160, height: 225 }}
-=======
-                  style={{ width: 160, height: 220 }}
->>>>>>> 9a4b1ff3207dad4ce3e01bc6e1c37f2c99b3efe4
                   className="bg-white rounded-tl-xl rounded-bl-xl"
                 >
                   <div className="h-full gap-2.5 flex flex-col justify-center items-center ">

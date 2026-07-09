@@ -32,15 +32,11 @@ const Login = () => {
               aria-label="بازگشت"
             >
               <svg viewBox="0 0 24 24" className="h-6 w-6 fill-current">
-<<<<<<< HEAD
                 <path
                   fill-rule="evenodd"
                   clip-rule="evenodd"
                   d="M12.7071 19.7072L11.2929 18.293L16.5858 13.0001H4V11.0001H16.5858L11.2929 5.70718L12.7071 4.29297L19.7071 11.293C20.0976 11.6835 20.0976 12.3167 19.7071 12.7072L12.7071 19.7072Z"
                 ></path>
-=======
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.7071 19.7072L11.2929 18.293L16.5858 13.0001H4V11.0001H16.5858L11.2929 5.70718L12.7071 4.29297L19.7071 11.293C20.0976 11.6835 20.0976 12.3167 19.7071 12.7072L12.7071 19.7072Z"></path>
->>>>>>> 9a4b1ff3207dad4ce3e01bc6e1c37f2c99b3efe4
               </svg>
             </button>
 
@@ -52,11 +48,7 @@ const Login = () => {
           </header>
 
           <div>
-<<<<<<< HEAD
             <h1 className="mb-5 text-[16px] font-[iran] leading-8 text-[#0c0c0c]">
-=======
-            <h1 className="mb-5 text-[16px] font-[iranb] leading-8 text-[#0c0c0c]">
->>>>>>> 9a4b1ff3207dad4ce3e01bc6e1c37f2c99b3efe4
               ورود یا ثبت‌نام در دیجی‌کالا
             </h1>
 
@@ -96,11 +88,7 @@ const Login = () => {
 
               <button
                 type="submit"
-<<<<<<< HEAD
                 className="h-12 w-full rounded-lg bg-[#ef4056] text-[14px] font-[iran] text-white"
-=======
-                className="h-12 w-full rounded-lg bg-[#ef4056] text-[14px] font-[iranb] text-white"
->>>>>>> 9a4b1ff3207dad4ce3e01bc6e1c37f2c99b3efe4
               >
                 ورود به دیجی‌کالا
               </button>
@@ -124,8 +112,4 @@ const Login = () => {
   );
 };
 
-<<<<<<< HEAD
 export default Login;
-=======
-export default Login;
->>>>>>> 9a4b1ff3207dad4ce3e01bc6e1c37f2c99b3efe4

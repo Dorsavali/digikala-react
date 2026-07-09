@@ -2,16 +2,12 @@ import { fetchMobileHeader } from "../Redux/MobileHeader/ActionMobile";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect, useState } from "react";
 
-<<<<<<< HEAD
 const Top = ({
   compact = false,
   bgColor = "bg-[#f2f3f5]",
   showImages = true,
   fitText = false,
 }) => {
-=======
-const Top = ({ compact = false, bgColor = "bg-[#f2f3f5]", showImages = true, fitText = false }) => {
->>>>>>> 9a4b1ff3207dad4ce3e01bc6e1c37f2c99b3efe4
   const [activeId, setActiveId] = useState(3);
   const dispatch = useDispatch();
 
