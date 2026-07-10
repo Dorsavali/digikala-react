@@ -77,7 +77,7 @@ const SuggestedMobile = ({ suggested }) => {
             {section.id === 20 && (
               <hr className="w-full bg-[#f5f5f5] border-none h-2 mb-4 " />
             )}
-            <div className=" mb-3 px-4" dir="rtl">
+            <div className=" mb-3 px-4 py-3" dir="rtl">
               <div className="flex items-center">
                 <h2 className="text-[14px] font-[iran] text-gray-900 flex-1">
                   {section.title}
@@ -137,7 +137,7 @@ const SuggestedMobile = ({ suggested }) => {
             {section.id === 22 && (
               <hr className="w-full bg-[#f5f5f5] border-none h-2 mb-4 " />
             )}
-            <div className=" mb-3 px-4" dir="rtl">
+            <div className=" mb-3 px-4 py-3" dir="rtl">
               <div className="flex items-center">
                 <h2 className="text-[14px] font-[iran] text-gray-900 flex-1">
                   {section.title}
