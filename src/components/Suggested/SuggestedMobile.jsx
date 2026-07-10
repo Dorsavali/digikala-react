@@ -1,4 +1,4 @@
-import Banner from "./Banner";
+
 import SuggestedCard from "./SuggestedCard";
 const SuggestedMobile = ({ suggested }) => {
   if (!suggested?.length) return null;
@@ -71,7 +71,6 @@ const SuggestedMobile = ({ suggested }) => {
           </div>
         ))}
       </div>
-      <Banner image="/images/suggested/banner.webp" />
       <div className="space-y-5 box-border">
         {secondSections.map((section) => (
           <div key={section.id}>
@@ -132,8 +131,6 @@ const SuggestedMobile = ({ suggested }) => {
           </div>
         ))}
       </div>
-      <Banner image="/images/suggested/banner1.webp" />
-      <Banner image="/images/suggested/banner2.webp" />
       <div className="space-y-5  box-border">
         {thirdSections.map((section) => (
           <div key={section.id}>

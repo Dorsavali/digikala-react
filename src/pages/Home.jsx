@@ -29,14 +29,16 @@ import ContainerSize from "../components/ContainerSize.jsx";
 import SuperMarketModal from "../components/SuperMarketModal/SuperMarketModal.jsx";
 import MobileNavbar from "../components/MobileNavbar/MobileNavbar.jsx";
 import SupportButton from "../components/SupportButton/SupportButton.jsx";
+import Banner from "../components/Banner/Banner.jsx";
 const Home = () => {
   const suggested = useSelector((state) => state.suggested.suggested);
   return (
     <div>
+      <Banner />
         <DesktopHeader />
       <MobileHeader />
       <ContainerSize>
-        <div className="hidden lg:block h-25" />
+        <div className="hidden lg:block h-12" />
         <Story />
      </ContainerSize>
       <Slider />

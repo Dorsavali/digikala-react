@@ -26,6 +26,7 @@
 }
 .no-scrollbar::-webkit-scrollbar {
   display: none;
+  scrollbar-width: none;
 }
 
 .no-scrollbar {
@@ -37,9 +38,26 @@
   display: none;
 }
 
-* {
-  scrollbar-width: none;
-}
+
 body {
   font-family: iran, sans-serif;
+  user-select: none;
+}
+
+.mega-menu-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #c0c2c5 #f1f2f4;
+}
+
+.mega-menu-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.mega-menu-scroll::-webkit-scrollbar-track {
+  background: #f1f2f4;
+}
+
+.mega-menu-scroll::-webkit-scrollbar-thumb {
+  background: #c0c2c5;
+  border-radius: 999px;
 }

@@ -14,7 +14,8 @@ const Slider = () => {
 
   useEffect(() => {
     dispatch(fetchSlider());
-  }, []);
+  }, []);
+
   if (loading || error) return <ReduxStatus loading={loading} error={error} />;
 
   return (
@@ -37,7 +38,7 @@ const Slider = () => {
                 <img
                   src={item.img}
                   alt=""
-                  className="w-full h-full object-cover rounded-xl"
+                  className="w-full h-full object-cover lg:object-contain rounded-xl"
                 />
               </a>
             </SwiperSlide>

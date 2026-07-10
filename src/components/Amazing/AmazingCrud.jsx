@@ -1,4 +1,4 @@
-﻿import { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {
   addAmazingCrudSlide,
@@ -31,6 +31,17 @@ const AmazingCrud = ({ open, onClose, onChanged }) => {
       dispatch(fetchAmazingCrud());
     }
   }, [dispatch, open]);
+
+  useEffect(() => {
+    if (!open) return;
+
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+
+    return () => {
+      document.body.style.overflow = previousOverflow;
+    };
+  }, [open]);
 
   if (!open) return null;
 
@@ -92,7 +103,7 @@ const AmazingCrud = ({ open, onClose, onChanged }) => {
       <div className="absolute inset-0" onClick={handleClose} />
 
       <div
-        className="relative z-[121] max-h-[90vh] w-[920px] max-w-[calc(100vw-32px)] overflow-hidden rounded-2xl bg-white shadow-2xl"
+        className="relative z-[121] max-h-[90vh] w-[920px] max-w-[calc(100vw-32px)] overflow-hidden rounded-2xl bg-white shadow-2xl overscroll-contain"
         dir="rtl"
       >
         <div className="flex items-center justify-between border-b border-[#e0e0e2] px-5 py-4">
@@ -109,7 +120,7 @@ const AmazingCrud = ({ open, onClose, onChanged }) => {
           </button>
         </div>
 
-        <div className="max-h-[calc(90vh-65px)] overflow-y-auto px-5 py-4">
+        <div className="max-h-[calc(90vh-65px)] overflow-y-auto overscroll-contain px-5 py-4">
           <form
             onSubmit={handleSubmit}
             className="grid grid-cols-1 gap-3 rounded-xl border border-[#f0f0f1] bg-[#fafafa] p-4 md:grid-cols-2 lg:grid-cols-5"

@@ -25,22 +25,23 @@ const MobileHeader = () => {
 
       requestAnimationFrame(() => {
         const currentY = window.scrollY;
-        const diff = currentY - lastY.current;
+        const diff = Math.abs(currentY - lastY.current);
 
-        if (Math.abs(diff) < 8) {
+        lastY.current = currentY;
+
+        if (diff < 5) {
           ticking.current = false;
           return;
         }
 
-        if (currentY <= 20) {
-          setCompactSafe(false);
-        } else if (currentY > 200) {
+        if (currentY > 80) {
           setCompactSafe(true);
-        } else if (diff < 0) {
+        }
+
+        if (currentY <= 20) {
           setCompactSafe(false);
         }
 
-        lastY.current = currentY;
         ticking.current = false;
       });
     };

@@ -184,7 +184,7 @@ const Amazing = () => {
                 <SwiperSlide
                   style={{
                     width: isMobile ? 130 : 150,
-                    height: isMobile ? 220 : 220,
+                    height: isMobile ? 220 : 230,
                   }}
                   className="bg-white"
                 >
@@ -203,7 +203,7 @@ const Amazing = () => {
                 <SwiperSlide
                   style={{
                     width: isMobile ? 130 : 150,
-                    height: isMobile ? 220 : 220,
+                    height: isMobile ? 220 : 230,
                   }}
                   className="bg-white rounded-tl-xl rounded-bl-xl"
                 >
