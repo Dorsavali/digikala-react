@@ -16,7 +16,7 @@ const DesktopHeader = () => {
   }, []);
   return (
     <div className="hidden max-w-[1536px] w-full lg:mx-auto flex lg:flex lg:flex-col">
-      <div className="fixed max-w-[1536px] w-full top-0 z-50 bg-white">
+      <div className="max-w-[1536px] w-full bg-white">
         <Top />
         <div
           className={`transition-all duration-300 ease-in-out ${

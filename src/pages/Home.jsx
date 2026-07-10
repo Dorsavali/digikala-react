@@ -1,4 +1,4 @@
-﻿import Access from "../components/Access/Access";
+import Access from "../components/Access/Access";
 import Amazing from "../components/Amazing/Amazing";
 import Container from "../components/Container/Container";
 import DesktopHeader from "../components/DesktopHeader/DesktopHeader";
@@ -30,43 +30,53 @@ import SuperMarketModal from "../components/SuperMarketModal/SuperMarketModal.js
 import MobileNavbar from "../components/MobileNavbar/MobileNavbar.jsx";
 import SupportButton from "../components/SupportButton/SupportButton.jsx";
 import Banner from "../components/Banner/Banner.jsx";
+
 const Home = () => {
   const suggested = useSelector((state) => state.suggested.suggested);
+
   return (
     <div>
-      <Banner />
-        <DesktopHeader />
+      <div className="hidden lg:block fixed top-0 left-0 right-0 z-50 bg-white">
+        <div className="mx-auto max-w-[1536px]">
+          <Banner />
+          <DesktopHeader />
+        </div>
+      </div>
+
       <MobileHeader />
+
       <ContainerSize>
-        <div className="hidden lg:block h-12" />
+        <div className="hidden lg:block h-[148px]" />
         <Story />
-     </ContainerSize>
+      </ContainerSize>
+
       <Slider />
+
       <ContainerSize>
         <Access />
         <Amazing />
         <Container banners={banners1} />
         <SuperMarketBanner />
-     
-      <ThreeHourDelivery />
+        <ThreeHourDelivery />
         <Container banners={banners2} />
-     
-      <AmazingMarket />
+        <AmazingMarket />
         <Category />
-     
         <BigBanner data={bannerGroup1} />
         <Brands />
         <BigBanner data={bannerGroup2} className="hidden md:block" />
         <Suggested />
         <BestSelling />
         <SuggestedDesktop
-          suggested={suggested.filter((item) => item.id >= 19 && item.id <= 22)}
+          suggested={(suggested || []).filter(
+            (item) => item.id >= 19 && item.id <= 22
+          )}
         />
         <AmazingOffer />
         <HotTrends />
         <Blog />
       </ContainerSize>
-      <SuperMarketModal/>
+
+      <SuperMarketModal />
       <SupportButton />
       <FooterMobile />
       <FooterDesktop />
@@ -76,4 +86,3 @@ const Home = () => {
 };
 
 export default Home;
-
