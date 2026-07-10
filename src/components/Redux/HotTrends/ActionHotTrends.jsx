@@ -1,10 +1,6 @@
-﻿import {
-  SET_HOTTRENDS,
-  SET_LOADING,
-  SET_ERROR,
-} from "./ActionTypes";
+﻿import { SET_HOTTRENDS, SET_LOADING, SET_ERROR } from "./ActionTypes";
 
-const API_URL = "http://localhost:3000/hotTrends";
+const API_URL = "https://dorsavali.github.io/db.json/db.json/hotTrends";
 
 export const setHotTrends = (hotTrends) => {
   return {

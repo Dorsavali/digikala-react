@@ -1,6 +1,6 @@
 ﻿import { SET_SLIDER, SET_LOADING, SET_ERROR } from "./ActionType";
 
-const API_URL = "http://localhost:3000/slider";
+const API_URL = "https://dorsavali.github.io/db.json/db.json/slider";
 
 export const setSlider = (slider) => {
   return {

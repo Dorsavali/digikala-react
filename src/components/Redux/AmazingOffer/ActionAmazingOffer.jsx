@@ -1,10 +1,6 @@
-﻿import {
-  SET_AMAZINGOFFER,
-  SET_LOADING,
-  SET_ERROR,
-} from "./ActionTypes";
+﻿import { SET_AMAZINGOFFER, SET_LOADING, SET_ERROR } from "./ActionTypes";
 
-const API_URL = "http://localhost:3000/amazingOffer";
+const API_URL = "https://dorsavali.github.io/db.json/db.json/amazingOffer";
 
 export const setAmazingOffer = (amazingOffer) => {
   return {

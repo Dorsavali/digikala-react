@@ -1,6 +1,6 @@
 ﻿import { SET_SUGGESTED, SET_LOADING, SET_ERROR } from "./ActionTypes";
 
-const API_URL = "http://localhost:3000/suggested";
+const API_URL = "https://dorsavali.github.io/db.json/db.json/suggested";
 
 export const setSuggested = (suggested) => {
   return {

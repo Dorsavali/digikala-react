@@ -4,7 +4,7 @@ import {
   SET_MOBILE_MEGA_MENU_ERROR,
 } from "./ActionTypes";
 
-const API_URL = "http://localhost:3000/megaMenu";
+const API_URL = "https://dorsavali.github.io/db.json/db.json/megaMenu";
 
 export const setMobileMegaMenu = (items) => {
   return {

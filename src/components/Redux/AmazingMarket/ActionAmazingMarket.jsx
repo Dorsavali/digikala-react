@@ -1,10 +1,6 @@
-import {
-  SET_AMAZING_MARKET,
-  SET_LOADING,
-  SET_ERROR,
-} from "./ActionTypes";
+import { SET_AMAZING_MARKET, SET_LOADING, SET_ERROR } from "./ActionTypes";
 
-const API_URL = "http://localhost:3000/amazingMarket";
+const API_URL = "https://dorsavali.github.io/db.json/db.json/amazingMarket";
 
 export const setAmazingMarket = (amazingMarket) => {
   return {

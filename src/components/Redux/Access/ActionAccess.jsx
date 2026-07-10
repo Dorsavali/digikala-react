@@ -1,10 +1,6 @@
-import {
-  SET_ACCESS,
-  SET_LOADING,
-  SET_ERROR,
-} from "./ActionType";
+import { SET_ACCESS, SET_LOADING, SET_ERROR } from "./ActionType";
 
-const API_URL = "http://localhost:3000/access";
+const API_URL = "https://dorsavali.github.io/db.json/db.json/access";
 
 export const setAccess = (access) => {
   return {

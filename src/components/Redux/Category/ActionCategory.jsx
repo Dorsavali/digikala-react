@@ -3,7 +3,7 @@ import {
   FETCH_CATEGORY_SUCCESS,
   FETCH_CATEGORY_FAILURE,
 } from "./ActionTypes";
-const API_URL = "http://localhost:3000/category";
+const API_URL = "https://dorsavali.github.io/db.json/db.json/category";
 export const fetchCategory = () => {
   return async (dispatch) => {
     dispatch({

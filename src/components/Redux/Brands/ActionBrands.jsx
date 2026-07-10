@@ -1,6 +1,6 @@
 ﻿import { SET_BRANDS, SET_LOADING, SET_ERROR } from "./ActionTypes";
 
-const API_URL = "http://localhost:3000/brands";
+const API_URL = "https://dorsavali.github.io/db.json/db.json/brands";
 
 export const setBrands = (brands) => {
   return {

@@ -5,8 +5,8 @@ import {
   SET_ERROR,
 } from "./ActionType";
 
-const MENU_ITEMS_URL = "http://localhost:3000/menuItems";
-const MEGA_MENU_URL = "http://localhost:3000/megaMenu";
+const MENU_ITEMS_URL = "https://dorsavali.github.io/db.json/db.json/menuItems";
+const MEGA_MENU_URL = "https://dorsavali.github.io/db.json/db.json/megaMenu";
 
 export const setMenuItems = (items) => {
   return {

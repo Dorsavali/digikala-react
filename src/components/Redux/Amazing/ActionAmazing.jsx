@@ -1,6 +1,6 @@
 ﻿import { SET_AMAZING, SET_LOADING, SET_ERROR } from "./ActionTypes";
 
-const API_URL = "http://localhost:3000/amazing";
+const API_URL = "https://dorsavali.github.io/db.json/db.json/amazing";
 
 export const setAmazing = (amazing) => {
   return {

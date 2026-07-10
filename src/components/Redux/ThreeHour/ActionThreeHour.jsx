@@ -1,10 +1,6 @@
-﻿import {
-  SET_THREE_HOUR,
-  SET_LOADING,
-  SET_ERROR,
-} from "./ActionTypes";
+﻿import { SET_THREE_HOUR, SET_LOADING, SET_ERROR } from "./ActionTypes";
 
-const API_URL = "http://localhost:3000/threeHour";
+const API_URL = "https://dorsavali.github.io/db.json/db.json/threeHour";
 
 export const setThreeHour = (threeHour) => {
   return {

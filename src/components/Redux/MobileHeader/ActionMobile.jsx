@@ -1,6 +1,6 @@
 ﻿import { SET_MOBILE_HEADER, SET_LOADING, SET_ERROR } from "./ActionType";
 
-const API_URL = "http://localhost:3000/MobileHeader";
+const API_URL = "https://dorsavali.github.io/db.json/db.json/MobileHeader";
 
 export const setMobileHeader = (items) => {
   return {

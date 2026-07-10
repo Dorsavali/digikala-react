@@ -1,6 +1,6 @@
 ﻿import { SET_STORY, SET_LOADING, SET_ERROR } from "./ActionTypes";
 
-const API_URL = "http://localhost:3000/story";
+const API_URL = "https://dorsavali.github.io/db.json/db.json/story";
 
 export const setStory = (story) => {
   return {

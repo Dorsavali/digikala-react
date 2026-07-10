@@ -4,7 +4,7 @@ import {
   SET_MOBILE_NAVBAR_ERROR,
 } from "./ActionTypes";
 
-const API_URL = "http://localhost:3000/mobileNavbar";
+const API_URL = "https://dorsavali.github.io/db.json/db.json/mobileNavbar";
 
 export const setMobileNavbar = (items) => ({
   type: SET_MOBILE_NAVBAR,
